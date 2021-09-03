@@ -1,0 +1,200 @@
+.fixed-top {
+    position: fixed;
+    background-color: black;
+    z-index: 99999;
+}
+
+.navbar-custom {
+    display: none;
+    height: 7rem;
+    width: 100%;
+    z-index: 999;
+    background-color: $white;
+    @include desktop {
+        display: flex;
+    }
+    .container {
+        display: flex;
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            width: 30rem;
+            .country {
+                margin: .5rem 0 0 2rem;
+                color: $dark;
+                font-size: 1rem;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        }
+        .navbar-toggler {
+            .navbar-toggler-icon {}
+        }
+        .custom-nav {
+            @include desktop {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            .nav-item {
+                margin-right: 2rem;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+                .nav-link {
+                    font-size: 1.6rem;
+                    color: black;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+            }
+        }
+    }
+}
+
+.navbar-custom2 {
+    width: 100%;
+    min-height: 9rem;
+    z-index: 999;
+    background: linear-gradient(to bottom, rgba(254, 254, 254, 1) 0%, rgba(244, 245, 243, 1) 0%, rgba(255, 255, 253, 1) 100%, rgba(254, 254, 254, 1) 100%);
+    @include desktop {
+        height: 4rem;
+        min-height: 0;
+    }
+    .container {
+        display: flex;
+        background: linear-gradient(to bottom, rgba(254, 254, 254, 1) 0%, rgba(244, 245, 243, 1) 0%, rgba(255, 255, 253, 1) 100%, rgba(254, 254, 254, 1) 100%);
+        @include desktop {}
+        .navbar-brand {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 20rem;
+            height: 9rem;
+            @include desktop {
+                display: none;
+                height: 5rem;
+            }
+        }
+        .navbar-toggler {
+            .navbar-toggler-icon {}
+        }
+        .custom-nav {
+            position: relative;
+            @include desktop {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .nav-item {
+                margin-right: 2rem;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+                .nav-link {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 1.6rem;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+.navbar .nav-item .dropdown-menu {
+    display: none;
+    min-height: 3.5rem;
+    transition: all .3s ease-in-out;
+}
+
+.navbar .nav-item:hover .nav-link {}
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, #fefefe 0, #f4f5f3 0, #fffffd 100%, #fefefe 0);
+    width: 100%;
+    min-height: 3.5rem;
+    border: none;
+    transition: all .3s ease-in-out;
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        min-height: 3.5rem;
+        transition: all .3s ease-in-out;
+    }
+}
+
+.navbar .nav-item .dropdown-menu {
+    transition: all .3s ease-in-out;
+    margin-top: 0;
+    min-width: 120rem;
+    padding: .5rem;
+    @include desktop {
+        max-width: 100%;
+        padding: 3rem;
+    }
+    .dropdown-item {
+        display: flex;
+        align-items: center;
+        flex-grow: 0;
+        min-height: 3.5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.6rem;
+        &:hover {
+            background: transparent;
+            font-weight: 700;
+        }
+        i {
+            font-size: 1.2rem;
+            margin-right: .3rem;
+            color: $blue;
+        }
+    }
+}
+
+/////////////////////////////////////////////////////
+@include desktop {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+        min-height: 3.5rem;
+        transition: all .3s ease-in-out;
+    }
+    .navbar .nav-item:hover .nav-link {}
+    .navbar .nav-item:hover .dropdown-menu {
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(180deg, #fefefe 0, #f4f5f3 0, #fffffd 100%, #fefefe 0);
+        width: 100%;
+        min-height: 3.5rem;
+        transition: all .3s ease-in-out;
+    }
+    .navbar .nav-item .dropdown-menu {
+        transition: all .3s ease-in-out;
+        margin-top: 0;
+        min-width: 120rem;
+        padding: 3rem;
+        .dropdown-item {
+            display: flex;
+            align-items: center;
+            flex-grow: 0;
+            min-height: 3.5rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.6rem;
+            &:hover {
+                background: transparent;
+                font-weight: 700;
+            }
+            i {
+                font-size: 1.2rem;
+                margin-right: .3rem;
+                color: $blue;
+            }
+        }
+    }
+}
+
+.dropdown {
+    position: inherit;
+}

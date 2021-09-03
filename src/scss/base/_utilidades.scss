@@ -1,0 +1,103 @@
+.white-title {
+    color: $white;
+}
+
+.white-title-culture {
+    color: $white;
+    font-size: 2.6rem;
+    font-weight: 400;
+    @include tablet {
+        font-size: 3rem;
+    }
+    @include desktop {
+        font-size: 3rem;
+    }
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.dark-title {
+    color: $dark;
+    font-size: 3rem;
+}
+
+.blue-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    color: $blue;
+}
+
+.date-text {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    @include tablet {
+        font-size: 1.4rem;
+    }
+    @include desktop {
+        font-size: 1.6rem;
+    }
+}
+
+.dark-text {
+    color: $dark;
+    font-size: 1.6rem;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.blue-title-cult {
+    margin-bottom: 0;
+    text-align: left;
+    color: $blue;
+    font-size: 3rem;
+    font-weight: 400;
+    @include tablet {
+        font-size: 2.4rem;
+    }
+    @include desktop {
+        margin-bottom: 4rem;
+        font-size: 3rem;
+    }
+}
+
+.dark-title-cult {
+    margin-bottom: 0;
+    text-align: left;
+    color: $dark;
+    font-size: 2.2rem;
+    font-weight: 400;
+    @include desktop {
+        font-size: 2.6rem;
+    }
+}
+
+.white-text {
+    color: $white;
+    font-size: 1.6rem;
+}
+
+.blue-text {
+    color: $blue;
+    font-size: 1.6rem;
+}
+
+.dark-text-news {
+    font-size: 1.8rem;
+    padding: 0 3rem;
+    color: rgba($color: $dark, $alpha: .6);
+}
+
+.full-width {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+}

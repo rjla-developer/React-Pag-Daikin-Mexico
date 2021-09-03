@@ -1,0 +1,34 @@
+.state-wrapper {
+    margin-top: 11rem;
+    background-color: $gray-section;
+    .state-info {
+        padding: 5rem 0 2rem;
+        a {
+            display: flex;
+            align-items: center;
+            i {
+                margin-right: .7rem;
+                font-size: 1rem;
+            }
+        }
+        .blue-title-cult {
+            margin: 2rem 0 3rem;
+        }
+        .city-picker {
+            display: flex;
+            gap: 3rem;
+            a {
+                padding: 1rem 2rem;
+                background-color: $white;
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+
+.map-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

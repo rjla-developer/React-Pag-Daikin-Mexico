@@ -1,0 +1,368 @@
+{
+    "products": [{
+            "id": "vrv-1",
+            "image": "VRV-W-HEAT-PUMP-HEAT-RECOVERY.png",
+            "content": {
+                "title": "VRV W Heat Recovery Frío y calor simultáneos",
+                "description": "Las condensadoras VRV W Heat Recovery tienen la capacidad de trabajar en frío y en calor al mismo tiempo, obteniendo un mayor rendimiento del sistema y ofreciendo flexibilidad de diseño.",
+                "features": [{
+                        "feature": "Gran variedad de cajas selectoras"
+                    },
+                    {
+                        "feature": "Reaprovechamiento de energía"
+                    },
+                    {
+                        "feature": "Arranque sencillo del sistema"
+                    },
+                    {
+                        "feature": "Direccionamiento automático de los equipos"
+                    }
+                ]
+            },
+            "downloads": [{
+                    "download_link": "../../daikin-content/vrv/Catálogo-Comercial-VRV-IV-HR.pdf",
+                    "download_text": "Catálogo comercial"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MI-VRV-IV-HR-REYQ-TTJU-y-TYDN-OK.pdf",
+                    "download_text": "Manual de instalación"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MO-VRV-IV-HR-REYQ-TTJU-y-TYDN.pdf",
+                    "download_text": "Manual de operación"
+                }
+            ]
+        },
+        {
+            "id": "vrv-2",
+            "image": "Daikin-VRV-WII.png",
+            "content": {
+                "title": "VRV W Heat Pump – Sistemas inteligentes",
+                "description": "Las condensadoras VRV W integran el principio del funcionamiento de los sistemas enfriados por aire; utilizando el agua como medio de disipación de calor, logran un equipo mas compacto, flexible y eficiente.",
+                "features": [{
+                        "feature": "Reducción en el área de servicio"
+                    },
+                    {
+                        "feature": "Sin la necesidad de descarga de aire"
+                    },
+                    {
+                        "feature": "Mejor distribución de la capacidad en el inmueble"
+                    },
+                    {
+                        "feature": "Menor espacio de instalación"
+                    }
+                ]
+            },
+            "downloads": [{
+                    "download_link": "../../daikin-content/vrv/VRV-III-W-ilovepdf-compressed-2.pdf",
+                    "download_text": "Catálogo comercial"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MO-VRV-III-W.pdf",
+                    "download_text": "Manual de instalación"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MI-VRV-III-W.pdf",
+                    "download_text": "Manual de operación"
+                }
+            ]
+        },
+        {
+            "id": "vrv-3",
+            "image": "3.-HEADING-VRV-IVS.png",
+            "content": {
+                "title": "VRV IVS – Solución para espacios pequeños",
+                "description": "Compacto y con capacidad suficiente: Las nuevas condensadoras VRV IV-S son las de menor tamaño, y por su nuevo diseño son una gran opción para uso residencial o pequeños comercios.",
+                "features": [{
+                        "feature": "Descarga horizontal con 1 y 2 ventiladores"
+                    },
+                    {
+                        "feature": "Ahorro de espacio en áreas de servicio"
+                    },
+                    {
+                        "feature": "Flexibilidad en el diseño"
+                    },
+                    {
+                        "feature": "Gran distancia en tuberías"
+                    }
+                ]
+            },
+            "downloads": [{
+                    "download_link": "../../daikin-content/vrv/MI-VRV-IIIS.pdf",
+                    "download_text": "Catálogo comercial"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MO-VRV-III-S.pdf",
+                    "download_text": "Manual de instalación"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/VRV-III-S.pdf",
+                    "download_text": "Manual de operación"
+                }
+            ]
+        },
+        {
+            "id": "vrv-4",
+            "image": "2.-HEAT-PUMP-CONDENSADORAS.png",
+            "content": {
+                "title": "Heat Pump – Alta eficiencia",
+                "description": "Las nuevas condensadoras Daikin VRV IV Bomba de calor funcionan en frio o en calor. Estas integran tecnología de ultima generación incrementando sus capacidades hasta los 66 HP por sistema.",
+                "features": [{
+                        "feature": "Una gran alternativa para edificios de gran tamaño"
+                    },
+                    {
+                        "feature": "Bajo costo de instalación y mantenimiento"
+                    },
+                    {
+                        "feature": "Avanzados sistemas de control y monitoreo"
+                    },
+                    {
+                        "feature": "Operación silenciosa"
+                    }
+                ]
+            },
+            "downloads": [{
+                    "download_link": "../../daikin-content/vrv/Cata%CC%81logo-Comercial-VRV-IV-HP.pdf",
+                    "download_text": "Catálogo comercial"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MI-VRV-IV-RXYQ-TTJU-y-TYDN.pdf",
+                    "download_text": "Manual de instalación"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MO-VRV-IV-RXYQ-TTJU-y-TYDN.pdf",
+                    "download_text": "Manual de operación"
+                }
+            ]
+        },
+        {
+            "id": "vrv-5",
+            "image": "vrv2.png",
+            "content": {
+                "title": "Heat Recovery – Frio y calor simultáneos",
+                "description": "Las condensadoras VRV IV Heat Recovery tienen la capacidad de trabajar en frio y en calor al mismo tiempo, obteniendo un mayor rendimiento del sistema y ofreciendo flexibilidad de diseño.",
+                "features": [{
+                        "feature": "Reaprovechamiento de energía"
+                    },
+                    {
+                        "feature": "Una solución para climas variables"
+                    },
+                    {
+                        "feature": "Gran variedad de cajas selectoras"
+                    },
+                    {
+                        "feature": "Avanzados sistemas de control y monitoreo"
+                    }
+                ]
+            },
+            "downloads": [{
+                "download_link": "../../daikin-content/vrv/Cat°logo-Comercial-VRV-IV-HR-1.pdf",
+                "download_text": "Catálogo comercial"
+            }]
+        },
+        {
+            "id": "vrv-6",
+            "image": "15.-DAIKIN-ZONING-KIT.png",
+            "content": {
+                "title": "Daikin Zoning Kit (DZK)",
+                "description": "Este accesorio para equipos ductables es capaz de reducir el número de unidades interiores en el inmueble, acondicionando al mismo tiempo y de manera individual diferentes habitaciones.",
+                "features": []
+            },
+            "downloads": [{
+                "download_link": "../../daikin-content/vrv/Catálogo-Comercial-DZK.pdf",
+                "download_text": "Catálogo comercial"
+            }]
+        },
+        {
+            "id": "vrv-7",
+            "image": "14.-VENTILADOR-RECUPERADOR-DE-CALOR-VAM.png",
+            "content": {
+                "title": "Ventilador recuperador de calor (VAM)",
+                "description": "El sistema de renovación de aire, es capaz de sincronizar su operación con el del sistema VRV, reduciendo las pérdidas de capacidad debido a su intercambiador entálpico y a su vez mejorando la eficiencia.",
+                "features": []
+            },
+            "downloads": [{
+                    "download_link": "../../daikin-content/vrv/Catálogo-Comercial-VAM.pdf",
+                    "download_text": "Catálogo comercial"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MI-VAM-HRV.pdf",
+                    "download_text": "Manual de instalación"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MO-VAM.pdf",
+                    "download_text": "Manual de operación"
+                }
+            ]
+        },
+        {
+            "id": "vrv-8",
+            "image": "13.-CONTROL-DE-NAVEGACION-BRC1E62.png",
+            "content": {
+                "title": "Control de navegación",
+                "description": "Nuestro control de línea, es capaz de conectarse a todas nuestras unidades interiores y trabajar de manera particular con cada una de ellas.",
+                "features": []
+            },
+            "downloads": [{
+                "download_link": "../../daikin-content/vrv/MO-BRC1E62-ilovepdf-compressed.pdf",
+                "download_text": "Manual de instalación"
+            }]
+        },
+        {
+            "id": "vrv-9",
+            "image": "12.-SMART-VRV-MANAGER-SVM.png",
+            "content": {
+                "title": "Smart VRV Manager (SVM)",
+                "description": "Control vía Smartphone/Tablet/PC el cual funciona a través de una red WiFi, capaz de controlar los sistemas VRV y mandar alertas.",
+                "features": []
+            },
+            "downloads": [{
+                "download_link": "../../daikin-content/vrv/Tarjeta-DTA116A51.pdf",
+                "download_text": "Catálogo comercial"
+            }]
+        },
+        {
+            "id": "vrv-10",
+            "image": "11.-INTELLIGENT-TOUCH-MANAGER.png",
+            "content": {
+                "title": "Intelligent Touch Manager (iTM)",
+                "description": "Maximiza las ventajas y características del Sistema VRV, ofreciendo a su vez la herramienta más completa para controlar y supervisar los sistemas de uno o mas inmuebles.",
+                "features": []
+            },
+            "downloads": [{
+                    "download_link": "../../daikin-content/vrv/Catálogo-Comercial-iTM.pdf",
+                    "download_text": "Catálogo comercial"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MI-iTM.pdf",
+                    "download_text": "Manual de instalación"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MO-iTM.pdf",
+                    "download_text": "Manual de operación"
+                }
+            ]
+        },
+        {
+            "id": "vrv-11",
+            "image": "10.-UNIDADES-MANEJADORAS-DE-AIRE-AHU.png",
+            "content": {
+                "title": "Unidades Manejadoras de Aire (AHU)",
+                "description": "Con el kit de control y válvula de expansión podemos integrar los beneficios del sistema VRV a nuestras unidades manejadoras de aire.",
+                "features": []
+            },
+            "downloads": [{
+                "download_link": "../../daikin-content/vrv/Catálogo-Comercial-AHU.pdf",
+                "download_text": "Catálogo comercial AHU"
+            }]
+        },
+        {
+            "id": "vrv-12",
+            "image": "9.-MONTADO-EN-PARED-HIGH-WALL.png",
+            "content": {
+                "title": "Montado en pared",
+                "description": "Diseño de panel plano con estilo en armonía con la decoración de su interior.",
+                "features": [{
+                        "feature": "Tubo de condensados puede ser fácilmente oculto a la vista"
+                    },
+                    {
+                        "feature": "Su diseño compacto y elegante lo mezcla fácilmente con la decoración"
+                    },
+                    {
+                        "feature": "Fácil mantenimiento y limpieza del equipo"
+                    }
+                ]
+            },
+            "downloads": [{
+                    "download_link": "../../daikin-content/vrv/MI-FXAQ-PVE.pdf",
+                    "download_text": "Manual de instalación"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MO-FXAQ-PVE.pdf",
+                    "download_text": "Manual de operación"
+                }
+            ]
+        },
+        {
+            "id": "vrv-13",
+            "image": "DUCTABLE-OCULTO-SOBRE-PLAFON.jpg",
+            "content": {
+                "title": "Ductable oculto sobre plafón",
+                "description": "Media y alta presión estática permiten el diseño flexible de conductos de descarga.",
+                "features": [{
+                        "feature": "Sin molestia de ruido por su bajo nivel sonoro de operación"
+                    },
+                    {
+                        "feature": "Ajusta la caída de presión estática por su motor de CD"
+                    },
+                    {
+                        "feature": "Ideal para usarse en conjunto con Daikin Zoining Kit (DZK)"
+                    }
+                ]
+            },
+            "downloads": [{
+                    "download_link": "../../daikin-content/vrv/MI-FXAQ-PVE.pdf",
+                    "download_text": "Manual de instalación"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MO-FXAQ-PVE.pdf",
+                    "download_text": "Manual de operación"
+                }
+            ]
+        },
+        {
+            "id": "vrv-14",
+            "image": "7.-CASSETTE-DE-4-VIAS-SUSPENDIDO.png",
+            "content": {
+                "title": "Cassette de 4 vías suspendido en techo",
+                "description": "Esta unidad interior compacta y elegante consigue una distribución óptima del aire, y se puede instalar sin necesidad de cavidad en el plafón.",
+                "features": [{
+                        "feature": "Posibilidad de instalación con o sin plafón"
+                    },
+                    {
+                        "feature": "Dirección de flujo de aire independiente por cada vía "
+                    },
+                    {
+                        "feature": "Incluye elevador de condensados"
+                    }
+                ]
+            },
+            "downloads": [{
+                    "download_link": "../../daikin-content/vrv/MI-FXUQ-AVEB.pdf",
+                    "download_text": "Manual de instalación"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MO-FXUQ-AVEB.pdf",
+                    "download_text": "Manual de operación"
+                }
+            ]
+        },
+        {
+            "id": "vrv-15",
+            "image": "6.-CASSETTE-MONTADO-EN-TECHO.png",
+            "content": {
+                "title": "Cassette montado en techo (flujo circular con sensor)",
+                "description": "La presencia de personas y la temperatura del suelo pueden ser detectadas para proporcionar comodidad y ahorro energético.",
+                "features": [{
+                        "feature": "Comodidad y ahorro de energía por sus sensores de presencia y temperatura"
+                    },
+                    {
+                        "feature": "Sin puntos muertos en la distribución del aire (360°)"
+                    },
+                    {
+                        "feature": "Automatiza su funcionamiento y flujos de aire"
+                    }
+                ]
+            },
+            "downloads": [{
+                    "download_link": "../../daikin-content/vrv/MI-FXFQ-SVM.pdf",
+                    "download_text": "Manual de instalación"
+                },
+                {
+                    "download_link": "../../daikin-content/vrv/MO-FXFQ-SVM.pdf",
+                    "download_text": "Manual de operación"
+                }
+            ]
+        }
+    ]
+}

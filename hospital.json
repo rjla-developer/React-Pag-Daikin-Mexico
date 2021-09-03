@@ -1,0 +1,69 @@
+{
+    "projects": [{
+            "id": "hospital-1",
+            "image": "acoxpa.jpg",
+            "content": {
+                "title": "Ángeles Acoxpa",
+                "place": "Ciudad de México",
+                "year": "2012",
+                "subtitle": "Tecnología",
+                "features": [{
+                    "feature": "Manejo de aire tipo Farmacéutico"
+                }]
+            }
+        },
+        {
+            "id": "hospital-2",
+            "image": "centro-medico-la-raza.jpg",
+            "content": {
+                "title": "Centro Médico La Raza",
+                "place": "Ciudad de México",
+                "year": "2014",
+                "subtitle": "Tecnología",
+                "features": [{
+                    "feature": "Chillers enfrieados por agua Centrífugos Magnéticos"
+                }]
+            }
+        },
+        {
+            "id": "hospital-3",
+            "image": "hgz.jpg",
+            "content": {
+                "title": "HGZ",
+                "place": "Reynosa, Tamaulipas",
+                "year": "2013",
+                "subtitle": "Tecnología",
+                "features": [{
+                        "feature": "Manejadoras de Aire"
+                    },
+                    {
+                        "feature": "Centrífugas convencionales"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "hospital-4",
+            "image": "segurosocial.jpg",
+            "content": {
+                "title": "Seguro Social",
+                "place": "Sonora, Sinaloa, Tijana, Acapulco, CDMX y Chiapas",
+                "year": "2012",
+                "subtitle": "Tecnología",
+                "features": [{
+                        "feature": "AGZ"
+                    },
+                    {
+                        "feature": "AWS"
+                    },
+                    {
+                        "feature": "WSC"
+                    },
+                    {
+                        "feature": "3,800 TR."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+.hero-plant-container {
+    display: flex;
+    @include phone-xl {
+        flex-direction: column;
+    }
+    @include small-phone {
+        flex-direction: column;
+    }
+    @include phone {
+        flex-direction: column;
+    }
+    @include tablet {
+        flex-direction: column;
+    }
+    @include desktop {
+        flex-direction: column;
+    }
+    @include desktop-wide {
+        flex-direction: row;
+    }
+    .hero-plant {
+        position: relative;
+    }
+    .white-div {
+        background-color: $white;
+        .title-cont {
+            padding: 8rem 0 0 5rem;
+        }
+    }
+}
+
+.text-cont {
+    @include phone-xl {
+        margin-top: 5rem;
+    }
+    @include small-phone {
+        margin-top: 5rem;
+    }
+    @include phone {
+        padding: 0 3rem;
+        margin-top: 5rem;
+    }
+    @include tablet {
+        margin-top: 5rem;
+    }
+    @include desktop {}
+    @include desktop-wide {
+        max-width: 75rem;
+        position: absolute;
+        background-color: $white;
+        top: 30rem;
+        left: 65rem;
+        padding: 5rem;
+    }
+    .title-cont {
+        margin-bottom: 5rem;
+        @include tablet {}
+        @include desktop {}
+        @include desktop-wide {
+            position: absolute;
+            top: -60px;
+            left: 50%;
+        }
+    }
+    .dark-text {
+        font-size: 1.4rem;
+    }
+}
+
+//our products section
+.our-products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+    .our-products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        width: 50%;
+        margin-top: 5rem;
+        gap: 3rem;
+        @include tablet {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include desktop {
+            grid-template-columns: repeat(4, 1fr);
+            width: 90%;
+        }
+        .card-products {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            height: 20rem;
+            background-color: $gray-section;
+        }
+    }
+}
+
+//adress info section
+.adress-container {
+    margin-top: 5rem;
+    background-color: $blue;
+    padding: 5rem 0;
+    .adress-info {
+        h3 {
+            text-align: left;
+            font-size: 2rem;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
