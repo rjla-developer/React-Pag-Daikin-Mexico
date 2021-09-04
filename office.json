@@ -1,0 +1,71 @@
+{
+    "projects": [{
+            "id": "office-1",
+            "image": "torre-bancomer.jpg",
+            "content": {
+                "title": "Torre Bancomer",
+                "place": "Ciudad de México",
+                "year": "2013",
+                "subtitle": "Tecnología",
+                "features": [{
+                        "feature": "Manejo de aire con certificación LEED"
+                    },
+                    {
+                        "feature": "Chillers enfriados por Agua Centrífugos"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "office-2",
+            "image": "torre-chapultepec.jpg",
+            "content": {
+                "title": "Torre Chapultpec Polanco",
+                "place": "Ciudad de México",
+                "year": "2012",
+                "subtitle": "Tecnología",
+                "features": [{
+                        "feature": "Manejo de aire con certificación LEED"
+                    },
+                    {
+                        "feature": "Chillers enfriados por Agua Centrífugos"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "office-3",
+            "image": "torre-angel.jpg",
+            "content": {
+                "title": "Torre Ángel",
+                "place": "Ciudad de México",
+                "year": "2013",
+                "subtitle": "Tecnología",
+                "features": [{
+                        "feature": "Manejo de aire con certificación LEED"
+                    },
+                    {
+                        "feature": "Chillers enfriados por Agua Centrífugos"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "office-4",
+            "image": "patio-revolucion.jpg",
+            "content": {
+                "title": "Gran Patio Revolución",
+                "place": "Ciudad de México",
+                "year": "2015",
+                "subtitle": "Tecnología",
+                "features": [{
+                        "feature": "Chiller Magnitude"
+                    },
+                    {
+                        "feature": "3,000 TR."
+                    }
+                ]
+            }
+        }
+    ]
+}

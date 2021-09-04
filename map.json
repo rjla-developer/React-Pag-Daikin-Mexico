@@ -1,0 +1,900 @@
+{
+    "states": [{
+            "id": "aguascalientes",
+            "content": {
+                "state": "Aguascalientes",
+                "city": {
+                    "name": "Aguascalientes",
+                    "link": "https://www.google.com/maps/d/embed?mid=1QQweYxFlvGfew4GcczXzIJArk6U"
+                },
+                "cities": [{
+                    "name": "Aguascalientes",
+                    "link": "distributorsInt.php?estado=aguascalientes"
+                }]
+            }
+        },
+        {
+            "id": "bajacalifornia-1",
+            "content": {
+                "state": "Baja California",
+                "city": {
+                    "name": "Baja california",
+                    "link": "https://www.google.com/maps/d/embed?mid=1kQO1GPUWQQWVEDxwZHS8TISk6HA"
+                },
+                "cities": [{
+                        "name": "Mexicali",
+                        "link": "distributorsInt.php?estado=bajacalifornia-1"
+                    },
+                    {
+                        "name": "Tijuana",
+                        "link": "distributorsInt.php?estado=bajacalifornia-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bajacalifornia-2",
+            "content": {
+                "state": "Baja California",
+                "city": {
+                    "name": "Baja california",
+                    "link": "https://www.google.com/maps/d/embed?mid=1qibnaegms4z2s0Gj37TsD55eEX8"
+                },
+                "cities": [{
+                        "name": "Mexicali",
+                        "link": "distributorsInt.php?estado=bajacalifornia-1"
+                    },
+                    {
+                        "name": "Tijuana",
+                        "link": "distributorsInt.php?estado=bajacalifornia-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bajacaliforniasur-1",
+            "content": {
+                "state": "Baja California Sur",
+                "city": {
+                    "name": "Baja california Sur",
+                    "link": "https://www.google.com/maps/d/embed?mid=1dxoUCyoo1T0jNaubyA3r-6AK7TQ"
+                },
+                "cities": [{
+                        "name": "La Paz",
+                        "link": "distributorsInt.php?estado=bajacaliforniasur-1"
+                    },
+                    {
+                        "name": "Cabo San Lucas",
+                        "link": "distributorsInt.php?estado=bajacaliforniasur-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bajacaliforniasur-2",
+            "content": {
+                "state": "Baja California Sur",
+                "city": {
+                    "name": "Baja california Sur",
+                    "link": "https://www.google.com/maps/d/u/1/embed?mid=1i0f7k1ca71tXMCPZLdAZ8xB8m5U"
+                },
+                "cities": [{
+                        "name": "La Paz",
+                        "link": "distributorsInt.php?estado=bajacaliforniasur-1"
+                    },
+                    {
+                        "name": "Cabo San Lucas",
+                        "link": "distributorsInt.php?estado=bajacaliforniasur-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "campeche-1",
+            "content": {
+                "state": "Campeche",
+                "city": {
+                    "name": "Campeche",
+                    "link": "https://www.google.com/maps/d/u/1/embed?mid=1keF6KD9AUS6tSuKxDTbqt1JWcnc"
+                },
+                "cities": [{
+                        "name": "Campeche",
+                        "link": "distributorsInt.php?estado=campeche-1"
+                    },
+                    {
+                        "name": "Ciudad del Carmen",
+                        "link": "distributorsInt.php?estado=campeche-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "campeche-2",
+            "content": {
+                "state": "Campeche",
+                "city": {
+                    "name": "Campeche",
+                    "link": "https://www.google.com/maps/d/embed?mid=1q6MXjgVKN8pD3ZGXe71E8BpqgqE"
+                },
+                "cities": [{
+                        "name": "Chihuahua",
+                        "link": "distributorsInt.php?estado=campeche-1"
+                    },
+                    {
+                        "name": "Ciudad del Carmen",
+                        "link": "distributorsInt.php?estado=campeche-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "chihuahua-1",
+            "content": {
+                "state": "Chihuahua",
+                "city": {
+                    "name": "Aguascalientes",
+                    "link": "https://www.google.com/maps/d/embed?mid=18FdBQ61yNdMA08Z2XyygLDMPhFI"
+                },
+                "cities": [{
+                        "name": "Chihuahua",
+                        "link": "distributorsInt.php?estado=chihuahua-1"
+                    },
+                    {
+                        "name": "Ciudad Juárez",
+                        "link": "distributorsInt.php?estado=chihuahua-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "chihuahua-2",
+            "content": {
+                "state": "Chihuahua",
+                "city": {
+                    "name": "Ciudad Juárez",
+                    "link": "https://www.google.com/maps/d/embed?mid=187Y4izIawo_C9YzSbMsJ8LOCy_c"
+                },
+                "cities": [{
+                        "name": "Chihuahua",
+                        "link": "distributorsInt.php?estado=chihuahua-1"
+                    },
+                    {
+                        "name": "Ciudad Juárez",
+                        "link": "distributorsInt.php?estado=chihuahua-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "cdmx",
+            "content": {
+                "state": "Cidad de México",
+                "city": {
+                    "name": "Ciudad de México",
+                    "link": "https://www.google.com/maps/d/embed?mid=1chT88el9zNgbk-Itj6I5gsyCFAc"
+                },
+                "cities": [{
+                    "name": "Ciudad de México",
+                    "link": "distributorsInt.php?estado=cdmx"
+                }]
+            }
+        },
+        {
+            "id": "coahuila-1",
+            "content": {
+                "state": "Coahuila",
+                "city": {
+                    "name": "Coahuila",
+                    "link": "https://www.google.com/maps/d/embed?mid=1NtahS1kE1Es0SSRnPkwON4DAW98"
+                },
+                "cities": [{
+                        "name": "Torreón",
+                        "link": "distributorsInt.php?estado=coahuila-1"
+                    },
+                    {
+                        "name": "Ramos Arizpe",
+                        "link": "distributorsInt.php?estado=coahuila-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "coahuila-2",
+            "content": {
+                "state": "Coahuila",
+                "city": {
+                    "name": "Couahuila",
+                    "link": "https://www.google.com/maps/d/embed?mid=1YZIWOVKSHu8nuUEUJi0PPZkIlNo"
+                },
+                "cities": [{
+                        "name": "Torreón",
+                        "link": "distributorsInt.php?estado=coahuila-1"
+                    },
+                    {
+                        "name": "Ramos Arizpe",
+                        "link": "distributorsInt.php?estado=coahuila-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "colima-1",
+            "content": {
+                "state": "Colima",
+                "city": {
+                    "name": "Colima",
+                    "link": "https://www.google.com/maps/d/embed?mid=1KM0lRtewk-7LslkBw-nolCnDN2s"
+                },
+                "cities": [{
+                        "name": "Colima",
+                        "link": "distributorsInt.php?estado=colima-1"
+                    },
+                    {
+                        "name": "Manzanillo",
+                        "link": "distributorsInt.php?estado=colima-2"
+                    },
+                    {
+                        "name": "Tecomán",
+                        "link": "distributorsInt.php?estado=colima-3"
+                    },
+                    {
+                        "name": "Villa de Alvárez",
+                        "link": "distributorsInt.php?estado=colima-4"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "colima-2",
+            "content": {
+                "state": "Colima",
+                "city": {
+                    "name": "Colima",
+                    "link": "https://www.google.com/maps/d/embed?mid=1eigdRHw_BXZ70I4-Q9prV4GqJLU"
+                },
+                "cities": [{
+                        "name": "Colima",
+                        "link": "distributorsInt.php?estado=colima-1"
+                    },
+                    {
+                        "name": "Manzanillo",
+                        "link": "distributorsInt.php?estado=colima-2"
+                    },
+                    {
+                        "name": "Tecomán",
+                        "link": "distributorsInt.php?estado=colima-3"
+                    },
+                    {
+                        "name": "Villa de Alvárez",
+                        "link": "distributorsInt.php?estado=colima-4"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "colima-3",
+            "content": {
+                "state": "Colima",
+                "city": {
+                    "name": "Colima",
+                    "link": "https://www.google.com/maps/d/embed?mid=1DNft9OygY4PNu1XxN1JBTcONrA4"
+                },
+                "cities": [{
+                        "name": "Colima",
+                        "link": "distributorsInt.php?estado=colima-1"
+                    },
+                    {
+                        "name": "Manzanillo",
+                        "link": "distributorsInt.php?estado=colima-2"
+                    },
+                    {
+                        "name": "Tecomán",
+                        "link": "distributorsInt.php?estado=colima-3"
+                    },
+                    {
+                        "name": "Villa de Alvárez",
+                        "link": "distributorsInt.php?estado=colima-4"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "colima-4",
+            "content": {
+                "state": "Colima",
+                "city": {
+                    "name": "Colima",
+                    "link": "https://www.google.com/maps/d/embed?mid=1HOblKVaXmB4L6jNJzUtapZnCVRg"
+                },
+                "cities": [{
+                        "name": "Colima",
+                        "link": "distributorsInt.php?estado=colima-1"
+                    },
+                    {
+                        "name": "Manzanillo",
+                        "link": "distributorsInt.php?estado=colima-2"
+                    },
+                    {
+                        "name": "Tecomán",
+                        "link": "distributorsInt.php?estado=colima-3"
+                    },
+                    {
+                        "name": "Villa de Alvárez",
+                        "link": "distributorsInt.php?estado=colima-4"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "edomexico",
+            "content": {
+                "state": "Estado de México",
+                "city": {
+                    "name": "Estado de México",
+                    "link": "https://www.google.com/maps/d/embed?mid=1BPcJpNBUQG0HIhiP2sHHV6zBSwM"
+                },
+                "cities": [{
+                    "name": "Estado de México",
+                    "link": "distributorsInt.php?estado=edomexico"
+                }]
+            }
+        },
+        {
+            "id": "guanajuato-1",
+            "content": {
+                "state": "Guanajuato",
+                "city": {
+                    "name": "Guanajuato",
+                    "link": "https://www.google.com/maps/d/embed?mid=18CAyOSWftSOYn0IOrZOfCI4ZIic"
+                },
+                "cities": [{
+                        "name": "Irapuato",
+                        "link": "distributorsInt.php?estado=guanajuato-1"
+                    },
+                    {
+                        "name": "León",
+                        "link": "distributorsInt.php?estado=guanajuato-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "guanajuato-2",
+            "content": {
+                "state": "Guanajuato",
+                "city": {
+                    "name": "Guanajuato",
+                    "link": "https://www.google.com/maps/d/embed?mid=1SwsTNLbRgn_Xg_ggbZXkxR7dsQc"
+                },
+                "cities": [{
+                        "name": "Irapuato",
+                        "link": "distributorsInt.php?estado=guanajuato-1"
+                    },
+                    {
+                        "name": "León",
+                        "link": "distributorsInt.php?estado=guanajuato-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "guerrero-1",
+            "content": {
+                "state": "Guerrero",
+                "city": {
+                    "name": "Guerrero",
+                    "link": "https://www.google.com/maps/d/embed?mid=12qnoYuQKGbKz5tkzrqBXd5Qhxaw"
+                },
+                "cities": [{
+                        "name": "Acapulco",
+                        "link": "distributorsInt.php?estado=guerrero-1"
+                    },
+                    {
+                        "name": "Zihuatanejo",
+                        "link": "distributorsInt.php?estado=guerrero-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "Guerrero-2",
+            "content": {
+                "state": "Guerrero",
+                "city": {
+                    "name": "Guerrero",
+                    "link": "https://www.google.com/maps/d/embed?mid=1OpUTPPYQLPG8H9c-Q1d--wht4jE"
+                },
+                "cities": [{
+                        "name": "Acapulco",
+                        "link": "distributorsInt.php?estado=guerrero-1"
+                    },
+                    {
+                        "name": "Zihuatanejo",
+                        "link": "distributorsInt.php?estado=guerrero-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "jalisco-1",
+            "content": {
+                "state": "Jalisco",
+                "city": {
+                    "name": "Jalisco",
+                    "link": "https://www.google.com/maps/d/embed?mid=1YygstddKodYXtTZ2x1ZNtx5iSUY"
+                },
+                "cities": [{
+                        "name": "Guadalajara",
+                        "link": "distributorsInt.php?estado=jalisco-1"
+                    },
+                    {
+                        "name": "Vallarta",
+                        "link": "distributorsInt.php?estado=jalisco-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "Jalisco-2",
+            "content": {
+                "state": "Jalisco",
+                "city": {
+                    "name": "Jalisco",
+                    "link": "https://www.google.com/maps/d/embed?mid=1iznG_eqqsyNgdXG7np6HFaLMddw"
+                },
+                "cities": [{
+                        "name": "Guadalajara",
+                        "link": "distributorsInt.php?estado=jalisco-1"
+                    },
+                    {
+                        "name": "Vallarta",
+                        "link": "distributorsInt.php?estado=jalisco-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "michoacan-1",
+            "content": {
+                "state": "Michoacán",
+                "city": {
+                    "name": "Michoacán",
+                    "link": "https://www.google.com/maps/d/embed?mid=1FbI5nKFlnmBE_LyW1UFnqonl190"
+                },
+                "cities": [{
+                        "name": "Lázaro Cárdenas",
+                        "link": "distributorsInt.php?estado=michoacan-1"
+                    },
+                    {
+                        "name": "Morelia",
+                        "link": "distributorsInt.php?estado=michoacan-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "michoacan-2",
+            "content": {
+                "state": "Michoacán",
+                "city": {
+                    "name": "Michoacán",
+                    "link": "https://www.google.com/maps/d/embed?mid=1uqunU0nLs_rvww9UjWMuONbkL7A"
+                },
+                "cities": [{
+                        "name": "Lázaro Cárdenas",
+                        "link": "distributorsInt.php?estado=michoacan-1"
+                    },
+                    {
+                        "name": "Morelia",
+                        "link": "distributorsInt.php?estado=michoacan-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "morelos",
+            "content": {
+                "state": "Morelos",
+                "city": {
+                    "name": "Morelos",
+                    "link": "https://www.google.com/maps/d/embed?mid=1BUX492t3bMsKNGiWYDzL_IQN-RI"
+                },
+                "cities": [{
+                    "name": "Cuernavaca",
+                    "link": "distributorsInt.php?estado=morelos"
+                }]
+            }
+        },
+        {
+            "id": "nuevoleon-1",
+            "content": {
+                "state": "Nuevo León",
+                "city": {
+                    "name": "Nuevo León",
+                    "link": "https://www.google.com/maps/d/embed?mid=1gFkhh7lDzgXT-Y_r1HoWdvpdR30"
+                },
+                "cities": [{
+                        "name": "Monterrey",
+                        "link": "distributorsInt.php?estado=nuevoleon-1"
+                    },
+                    {
+                        "name": "San Nicolás de los Garza",
+                        "link": "distributorsInt.php?estado=nuevoleon-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "nuevoleon-2",
+            "content": {
+                "state": "Nuevo León",
+                "city": {
+                    "name": "Nuevo León",
+                    "link": "https://www.google.com/maps/d/embed?mid=1HCVcH8r4tW-C4IvOnLEbOSmgVU0"
+                },
+                "cities": [{
+                        "name": "Monterrey",
+                        "link": "distributorsInt.php?estado=nuevoleon-1"
+                    },
+                    {
+                        "name": "San Nicolás de los Garza",
+                        "link": "distributorsInt.php?estado=nuevoleon-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "puebla",
+            "content": {
+                "state": "Puebla",
+                "city": {
+                    "name": "Puebla",
+                    "link": "https://www.google.com/maps/d/embed?mid=10W0yUl206YeVEZEJmSqRKuQSjxM"
+                },
+                "cities": [{
+                    "name": "Puebla",
+                    "link": "distributorsInt.php?estado=puebla"
+                }]
+            }
+        },
+        {
+            "id": "queretaro-1",
+            "content": {
+                "state": "Querétaro",
+                "city": {
+                    "name": "Querétaro",
+                    "link": "https://www.google.com/maps/d/embed?mid=14IIWMDP-BZs0YfdI1mfqtPZ587o"
+                },
+                "cities": [{
+                        "name": "Querétaro",
+                        "link": "distributorsInt.php?estado=queretaro-1"
+                    },
+                    {
+                        "name": "Juriquilla",
+                        "link": "distributorsInt.php?estado=queretaro-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "queretaro-2",
+            "content": {
+                "state": "Querétaro",
+                "city": {
+                    "name": "Querétaro",
+                    "link": "https://www.google.com/maps/d/embed?mid=1SUoRktzHslAGdvqA1RJLn8ILl8w"
+                },
+                "cities": [{
+                        "name": "Querétaro",
+                        "link": "distributorsInt.php?estado=queretaro-1"
+                    },
+                    {
+                        "name": "Juriquilla",
+                        "link": "distributorsInt.php?estado=queretaro-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "quintanaroo-1",
+            "content": {
+                "state": "Quintana Roo",
+                "city": {
+                    "name": "Quintana Roo",
+                    "link": "https://www.google.com/maps/d/embed?mid=1cOiNMGUHW9RYVa4pOOvlcaCv7Bs"
+                },
+                "cities": [{
+                        "name": "Cancún",
+                        "link": "distributorsInt.php?estado=quintanaroo-1"
+                    },
+                    {
+                        "name": "Playa del Carmen",
+                        "link": "distributorsInt.php?estado=quintanaroo-2"
+                    },
+                    {
+                        "name": "Cozumel",
+                        "link": "distributorsInt.php?estado=quintanaroo-3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "quintanaroo-2",
+            "content": {
+                "state": "Quintana Roo",
+                "city": {
+                    "name": "Quintana Roo",
+                    "link": "https://www.google.com/maps/d/embed?mid=15_3cA0jmVu4jKBPcWcjELVBcU8s"
+                },
+                "cities": [{
+                        "name": "Cancún",
+                        "link": "distributorsInt.php?estado=quintanaroo-1"
+                    },
+                    {
+                        "name": "Playa del Carmen",
+                        "link": "distributorsInt.php?estado=quintanaroo-2"
+                    },
+                    {
+                        "name": "Cozumel",
+                        "link": "distributorsInt.php?estado=quintanaroo-3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "quintanaroo-3",
+            "content": {
+                "state": "Quintana Roo",
+                "city": {
+                    "name": "Quintana Roo",
+                    "link": "https://www.google.com/maps/d/u/1/embed?mid=1jJ6touGzSwwiH21_Nf7gRAzd7I4"
+                },
+                "cities": [{
+                        "name": "Cancún",
+                        "link": "distributorsInt.php?estado=quintanaroo-1"
+                    },
+                    {
+                        "name": "Playa del Carmen",
+                        "link": "distributorsInt.php?estado=quintanaroo-2"
+                    },
+                    {
+                        "name": "Cozumel",
+                        "link": "distributorsInt.php?estado=quintanaroo-3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "sanluispot",
+            "content": {
+                "state": "San Luis Potosí",
+                "city": {
+                    "name": "San Luis Potosí",
+                    "link": "https://www.google.com/maps/d/embed?mid=1mN8JshcIcP6MtpncZH51CJnshTg"
+                },
+                "cities": [{
+                    "name": "San Luis Potosí",
+                    "link": "distributorsInt.php?estado=sanluispot"
+                }]
+            }
+        },
+        {
+            "id": "sinaloa-1",
+            "content": {
+                "state": "Sinaloa",
+                "city": {
+                    "name": "Sinaloa",
+                    "link": "https://www.google.com/maps/d/embed?mid=149EhE9ZVBzKu3z3M0uUO8j0h_1A"
+                },
+                "cities": [{
+                        "name": "Culiacán",
+                        "link": "distributorsInt.php?estado=sinaloa-1"
+                    },
+                    {
+                        "name": "Los Mochis",
+                        "link": "distributorsInt.php?estado=sinaloa-2"
+                    },
+                    {
+                        "name": "Mazatlán",
+                        "link": "distributorsInt.php?estado=sinaloa-3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "sinaloa-2",
+            "content": {
+                "state": "Sinaloa",
+                "city": {
+                    "name": "Sinaloa",
+                    "link": "https://www.google.com/maps/d/embed?mid=1GXzriMRbw5BYBX3M0VOVhd9oH2U"
+                },
+                "cities": [{
+                        "name": "Culiacán",
+                        "link": "distributorsInt.php?estado=sinaloa-1"
+                    },
+                    {
+                        "name": "Los Mochis",
+                        "link": "distributorsInt.php?estado=sinaloa-2"
+                    },
+                    {
+                        "name": "Mazatlán",
+                        "link": "distributorsInt.php?estado=sinaloa-3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "sinaloa-3",
+            "content": {
+                "state": "Sinaloa",
+                "city": {
+                    "name": "Sinaloa",
+                    "link": "https://www.google.com/maps/d/embed?mid=1ATiSzPm8UF1yW5OM_NLTTsHBnSg"
+                },
+                "cities": [{
+                        "name": "Culiacán",
+                        "link": "distributorsInt.php?estado=sinaloa-1"
+                    },
+                    {
+                        "name": "Los Mochis",
+                        "link": "distributorsInt.php?estado=sinaloa-2"
+                    },
+                    {
+                        "name": "Mazatlán",
+                        "link": "distributorsInt.php?estado=sinaloa-3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "sonora",
+            "content": {
+                "state": "Sonora",
+                "city": {
+                    "name": "Sonora",
+                    "link": "https://www.google.com/maps/d/embed?mid=1AahVMVazD5xxjqwQedGx86tB11o"
+                },
+                "cities": [{
+                    "name": "Hermosillo",
+                    "link": "distributorsInt.php?estado=sonora"
+                }]
+            }
+        },
+        {
+            "id": "tabasco",
+            "content": {
+                "state": "Tabasco",
+                "city": {
+                    "name": "Tabasco",
+                    "link": "https://www.google.com/maps/d/embed?mid=1x6oDnHvN3QRxwId1tBP31yznVzI"
+                },
+                "cities": [{
+                    "name": "Villahermosa",
+                    "link": "distributorsInt.php?estado=tabasco"
+                }]
+            }
+        },
+        {
+            "id": "tamaulipas-1",
+            "content": {
+                "state": "Tamaulipas",
+                "city": {
+                    "name": "Tamaulipas",
+                    "link": "https://www.google.com/maps/d/embed?mid=1L9eaRFxjykCI7ZNaUr82nZtV5mg"
+                },
+                "cities": [{
+                        "name": "Reinosa",
+                        "link": "distributorsInt.php?estado=tamaulipas-1"
+                    },
+                    {
+                        "name": "Tampico",
+                        "link": "distributorsInt.php?estado=tamaulipas-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "tamaulipas-2",
+            "content": {
+                "state": "Tamaulipas",
+                "city": {
+                    "name": "Tamaulipas",
+                    "link": "https://www.google.com/maps/d/embed?mid=155eob9A0zmvvLhQVvntHKh-F2Vg"
+                },
+                "cities": [{
+                        "name": "Reinosa",
+                        "link": "distributorsInt.php?estado=tamaulipas-1"
+                    },
+                    {
+                        "name": "Tampico",
+                        "link": "distributorsInt.php?estado=tamaulipas-2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "veracruz-1",
+            "content": {
+                "state": "Veracruz",
+                "city": {
+                    "name": "Veracruz",
+                    "link": "https://www.google.com/maps/d/embed?mid=15-B6RKFpibl178cJa5KQK3Mq3GU"
+                },
+                "cities": [{
+                        "name": "Boca del Río",
+                        "link": "distributorsInt.php?estado=veracruz-1"
+                    },
+                    {
+                        "name": "Coatzacoalcos",
+                        "link": "distributorsInt.php?estado=veracruz-2"
+                    },
+                    {
+                        "name": "Veracruz",
+                        "link": "distributorsInt.php?estado=veracruz-3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "veracruz-2",
+            "content": {
+                "state": "Veracruz",
+                "city": {
+                    "name": "Veracruz",
+                    "link": "https://www.google.com/maps/d/embed?mid=1nGCJAt74jhEi0G-LZNl7FJMVAs0"
+                },
+                "cities": [{
+                        "name": "Boca del Río",
+                        "link": "distributorsInt.php?estado=veracruz-1"
+                    },
+                    {
+                        "name": "Coatzacoalcos",
+                        "link": "distributorsInt.php?estado=veracruz-2"
+                    },
+                    {
+                        "name": "Veracruz",
+                        "link": "distributorsInt.php?estado=veracruz-3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "veracruz-3",
+            "content": {
+                "state": "Veracruz",
+                "city": {
+                    "name": "Veracruz",
+                    "link": "https://www.google.com/maps/d/embed?mid=1fvsFuG5a9rOJXtTJj4C8BYuxZB4"
+                },
+                "cities": [{
+                        "name": "Boca del Río",
+                        "link": "distributorsInt.php?estado=veracruz-1"
+                    },
+                    {
+                        "name": "Coatzacoalcos",
+                        "link": "distributorsInt.php?estado=veracruz-2"
+                    },
+                    {
+                        "name": "Veracruz",
+                        "link": "distributorsInt.php?estado=veracruz-3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "yucatan",
+            "content": {
+                "state": "Yucatán",
+                "city": {
+                    "name": "Yucatán",
+                    "link": "https://www.google.com/maps/d/embed?mid=18ztmbw_so3ZQPzxlHq5qwcD_axM"
+                },
+                "cities": [{
+                    "name": "Mérida",
+                    "link": "distributorsInt.php?estado=yucatan"
+                }]
+            }
+        }
+    ]
+}

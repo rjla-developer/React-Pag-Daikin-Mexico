@@ -1,0 +1,170 @@
+.tabs-container {
+  margin-top: 10rem;
+  .row {
+    margin: 0;
+  }
+  .tabs-container-links {
+    background-color: $gray-section;
+  }
+  .container-tabs {
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    @include desktop {
+      max-width: 120rem;
+      background-color: $gray-section;
+    }
+  }
+}
+
+.about-banner {
+  background-image: url("../../build/img/cultura_material_08.jpg");
+  background-position: bottom;
+  margin-top: 0.1rem;
+  height: auto;
+  .overlay-resources {
+    height: auto;
+    padding: 5rem;
+    .culture-daikin {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      .white-title-culture {
+        margin-bottom: 4rem;
+      }
+      .company-name {
+        margin-bottom: 4rem;
+        color: $white;
+      }
+    }
+  }
+}
+
+.intro-container {
+  margin-top: 5rem;
+  @include tablet {
+    margin-top: 10rem;
+  }
+  .blue-title-cult {
+    margin-bottom: 4rem;
+  }
+  .benefits-container {
+    display: grid;
+    grid-template-columns: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 5rem 0 5rem;
+    @include tablet {
+      grid-template-columns: repeat(2, 30%);
+    }
+    @include desktop {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 4rem;
+    }
+    .benefits-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 5rem;
+      min-width: 50%;
+      height: 15rem;
+      border: 1px solid $blue;
+      .blue-text {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.daikin-philosophy-container {
+  height: 50%;
+  margin-top: 5rem;
+  padding: 5rem 0;
+  background-color: #119de2;
+  @include tablet {
+    margin-top: 10rem;
+    padding: 5rem 10rem;
+  }
+  .daikin-philosophy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 70rem;
+  }
+}
+
+.general-info-container {
+  margin-top: 5rem;
+  @include tablet {
+    margin: 10rem 0;
+  }
+  .custom-grid {
+    @include desktop {
+      display: grid;
+      grid-template-columns: 40% 60%;
+      gap: 8rem;
+    }
+  }
+  .custom-grid-text {
+    margin-top: 5rem;
+    @include desktop {
+      max-width: 80%;
+      margin: 2rem 10rem 0 0;
+    }
+  }
+}
+
+.custom-grid2 {
+  margin-top: 5rem;
+  @include tablet {
+    margin-top: 10rem;
+  }
+  @include desktop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .custom-grid-img {
+    @include desktop {
+      grid-column: 2 / 3;
+    }
+  }
+  .local-support {
+    margin-top: 5rem;
+    @include desktop {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      max-width: 55rem;
+      margin-right: 5rem;
+    }
+    .blue-title-cult {
+      margin-bottom: 4rem;
+    }
+    .dark-text {
+      margin-bottom: 5rem;
+    }
+    .link-grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      @include desktop {
+        margin-top: 8rem;
+      }
+      a {
+        background-color: $gray-section;
+        text-decoration: none;
+        border: 1px solid $white;
+        padding: 1rem 3rem 1rem 1rem;
+        @include tablet {
+          text-align: center;
+        }
+      }
+      a:hover {
+        color: $blue;
+      }
+    }
+  }
+}

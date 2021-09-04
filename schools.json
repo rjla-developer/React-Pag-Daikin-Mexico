@@ -1,0 +1,42 @@
+{
+    "projects": [{
+            "id": "schools-1",
+            "image": "TEC.jpg",
+            "content": {
+                "title": "Tecnológico de estudios superiores Monterrey",
+                "place": "Monterrey, Nuevo León",
+                "year": "2011",
+                "subtitle": "Tecnología",
+                "features": [{
+                    "feature": "Sistema Daikin VRV"
+                }]
+            }
+        },
+        {
+            "id": "schools-2",
+            "image": "unam-sisal.jpg",
+            "content": {
+                "title": "UNAM (Unidad SISAL Yucatán)",
+                "place": "Yucatán, Quintana Roo",
+                "year": "2012",
+                "subtitle": "Tecnología",
+                "features": [{
+                    "feature": "Sistema Daikin VRV"
+                }]
+            }
+        },
+        {
+            "id": "Schools-3",
+            "image": "biblioteca-uaem.jpg",
+            "content": {
+                "title": "Biblioteca UAEM",
+                "place": "Cuernavaca, Morelos",
+                "year": "2014",
+                "subtitle": "Tecnología",
+                "features": [{
+                    "feature": "Sistema Daikin VRV"
+                }]
+            }
+        }
+    ]
+}

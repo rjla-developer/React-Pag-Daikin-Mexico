@@ -1,0 +1,45 @@
+@import 'base/normalize';
+@import 'base/custom';
+@import 'src/plugins/bootstrap/scss/bootstrap.scss';
+@import '../plugins/slick/slick.scss';
+@import '../plugins/slick/slick-theme.scss';
+@import 'base/globales';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/utilidades';
+//Layout
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/products';
+@import 'layout/fresh&pure';
+@import 'layout/projects';
+@import 'layout/solutionCenter';
+@import 'layout/training';
+@import 'layout/map';
+@import 'layout/news';
+@import 'layout/footer';
+//Culture
+@import 'layout/cultura';
+@import 'layout/nosotros';
+@import 'layout/timeline';
+@import 'layout/ambiental';
+@import 'layout/plant';
+//products
+@import 'layout/vrv';
+@import 'layout/residencial';
+//projects
+@import 'layout/mall';
+//services
+@import 'layout/services';
+//job opportunities
+@import 'layout/jobs';
+//Contact
+@import 'layout/contact';
+//Distribuidores
+@import 'layout/distribuidores';
+//training
+@import 'layout/trainingCenter';
+//new
+@import 'layout/newsInt';
+//Distributors int
+@import 'layout/ditributorsInt'

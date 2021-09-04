@@ -1,0 +1,230 @@
+.hero-products-aplicado {
+  height: 80%;
+  margin-top: 11rem;
+  background-image: url("../../build/img/aplicado.jpg");
+  background-position: center right;
+  background-size: cover;
+  @include desktop {
+    height: auto;
+  }
+}
+
+.hero-products-residencial {
+  height: 80%;
+  margin-top: 11rem;
+  background-image: url("../../build/img/residencial.jpg");
+  background-position: center right;
+  background-size: cover;
+  @include desktop {
+    height: auto;
+  }
+}
+
+.hero-products-vrv {
+  height: 80%;
+  margin-top: 11rem;
+  background-image: url("../../build/img/VRV.jpg");
+  background-position: center right;
+  background-size: cover;
+  @include desktop {
+    height: auto;
+  }
+}
+
+.overlay-products {
+  height: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgba(66, 178, 232, 0.8) 0%,
+    rgba(33, 89, 116, 0.8) 100%
+  );
+  @include desktop {
+    height: auto;
+    padding: 5rem;
+  }
+  .daikin-products {
+    padding: 5rem 0;
+    @include tablet {
+      padding: 5rem 10rem;
+    }
+    @include desktop {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 70rem;
+      height: auto;
+      padding: 0;
+    }
+    .white-title {
+      margin-bottom: 4rem;
+    }
+    .white-text {
+      text-align: center;
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
+}
+
+//products menu - mobile
+.products-menu-container {
+  @include desktop {
+    width: 100%;
+  }
+  .card {
+    min-height: 4rem;
+    background-color: $blue;
+    border-radius: 0%;
+    .card-header {
+      padding: 0.75rem 1.4rem;
+      border: none;
+      .mb-0 {
+        .btn-link {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          text-transform: uppercase;
+          font-size: 1.4rem;
+          color: $white;
+          text-decoration: none;
+          text-align: left;
+          width: 100%;
+          i {
+            font-size: 1rem;
+            color: $white;
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+    .card-0p {
+      margin: 0;
+    }
+    .card-body {
+      padding: 0 1.25rem;
+      ul {
+        list-style: none;
+        padding: 0 2rem;
+        margin-bottom: 0;
+        .product-type {
+          color: $white;
+          border-bottom: none;
+        }
+        li {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          min-height: 4rem;
+          border-bottom: 1px solid #3eafe6;
+          &:last-of-type {
+            border-bottom: none;
+          }
+          a {
+            text-decoration: none;
+            color: $white;
+            font-size: 1.4rem;
+            width: 100%;
+          }
+          i {
+            margin-right: 1rem;
+            font-size: 1rem;
+            color: $white;
+          }
+          .bi-circle-fill {
+            font-size: 0.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.product-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  img {
+    max-width: 40rem;
+    @include phone-xl {
+      max-width: 90%;
+    }
+  }
+}
+
+.product-info-cont {
+  margin-top: 5rem;
+  .blue-title-cult {
+    margin-bottom: 4rem;
+  }
+  .dark-text {
+    margin-bottom: 3rem;
+  }
+  ul {
+    margin-bottom: 3rem;
+    padding: 0;
+    list-style: none;
+    li {
+      display: flex;
+      align-items: center;
+      i {
+        margin-right: 1rem;
+        font-size: 1rem;
+        color: $blue;
+      }
+    }
+  }
+  .download-container {
+    flex-direction: column;
+    .download-icon {
+      display: flex;
+      align-items: center;
+      h3 {
+        font-size: 2rem;
+        i {
+          margin-left: 2rem;
+        }
+      }
+    }
+    .download-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 5rem;
+      a {
+        text-align: center;
+        text-decoration: none;
+        padding: 1rem;
+        background-color: $gray-section;
+        color: $dark;
+        font-size: 1.4rem;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color: $blue;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.products-main-container.container {
+  display: grid;
+  grid-template-columns: 20% 35% 35%;
+  gap: 7rem;
+  margin-top: 10rem;
+  .product-img {
+    align-items: flex-start;
+    margin: 0;
+  }
+  .product-info-cont {
+    margin: 0;
+    .download-options {
+      a {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
