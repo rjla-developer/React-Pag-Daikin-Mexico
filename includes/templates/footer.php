@@ -5,10 +5,10 @@
         <h3 class="white-title">Inicio</h3>
       </a>
       <ul>
-        <li><i class="bi bi-chevron-right"></i><a class="smooth" href="index.php#products">Productos</a></li>
+        <li><i class="bi bi-chevron-right"></i><a class="" href="../../index.php#products">Productos</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/services.php">Servicios</a></li>
-        <li><i class="bi bi-chevron-right"></i><a class="smooth" href="index.php#dsc">DSC</a></li>
-        <li><i class="bi bi-chevron-right"></i><a class="smooth" href="index.php#projects">Proyectos</a></li>
+        <li><i class="bi bi-chevron-right"></i><a class="" href="../../index.php#dsc">DSC</a></li>
+        <li><i class="bi bi-chevron-right"></i><a class="" href="../../index.php#projects">Proyectos</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/cultura.php#nav-plant">Planta</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/contact.php">Contáctanos</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/jobs.php">Bolsa de Trabajo</a></li>
@@ -50,10 +50,10 @@
       <ul>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-1">Chillers</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-9">UMAS</a></li>
-        <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/.php?product=aplicado-12">WSHP</a></li>
-        <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/.php?product=aplicado-16">Paquetes</a></li>
+        <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-12">WSHP</a></li>
+        <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-16">Paquetes</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-20">Evaporadoras hidrónicas</a></li>
-        <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/vrv.php?product=vrv-1">VAV</a></li>
+        <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-25">VAV</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/vrv.php?product=vrv-3">VRV</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/vrv.php?product=vrv-1">Enfrirados por agua</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/vrv.php?product=vrv-3">Enfriados por aire</a></li>
@@ -94,11 +94,11 @@
       <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
         <div class="card-body card-0p">
           <ul>
-            <li><a class="smooth" href="index.php#products">Productos</a><i class="bi bi-chevron-right"></i></li>
+            <li><a class="" href="../../index.php#products">Productos</a><i class="bi bi-chevron-right"></i></li>
             <li><a href="<?= GLOBAL_URL; ?>includes/product/services.php">Servicios</a><i class="bi bi-chevron-right"></i></li>
-            <li><a class="smooth" href="index.php#dsc">DSC</a><i class="bi bi-chevron-right"></i></li>
-            <li><a class="smooth" href="index.php#projects">Proyectos</a><i class="bi bi-chevron-right"></i></li>
-            <li><a href="<?= GLOBAL_URL; ?>cultura.php#nav-plant">Planta</a><i class="bi bi-chevron-right"></i></li>
+            <li><a class="" href="../../index.php#dsc">DSC</a><i class="bi bi-chevron-right"></i></li>
+            <li><a class="" href="../../index.php#projects">Proyectos</a><i class="bi bi-chevron-right"></i></li>
+            <li><a href="<?= GLOBAL_URL; ?>includes/product/cultura.php#nav-plant">Planta</a><i class="bi bi-chevron-right"></i></li>
             <li><a href="<?= GLOBAL_URL; ?>includes/product/contact.php">Contáctanos</a><i class="bi bi-chevron-right"></i></li>
             <li><a href="<?= GLOBAL_URL; ?>includes/product/jobs.php">Bolsa de Trabajo</a><i class="bi bi-chevron-right"></i></li>
             <li><a href="<?= GLOBAL_URL; ?>includes/product/training.php">Centro de Entrenamiento</a><i class="bi bi-chevron-right"></i></li>
@@ -160,9 +160,9 @@
             <li><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-1">Chillers</a><i class="bi bi-chevron-right"></i></li>
             <li><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-9">UMAS</a><i class="bi bi-chevron-right"></i></li>
             <li><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-12">WSHP</a><i class="bi bi-chevron-right"></i></li>
-            <li><a href="<?= GLOBAL_URL; ?>includes/product/.php?product=aplicado-16">Paquetes</a><i class="bi bi-chevron-right"></i></li>
-            <li><a href="<?= GLOBAL_URL; ?>includes/product/.php?product=aplicado-20">Evaporadoras hidrónicas</a><i class="bi bi-chevron-right"></i></li>
-            <li><a href="<?= GLOBAL_URL; ?>includes/product/vrv.php?product=vrv-1">VAV</a><i class="bi bi-chevron-right"></i></li>
+            <li><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-16">Paquetes</a><i class="bi bi-chevron-right"></i></li>
+            <li><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-20">Evaporadoras hidrónicas</a><i class="bi bi-chevron-right"></i></li>
+            <li><a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-25">VAV</a><i class="bi bi-chevron-right"></i></li>
             <li><a href="<?= GLOBAL_URL; ?>includes/product/vrv.php?product=vrv-3">VRV</a><i class="bi bi-chevron-right"></i></li>
             <li><a href="<?= GLOBAL_URL; ?>includes/product/vrv.php?product=vrv-1">Enfriados por agua</a><i class="bi bi-chevron-right"></i></li>
             <li><a href="<?= GLOBAL_URL; ?>includes/product/vrv.php?product=vrv-3">Enfriados por aire</a><i class="bi bi-chevron-right"></i></li>

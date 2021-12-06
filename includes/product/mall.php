@@ -1,6 +1,7 @@
 <?php
 require '../functions.php';
 includeTemplate('header', $inicio = true);
+includeTemplate('modal');
 
 $fileJson = file_get_contents("../../mall.json");
 $fileJsonDecode = json_decode($fileJson, true);

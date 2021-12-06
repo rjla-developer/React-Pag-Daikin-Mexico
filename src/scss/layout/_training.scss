@@ -11,11 +11,13 @@
     background: rgb(249, 249, 249);
     background: linear-gradient(
       93deg,
-      rgba(249, 249, 249, 1) 0%,
+      rgba(249, 249, 249, .3) 0%,
       rgba(0, 140, 209, 1) 77%
     );
   }
+  
   .training-img {
+    z-index: -1;
     @include tablet {
       width: 100%;
     }
@@ -46,22 +48,39 @@
     .training-content {
       h2 {
         font-size: 3rem;
+        margin-bottom: .5rem;
         @include desktop {
-          color: #0606a5;
+          color: #00239e;
         }
 
         @include desktop {
           font-size: 4rem;
-          text-align: left;
+          text-align: center;
           font-weight: 400;
+        }
+      }
+      h3 {
+        color: $blue;
+        @include desktop {
+          color: $white;
         }
       }
       p {
         margin-bottom: 5rem;
         @include desktop {
+          margin-bottom: 2rem;
           font-size: 2rem;
           color: white;
           text-transform: uppercase;
+        }
+      }
+      .dot-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 5rem;
+        i{
+          font-size: 1.5rem;
         }
       }
       .btn-main {
@@ -86,11 +105,11 @@
           }
           i {
             color: $blue;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             font-weight: bold;
             margin-right: 0.5rem;
             @include desktop {
-              color: white;
+              color: #00239e;
             }
           }
         }

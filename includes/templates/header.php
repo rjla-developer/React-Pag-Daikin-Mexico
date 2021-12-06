@@ -59,7 +59,7 @@
               <a class="nav-link" href="<?=GLOBAL_URL;?>includes/product/services.php">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?=GLOBAL_URL;?>includes/product/distribuidores.php">Distribuidores</a>
+              <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Distribuidores</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?=GLOBAL_URL;?>includes/product/jobs.php">Bolsa de Trabajo</a>

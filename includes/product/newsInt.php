@@ -1,6 +1,7 @@
 <?php
 require '../functions.php';
 includeTemplate('header', $inicio = true);
+includeTemplate('modal');
 ?>
 
 <div class="wrapper container">
@@ -33,7 +34,7 @@ includeTemplate('header', $inicio = true);
         <h3 class="blue-title-cult">Aplicación</h3>
         <p class="dark-text">Esta Política es aplicable a todas las personas físicas, independientemente de su cargo o nivel, que trabajan para la Compañía, incluyendo sin limitar, empleados, representantes independientes, consultores, directores, gerentes, y en general cualquier colaborador (temporal o permanente) (en lo sucesivo identificados conjuntamente puramente por conveniencia como “Empleados.” Se aclara que el término “Empleado” en este documento puede incluir a consultores, agentes, y representantes independientes, así como otras personas contratadas o bajo el control de Daikin Applied a tiempo parcial que no son definidos como ‘empleados’ bajo las leyes Laborales locales), así como a proveedores y terceros. La Política se aplica a cualquier trato, contrato o negociación en todos los países donde Daikin Applied tiene operaciones. En adición, la Política se aplica a las operaciones llevadas a cabo por cualesquiera, divisiones, afiliados, subsidiarias, u otros representantes que estén bajo el control de Daikin Applied dentro del contexto de la Política enunciada, cualquier operación conjunta u otras iniciativas empresariales fuera de los Estados Unidos en las que Daikin Applied participe. Esta Política también abarca todos los sistemas de archivos de las actividades financieras de la Compañía.</p>
 
-        <h3 class="blue-title-cult">Resumen de la Ley contr prácticas en el exterior (Foreign Corrupt Practices Act 1 {FCPA, por sus siglas en Inglés)</h3>
+        <h3 class="blue-title-cult">Resumen de la Ley contra prácticas en el exterior (Foreign Corrupt Practices Act 1 {FCPA, por sus siglas en Inglés)</h3>
         <p class="dark-text">La Ley Contra Prácticas de Corrupción en el Exterior consiste en dos secciones principales. La Primera Sección establece que es ilegal sobornar a funcionarios públicos en el exterior, y la Segunda Sección establece requisitos para el sistema de archivos y controles internos de Contabilidad.</p>
 
         <h3 class="blue-title-cult">Provisiones antisoborno</h3>
@@ -74,7 +75,7 @@ includeTemplate('header', $inicio = true);
         <h3 class="blue-title-cult">B. Sanciones</h3>
         <p class="dark-text">La FCP A impone sanciones penales tanto a individuos como a corporaciones. Para aquellos individuos que infrinjan las disposiciones antisoborno establecidas por la FCPA, las sanciones penales para individuos incluyen multas hasta de USD$250,000., o el doble de la suma correspondiente a la ganancia bruta pecuniaria que resulte de pagos indebidos, prisión hasta de cinco (5) años, o ambas. La Compañía no reembolsará suma alguna correspondiente a multas impuestas a un individuo. Las corporaciones podrán ser sancionadas hasta la suma de USD$2,000,000., o alternativamente, el doble de la suma correspondiente de su ganancia pecuniaria por infracción penal a las estipulaciones antisoborno de la FCPA. Además de las sanciones penales, se impondrá una sanción civil de hasta USD$16,000., a una empresa que infrinja las regulaciones antisoborno y contra cualquier oficial, ejecutivo, director, Empleado, agente de la Compañía, o accionista que actúe en representación de la Compañía que infrinja esta ley. El Departamento de Justicia y la Comisión de Mercado de Valores de los Estados Unidos también podrán obtener una orden judicial con el fin de prevenir infracciones a lo estipulado en la FCP A.</p>
 
-        <p class="dark-text">Al personal que deliberadamente infrinjan lo establecido en la FCPA con respecto a los registros contables, se les podrá imponer una multa hasta de USD$1,000,000., una pena de cárcel hasta de diez (1 O) años, o ambos. Una compañía podrá ser multada por USD$2,500,000., o más. Sucesivamente, tanto los individuos como las compañías que infrinjan las estipulaciones que rigen los registros contables podrán estar sujetos a multas hasta del doble de la cantidad de cualquier ganancia o pérdida como resultado de esta infracción. Además de las sanciones civiles y penales, una persona o compañía que infrinja la FCP A se podrá encontrar imposibilitada de realizar negocios con el gobierno de los Estados Unidos. Otras sanciones incluyen negar licencias de exportación y la exclusión de los programas amparados por la Comisión de Comercio en Futuros sobre Materias Primas (CTFC – Commodity Futures Trading Commission -, por sus siglas en inglés) y la Corporación para las Inversiones Privadas en el Extranjero (OPIC, por sus siglas en Ingles). Infringir con lo estipulado en la FCPA conllevara medidas disciplinarias impuestas por la Compañía hasta e inclusive el cese de la relación laboral.</p>
+        <p class="dark-text">Al personal que deliberadamente infrinjan lo establecido en la FCPA con respecto a los registros contables, se les podrá imponer una multa hasta de USD$1,000,000., una pena de cárcel hasta de diez (10) años, o ambos. Una compañía podrá ser multada por USD$2,500,000., o más. Sucesivamente, tanto los individuos como las compañías que infrinjan las estipulaciones que rigen los registros contables podrán estar sujetos a multas hasta del doble de la cantidad de cualquier ganancia o pérdida como resultado de esta infracción. Además de las sanciones civiles y penales, una persona o compañía que infrinja la FCP A se podrá encontrar imposibilitada de realizar negocios con el gobierno de los Estados Unidos. Otras sanciones incluyen negar licencias de exportación y la exclusión de los programas amparados por la Comisión de Comercio en Futuros sobre Materias Primas (CTFC – Commodity Futures Trading Commission -, por sus siglas en inglés) y la Corporación para las Inversiones Privadas en el Extranjero (OPIC, por sus siglas en Ingles). Infringir con lo estipulado en la FCPA conllevara medidas disciplinarias impuestas por la Compañía hasta e inclusive el cese de la relación laboral.</p>
 
         <h3 class="blue-title-cult">ACTA USA PATRIOT (“Uniting and Strengthening America by Providing Appropriate Tools Required to lntercept and Obstruct Terrorism Act”)</h3>
 
@@ -116,58 +117,72 @@ includeTemplate('header', $inicio = true);
     <div class="slider container">
         <div class="news-card">
             <div class="slide">
-                <img src="build/img/noticia1.jpg" alt="">
-                <div class="card-content">
+                <div class="news-wrapper">
                     <p class="blue-title news-name">Política Antisoborno</p>
-                    <p class="dark-text-news">Política anti-soborno, antilavado
-                        de dinero, y de ley de
-                        prácticas corruptas en el
-                        extranjero de 1977 (“FOREIGN
-                        CORRUPT PRACTICES ACT”) o
-                        “FCPA”...</p>
-                </div>
-                <div class="btn-main">
-                    <a class="btn-dark" href="#"><i class="bi bi-chevron-right"></i>Leer Más</a>
-                </div>
-            </div>
-        </div>
-        <div class="news-card">
-            <div class="slide">
-                <img src="build/img/noticia2.jpg" alt="">
-                <div class="card-content">
-                    <p class="blue-title news-name">Términos y Condiciones
-                        de Venta Directa de
-                        Equipo y Servicio</p>
-                    <p class="dark-text-news">Términos y Condiciones de
-                        Venta Directa de Equipo y
-                        Servicio 1. Términos de la Venta:
-                        “Empresa” en este documento
-                        significa Daikin Applied
-                        Americas Inc. operando...</p>
-                </div>
-                <div class="btn-main">
-                    <a class="btn-dark" href="#"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                    <div class="img-cont">
+                        <img src="../../build/img/noticia1.jpg" alt=""> 
+                    </div>
+                    <div class="card-content">
+                        <p class="dark-text-news">Política anti-soborno, antilavado
+                            de dinero...
+                        </p>
+                        <div class="btn-news">
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="news-card">
             <div class="slide">
-                <img class="fix-size" src="build/img/noticia4.jpg" alt="">
-                <div class="card-content">
-                    <p class="blue-title news-name">Ing. Javier Moreno,
-                        nuevo vicepresidente
-                        de la ANFAD</p>
-                    <p class="dark-text-news">El pasado 26 de mayo, se reunió
-                        el Comité Directivo de Aires
-                        acondicionados de la Asociación
-                        Nacional de Fabricantes de
-                        Aparatos Domésticos (ANFAD),
-                        A. C...</p>
+                <div class="news-wrapper">
+                    <p class="blue-title news-name">Términos y Condiciones</p>
+                    <div class="img-cont">
+                        <img src="../../build/img/noticia2.jpg" alt=""> 
+                    </div>
+                    <div class="card-content">
+                        <p class="dark-text-news">Términos y Condiciones de...
+                        </p>
+                        <div class="btn-news">
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt2.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="btn-main">
-                    <a class="btn-dark" href="#"><i class="bi bi-chevron-right"></i>Leer Más</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <div class="slide">
+                    <div class="news-wrapper">
+                        <p class="blue-title news-name">Nuevo vicepresidente</p>
+                        <div class="img-cont">
+                            <img src="../../build/img/noticia4.jpg" alt=""> 
+                        </div>
+                        <div class="card-content">
+                            <p class="dark-text-news">Ing. Javier Moreno Nuevo Vice...
+                            </p>
+                        <div class="btn-news">
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="news-card">
+            <div class="slide">
+                <div class="news-wrapper">
+                        <p class="blue-title news-name">Nuevo vicepresidente</p>
+                        <div class="img-cont">
+                            <img src="../../build/img/noticia1.jpg" alt=""> 
+                        </div>
+                        <div class="card-content">
+                            <p class="dark-text-news">Ing. Javier Moreno Nuevo Vice...
+                            </p>
+                        <div class="btn-news">
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
