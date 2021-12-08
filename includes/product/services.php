@@ -1,8 +1,8 @@
 <?php
 require '../functions.php';
 includeTemplate('header', $inicio = true);
+includeTemplate('modal');
 ?>
-
 
 <div class="hero-services">
     <div class="overlay-products">

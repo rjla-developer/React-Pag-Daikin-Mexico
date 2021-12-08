@@ -128,6 +128,8 @@ $(document).ready(function() {
 });
 
 
+
+
 //form validate
 
 var firstName = $('.field-validate input[name="name"]');
@@ -175,6 +177,9 @@ $('.validate-form .input2').each(function() {
     });
 });
 
+function gotoPage(select){
+    window.location = select.value;
+}
 
 
 function showValidate(input) {

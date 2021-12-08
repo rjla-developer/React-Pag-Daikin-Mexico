@@ -4,15 +4,30 @@
     src: url('../fonts/OpenSans-Regular.ttf');
 }
 
+@font-face {
+    font-family: helvetica_condensed;
+    src: url('../fonts/helvetica_condensed.ttf');
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url('../fonts/Helvetica.ttf');
+}
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+a {
+    cursor: pointer;
 }
 
 body {
@@ -43,12 +58,15 @@ img {
 }
 
 h1,
-h2,
-h3 {
-    font-family: $main_font;
+h2 {
+    font-family: $title_font;
     margin: 0 0 $space / 2 0;
     font-weight: 900;
     text-align: center;
+}
+
+h3 {
+    font-family: $subtitle_font;
 }
 
 h1 {

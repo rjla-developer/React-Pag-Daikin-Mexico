@@ -65,8 +65,8 @@
         @include desktop {
           display: inline-block;
           content: "";
-          border-top: 0.3rem solid blue;
-          width: 12rem;
+          border-top: 0.1rem solid rgb(3, 3, 109);
+          width: 16rem;
           margin: 0 4rem -1rem -1rem;
           transform: translate(-3rem);
         }

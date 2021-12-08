@@ -1,6 +1,7 @@
 <?php
 require '../functions.php';
 includeTemplate('header');
+includeTemplate('modal');
 ?>
 <div class=" tabs-container">
   <div class="row">
@@ -285,7 +286,7 @@ includeTemplate('header');
                           <p>Refrigerante que no afecta la capa de ozono.</p>
                         </li>
                         <li class="event" data-date="1995">
-                          <p>Primer paquete enfriado por agua.</p>
+                          <p>Vision Manejadora de aire modular</p>
                         </li>
                         <li class="event" data-date="2003">
                           <p>Magnitude™ Chiller con compresor magnético.</p>

@@ -6,21 +6,20 @@
   margin-top: 10rem;
   border-top: 30px solid #ededef;
   border-bottom: 15px solid #ededef;
-  @include desktop {
-    flex-direction: row;
-    height: 70rem;
-    background-image: url("../../../build/img/fullhd/daikin_solutions_center_151.jpg");
-  }
+  
   @include desktop-wide {
     background-image: url("../../../build/img/4k/daikin_solutions_center_15.jpg");
     background-size: cover;
+    flex-direction: row;
+    height: 70rem;
   }
 
   .solution-description {
     display: flex;
     flex-direction: column;
     padding: 0 4rem;
-    @include desktop {
+    margin-top: 5rem;
+    @include desktop-wide {
       justify-content: center;
       max-width: 40%;
       text-align: left;
@@ -32,11 +31,11 @@
         color: white;
       }
       .alt-title::before {
-        @include desktop {
+        @include desktop-wide {
           display: inline-block;
           content: "";
-          border-top: 0.3rem solid blue;
-          width: 12rem;
+          border-top: 0.1rem solid rgb(3, 3, 109);
+          width: 16rem;
           margin: 0 0 1rem -1rem;
           transform: translate(-5rem);
         }
@@ -62,7 +61,7 @@
       justify-content: center;
       align-items: center;
       width: 90%;
-      @include desktop {
+      @include desktop-wide {
         display: row;
         max-height: 30rem;
       }
@@ -79,10 +78,11 @@
     margin-top: 5rem;
     padding: 7rem 0;
     text-align: left;
+    
     @include tablet {
       flex-direction: row;
     }
-    @include desktop {
+    @include desktop-wide {
       margin-top: 0;
       padding-left: 2rem;
       background-color: transparent;
@@ -101,7 +101,7 @@
         max-height: 25rem;
         min-width: 20rem;
       }
-      @include desktop {
+      @include desktop-wide {
         margin-left: 2rem;
         min-width: 20rem;
         max-height: 27rem;
@@ -118,7 +118,7 @@
           padding: 3rem 0;
           border-bottom: none;
         }
-        @include desktop {
+        @include desktop-wide {
           align-items: center;
           justify-content: center;
           margin-left: 0;
@@ -138,13 +138,14 @@
           }
         }
         .alt-color {
-          color: #ededef;
-          font-size: 2rem;
+          color: #e0e0e2;
+          font-size: 2.4rem!important;
+          font-weight: 500!important;
         }
         p {
           margin: 0;
           color: #0374ab;
-          font-size: 1.6rem;
+          font-size: 1.8rem;
           span {
             font-size: 1.2rem;
             color: #0374ab;
