@@ -1,11 +1,11 @@
 .training-station {
-  display: flex;
   flex-direction: column;
   margin-top: 0;
   background-color: $gray-section;
   border-top: 15px solid #ededef;
   border-bottom: 30px solid #ededef;
   @include desktop {
+    display: flex;
     flex-direction: row;
     gap: 8rem;
     background: rgb(249, 249, 249);
