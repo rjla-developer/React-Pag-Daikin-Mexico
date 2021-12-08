@@ -242,10 +242,10 @@ includeTemplate('modal');
 
 <section class="training-station">
     <div class="training-img">
-        <img srcset="build/img/centro_de_entrenamiento_16-ok.jpg 1032w,
-                    build/img/centro_de_entrenamiento_16-ok.jpg 2064w" sizes="(min-width: 1280px) 1200px,
+        <img srcset="build/img/centro_de_entrenamiento_16-OK.jpg 1032w,
+                    build/img/centro_de_entrenamiento_16-OK.jpg 2064w" sizes="(min-width: 1280px) 1200px,
                     (min-width:1100px) 400px,100vw" 
-                    src="build/img/centro_de_entrenamiento_16-ok.jpg" alt="test">
+                    src="build/img/centro_de_entrenamiento_16-OK.jpg" alt="Daikin">
     </div>
 
     <div class="training-info container">
