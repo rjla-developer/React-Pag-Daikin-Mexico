@@ -22,13 +22,16 @@
 .dark-title {
     color: $dark;
     font-size: 3rem;
+    font-family: "Helvetica";
+    text-transform: uppercase;
 }
 
 .blue-title {
-    text-transform: uppercase;
+    color: $blue;
     font-size: 2rem;
     font-weight: 400;
-    color: $blue;
+    font-family: "helvetica_condensed";
+    text-transform: uppercase;
 }
 
 .date-text {
@@ -89,7 +92,7 @@
 .dark-text-news {
     font-size: 1.8rem;
     padding: 0 3rem;
-    color: rgba($color: $dark, $alpha: .6);
+    color: rgba($color: $dark, $alpha: 0.6);
 }
 
 .full-width {

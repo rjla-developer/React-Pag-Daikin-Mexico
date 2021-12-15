@@ -274,6 +274,7 @@ includeTemplate('modal');
             <h2 class="dark-title">Red de distribuidores Daikin</h2>
             <h3>Conoce los Estados de la República en
                 donde se encuentran nuestros distribuidores</h3>
+            <p class="dot-center"><i class="bi bi-circle-fill"></i></p>
             <div class="btn-main-red">
                 <a class="btn-blue" data-toggle="modal" data-target="#exampleModalCenter"><i class="bi bi-chevron-right"></i>Conoce Más</a>
             </div>
