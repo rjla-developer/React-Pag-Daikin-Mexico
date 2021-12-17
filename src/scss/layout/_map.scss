@@ -1,130 +1,136 @@
 .mapTooltip {
-  position: absolute;
-  background-color: #fff;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-  border-radius: 10px;
-  padding: 10px;
-  z-index: 1000;
-  max-width: 200px;
-  display: none;
-  color: #343434;
+    position: absolute;
+    background-color: #fff;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+    max-width: 200px;
+    display: none;
+    color: #343434;
 }
 
 .zoomIn,
 .zoomOut {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  color: #000;
-  width: 15px;
-  height: 15px;
-  line-height: 15px;
-  text-align: center;
-  border-radius: 3px;
-  cursor: pointer;
-  position: absolute;
-  top: 10px;
-  font-weight: bold;
-  left: 10px;
-  -webkit-user-select: none; // For Webkit
-  -khtml-user-select: none;
-  -moz-user-select: none; // For Mozilla
-  -o-user-select: none;
-  user-select: none; // Default
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    font-weight: bold;
+    left: 10px;
+    -webkit-user-select: none; // For Webkit
+    -khtml-user-select: none;
+    -moz-user-select: none; // For Mozilla
+    -o-user-select: none;
+    user-select: none; // Default
 }
 
 .zoomOut {
-  top: 30px;
+    top: 30px;
 }
 
 .map {
-  background-color: $white;
-  margin: 0;
-  position: relative;
+    background-color: $white;
+    margin: 0;
+    position: relative;
 }
 
 .map-container {
-  width: 100%;
-  margin-top: 5rem 0 0;
-  @include desktop {
-    width: 50%;
-  }
+    width: 100%;
+    margin-top: 5rem 0 0;
+    @include desktop {
+        width: 50%;
+    }
 }
 
 h1 {
-  color: #aaa;
+    color: #aaa;
 }
 
 .distribution-daikin {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10rem;
-  @include desktop {
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    gap: 2rem;
-  }
-  .map-info {
     display: flex;
-    justify-content: center;
-    margin-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
     @include desktop {
-      width: 50%;
-      margin-top: 10rem;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        gap: 2rem;
     }
-    .map-content {
-      display: flex;
-      flex-direction: column;
-      padding: 0;
-      h2 {
-        margin-bottom: 0;
-        font-size: 3rem;
-        font-weight: 400;
-        text-transform: uppercase;
-        color: #8e9c9c;
-        @include desktop {
-          font-size: 3.2rem;
-          text-align: center;
-        }
-      }
-      h3 {
-        margin-bottom: 5rem;
-        color: $blue;
-        font-size: 2rem;
-        text-align: center;
-        text-transform: uppercase;
-        @include desktop {
-          font-size: 2rem;
-        }
-      }
-      .btn-main-red {
+    .map-info {
         display: flex;
         justify-content: center;
-        a {
-          display: flex;
-          align-items: center;
-          flex-shrink: 1;
-          padding: 1.5rem 2rem;
-          background-color: $white;
-          font-size: 1.8rem;
-          font-weight: bold;
-          border: 1px solid $blue;
-          border-radius: 3rem;
-          text-decoration: none;
-          text-transform: uppercase;
-          i {
-            color: $blue;
-            font-size: 1.2rem;
-            font-weight: bold;
-            margin-right: 0.5rem;
-          }
+        margin-top: 5rem;
+        @include desktop {
+            width: 50%;
+            margin-top: 10rem;
         }
-      }
+        .map-content {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            h2 {
+                margin-bottom: 0;
+                font-size: 3rem;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #8e9c9c;
+                @include desktop {
+                    font-size: 3.2rem;
+                    text-align: center;
+                }
+            }
+            h3 {
+                color: $blue;
+                font-size: 2rem;
+                text-align: center;
+                text-transform: uppercase;
+                @include desktop {
+                    font-size: 2rem;
+                }
+            }
+            p.dot-center {
+                text-align: center;
+                i.bi-circle-fill {
+                    color: #e2e5e5;
+                }
+                margin-bottom: 5rem;
+            }
+            .btn-main-red {
+                display: flex;
+                justify-content: center;
+                a {
+                    display: flex;
+                    align-items: center;
+                    flex-shrink: 1;
+                    padding: 1.5rem 2rem;
+                    background-color: $white;
+                    font-size: 1.8rem;
+                    font-weight: bold;
+                    border: 1px solid $blue;
+                    border-radius: 3rem;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    i {
+                        color: $blue;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
     }
-  }
 }
 
 .zoomButton {
-  display: none;
+    display: none;
 }
