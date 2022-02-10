@@ -200,7 +200,7 @@
   <div class="container">
     <div class="daikin-name">
       <p class="copyright-text">&#169; Daikin Airconditioning México, S de RL de CV, 2021</p>
-      <a target="_blank" href="../../daikin-content/Aviso_de_privacidad.pdf">
+      <a href="">
         <p>Aviso de privacidad</p>
       </a>
     </div>
