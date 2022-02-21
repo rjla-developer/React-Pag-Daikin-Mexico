@@ -1,5 +1,8 @@
 .tabs-container {
-  margin-top: 10rem;
+  margin-top: 12rem;
+  @include desktop {
+    margin-top: 13rem;
+  }
   .row {
     margin: 0;
   }

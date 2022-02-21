@@ -5,7 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="<?=GLOBAL_URL;?>build/img/favicon.ico">
+  
+  <link rel="icon" type="image/x-icon" href="<?=GLOBAL_URL;?>favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="<?=GLOBAL_URL;?>favicon.ico" />
+  <link rel="apple-touch-icon" href="<?=GLOBAL_URL;?>apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="<?=GLOBAL_URL;?>apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="<?=GLOBAL_URL;?>apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="<?=GLOBAL_URL;?>apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="<?=GLOBAL_URL;?>apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="<?=GLOBAL_URL;?>apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="<?=GLOBAL_URL;?>apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="<?=GLOBAL_URL;?>apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="<?=GLOBAL_URL;?>apple-touch-icon-180x180.png" />
+
   <link rel="stylesheet" href="<?=GLOBAL_URL;?>build/plugins/bootstrap-icons/font/bootstrap-icons.css">
   <link rel="stylesheet" href="<?=GLOBAL_URL;?>build/css/app.css">
   <title>Daikin México</title>
