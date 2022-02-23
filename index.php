@@ -20,7 +20,7 @@ includeTemplate('modal');
         <div class="product-container">
 
             <div class="product">
-                <a href="<?= GLOBAL_URL; ?>includes/product/vrv.php?product=vrv-1">
+                <a href="<?= GLOBAL_URL; ?>productos/vrv/1">
                     <div class="prd-image">
                         <img class="product-img" srcset="build/img/vrv_4_series_03.png 428w,
                         build/img/vrv_4_series_03.png 856w" sizes="(min-width: 1280px) 1200px,
@@ -32,7 +32,7 @@ includeTemplate('modal');
             </div>
 
             <div class="product">
-                <a href="<?= GLOBAL_URL; ?>includes/product/aplicado.php?product=aplicado-1">
+                <a href="<?= GLOBAL_URL; ?>productos/aplicado/1">
                     <div class="prd-image">
                         <img class="product-img" srcset="build/img/magnitude_aplicado_04.png 428w,
                         build/img/magnitude_aplicado_04.png 856w" sizes="(min-width: 1280px) 1200px,
@@ -43,7 +43,7 @@ includeTemplate('modal');
                 </a>
             </div>
             <div class="product">
-                <a href="<?= GLOBAL_URL; ?>includes/product/residencial.php?product=residencial-1">
+                <a href="<?= GLOBAL_URL; ?>productos/residencial/1">
                     <div class="prd-image">
                         <img class="product-img" srcset="build/img/minisplit_residencial-02.png 428w,
                         build/img/minisplit_residencial_02.png 856w
@@ -57,7 +57,7 @@ includeTemplate('modal');
             </div>
 
             <div class="product">
-                <a href="<?= GLOBAL_URL; ?>includes/product/services.php">
+                <a href="<?= GLOBAL_URL; ?>servicios">
                     <div class="prd-image">
                         <img class="product-img" srcset="build/img/refacciones_servicio_05.png 428w,
                         build/img/refacciones_servicio_05.png 856w" sizes="(min-width: 1280px) 1200px,
@@ -84,7 +84,7 @@ includeTemplate('modal');
     <h1 class="dark-title">Proyectos</h1>
     <h3 class="blue-title">LIDERANDO EL CAMINO DE LA CLIMATIZACIÓN SUSTENTABLE</h3>
     <div class="slider container">
-        <a href="<?= GLOBAL_URL; ?>includes/product/mall.php">
+        <a href="<?= GLOBAL_URL; ?>includes/daikin/mall.php">
             <div class="project-card">
                 <div class="slide">
                 <div class="img-cont">
@@ -97,7 +97,7 @@ includeTemplate('modal');
                 </div>
             </div>
         </a>
-        <a href="<?= GLOBAL_URL; ?>includes/product/hotel.php">
+        <a href="<?= GLOBAL_URL; ?>includes/daikin/hotel.php">
             <div class="project-card">
                 <div class="slide">
                     <div class="img-cont">
@@ -112,7 +112,7 @@ includeTemplate('modal');
             </div>
         </a>
 
-        <a href="<?= GLOBAL_URL; ?>includes/product/infraestructure.php">
+        <a href="<?= GLOBAL_URL; ?>includes/daikin/infraestructure.php">
             <div class="project-card">
                 <div class="slide">
                     <div class="img-cont">
@@ -125,7 +125,7 @@ includeTemplate('modal');
                 </div>
             </div>
         </a>
-        <a href="<?= GLOBAL_URL; ?>includes/product/industry.php">
+        <a href="<?= GLOBAL_URL; ?>includes/daikin/industry.php">
             <div class="project-card">
                 <div class="slide">
                     <div class="img-cont">
@@ -139,7 +139,7 @@ includeTemplate('modal');
                 </div>
             </div>
         </a>
-        <a href="<?= GLOBAL_URL; ?>includes/product/hospital.php">
+        <a href="<?= GLOBAL_URL; ?>includes/daikin/hospital.php">
             <div class="project-card">
                 <div class="slide">
                     <div class="img-cont">
@@ -153,7 +153,7 @@ includeTemplate('modal');
 
             </div>
         </a>
-        <a href="<?= GLOBAL_URL; ?>includes/product/office.php">
+        <a href="<?= GLOBAL_URL; ?>includes/daikin/office.php">
             <div class="project-card">
                 <div class="slide">
                     <div class="img-cont">
@@ -167,7 +167,7 @@ includeTemplate('modal');
 
             </div>
         </a>
-        <a href="<?= GLOBAL_URL; ?>includes/product/schools.php">
+        <a href="<?= GLOBAL_URL; ?>includes/daikin/schools.php">
             <div class="project-card">
                 <div class="slide">
                     <div class="img-cont">
@@ -181,7 +181,7 @@ includeTemplate('modal');
 
             </div>
         </a>
-        <a href="<?= GLOBAL_URL; ?>includes/product/others.php">
+        <a href="<?= GLOBAL_URL; ?>includes/daikin/others.php">
             <div class="project-card">
                 <div class="slide">
                     <div class="img-cont">
@@ -254,7 +254,7 @@ includeTemplate('modal');
             <h3>Formando especialistas en aire acondicionado.</h3>
             <p class="dot-center"><i class="bi bi-circle-fill"></i></p>
             <div class="btn-main">
-                <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/training.php"><i class="bi bi-chevron-right"></i>Conoce Más</a>
+                <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training.php"><i class="bi bi-chevron-right"></i>Conoce Más</a>
             </div>
         </div>
     </div>
@@ -300,7 +300,7 @@ includeTemplate('modal');
                             de dinero...
                         </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-corruptas-en-el-extranjero-de-1977-foreign-corrupt-practices-act-o-fcpa"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
@@ -318,7 +318,7 @@ includeTemplate('modal');
                         <p class="dark-text-news">Términos y Condiciones de...
                         </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt2.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
@@ -336,7 +336,7 @@ includeTemplate('modal');
                             <p class="dark-text-news">Ing. Javier Moreno Nuevo Vice...
                             </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
@@ -354,7 +354,7 @@ includeTemplate('modal');
                             <p class="dark-text-news">Ing. Javier Moreno Nuevo Vice...
                             </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
