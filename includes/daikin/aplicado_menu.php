@@ -23,10 +23,10 @@
                             <div id="collapseChil" class="collapse" aria-labelledby="headingChil" data-parent="#collapseThird">
                                 <div class="card-body card-0p">
                                     <ul>
-                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/1">WMC /WME – Magnetico [86 a 1500 TR]</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/2">WSC / WDS – Centrífugo Convencional [200 a 1500 TR]</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/3">EWWD-VZ – Tornillo VFD [128 a 597 TR]</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/4">WGZ – Scroll [30 a 200 TR]</a></li>
+                                        <li class="product-item product-item-1"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/1">WMC /WME – Magnetico [86 a 1500 TR]</a></li>
+                                        <li class="product-item product-item-2"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/2">WSC / WDS – Centrífugo Convencional [200 a 1500 TR]</a></li>
+                                        <li class="product-item product-item-3"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/3">EWWD-VZ – Tornillo VFD [128 a 597 TR]</a></li>
+                                        <li class="product-item product-item-4"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/4">WGZ – Scroll [30 a 200 TR]</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -44,8 +44,8 @@
                             <div id="collapseChil1" class="collapse" aria-labelledby="headingChil1" data-parent="#collapseChil">
                                 <div class="card-body card-0p">
                                     <ul>
-                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/5">AWV – Tornillo VFD [170 a 550 TR]</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/6">AGZ – Scroll [30 a 240 TR]</a></li>
+                                        <li class="product-item product-item-5"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/5">AWV – Tornillo VFD [170 a 550 TR]</a></li>
+                                        <li class="product-item product-item-6"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/6">AGZ – Scroll [30 a 240 TR]</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -63,8 +63,8 @@
                             <div id="collapseChil2" class="collapse" aria-labelledby="headingChil2" data-parent="#collapseChil">
                                 <div class="card-body card-0p">
                                     <ul>
-                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/7">Chiller Modular</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/8">Mini Chiller</a></li>
+                                        <li class="product-item product-item-7"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/7">Chiller Modular</a></li>
+                                        <li class="product-item product-item-8"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/8">Mini Chiller</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -85,9 +85,9 @@
                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                     <div class="card-body card-0p">
                         <ul>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/9">Destiny</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/10">Vision</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/11">Skyline</a></li>
+                            <li class="product-item product-item-9"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/9">Destiny</a></li>
+                            <li class="product-item product-item-10"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/10">Vision</a></li>
+                            <li class="product-item product-item-11"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/11">Skyline</a></li>
                         </ul>
                     </div>
                 </div>
@@ -105,10 +105,10 @@
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                     <div class="card-body card-0p">
                         <ul>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/12">Enfinity</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/13">Smart Source</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/14">Vertical Stacked</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/15">Water to water</a></li>
+                            <li class="product-item product-item-12"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/12">Enfinity</a></li>
+                            <li class="product-item product-item-13"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/13">Smart Source</a></li>
+                            <li class="product-item product-item-14"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/14">Vertical Stacked</a></li>
+                            <li class="product-item product-item-15"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/15">Water to water</a></li>
                         </ul>
                     </div>
                 </div>
@@ -124,10 +124,10 @@
                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
                     <div class="card-body card-0p">
                         <ul>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/16">Maverick I [3 a 25 TR]</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/17">Maverick II [15 a 75 TR]</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/18">Rebel [3 a 28 TR]</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/19">Roofpack [15 a 140 TR]</a></li>
+                            <li class="product-item product-item-16"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/16">Maverick I [3 a 25 TR]</a></li>
+                            <li class="product-item product-item-17"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/17">Maverick II [15 a 75 TR]</a></li>
+                            <li class="product-item product-item-18"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/18">Rebel [3 a 28 TR]</a></li>
+                            <li class="product-item product-item-19"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/19">Roofpack [15 a 140 TR]</a></li>
                         </ul>
                     </div>
                 </div>
@@ -144,11 +144,11 @@
                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
                     <div class="card-body card-0p">
                         <ul>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/20">MCKE-Cassette de 4 vías</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/21">MCM – Piso Techo</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/22">MWM – Evaporadora minisplit o muro alto</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/23">MCC – Fan & Coil con Gabinete y termostato</a></li>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/24">MCW – Fan & Coil tipo Hotelero</a></li>
+                            <li class="product-item product-item-20"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/20">MCKE-Cassette de 4 vías</a></li>
+                            <li class="product-item product-item-21"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/21">MCM – Piso Techo</a></li>
+                            <li class="product-item product-item-22"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/22">MWM – Evaporadora minisplit o muro alto</a></li>
+                            <li class="product-item product-item-23"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/23">MCC – Fan & Coil con Gabinete y termostato</a></li>
+                            <li class="product-item product-item-24"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/24">MCW – Fan & Coil tipo Hotelero</a></li>
                         </ul>
                     </div>
                 </div>
@@ -165,7 +165,7 @@
                 <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
                     <div class="card-body card-0p">
                         <ul>
-                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/25">Cajas VAV</a></li>
+                            <li class="product-item product-item-25"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/aplicado/25">Cajas VAV</a></li>
                         </ul>
                     </div>
                 </div>
