@@ -9,16 +9,16 @@ includeTemplate('modal');
       <div class="tabs-container-links">
         <nav class="container-tabs">
           <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Cultura Daikin</a>
-            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-about-us" role="tab" aria-controls="nav-profile" aria-selected="false">Nosotros</a>
-            <a class="timeline-tab nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-history" role="tab" aria-controls="nav-contact" aria-selected="false">Historia</a>
-            <a class="nav-item nav-link responsability" id="nav-about-tab" data-toggle="tab" href="#nav-environment" role="tab" aria-controls="nav-about" aria-selected="false">Responsabilidad Ambiental</a>
-            <a class="nav-item nav-link nav-grid" id="nav-plant-tab" data-toggle="tab" href="#nav-plant" role="tab" aria-controls="nav-plant" aria-selected="false">Planta</a>
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#daikin" role="tab" aria-controls="nav-home" aria-selected="true">Cultura Daikin</a>
+            <a class="nav-item nav-link" id="nav-aboutus-tab" data-toggle="tab" href="#acercade" role="tab" aria-controls="nav-aboutus" aria-selected="false">Nosotros</a>
+            <a class="timeline-tab nav-item nav-link" id="nav-history-tab" data-toggle="tab" href="#historia" role="tab" aria-controls="nav-history" aria-selected="false">Historia</a>
+            <a class="nav-item nav-link responsability" id="nav-environment-tab" data-toggle="tab" href="#ambiente" role="tab" aria-controls="nav-environment" aria-selected="false">Responsabilidad Ambiental</a>
+            <a class="nav-item nav-link nav-grid" id="nav-plant-tab" data-toggle="tab" href="#planta" role="tab" aria-controls="nav-plant" aria-selected="false">Planta</a>
           </div>
         </nav>
       </div>
       <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="tab-pane fade show active" id="daikin" role="tabpanel" aria-labelledby="nav-home-tab">
           <div class="hero-tabs">
             <div class="overlay">
               <div class="culture-daikin container">
@@ -169,7 +169,7 @@ includeTemplate('modal');
         </div>
         <!--First Tab Content Ends -->
 
-        <div class="tab-pane fade" id="nav-about-us" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="tab-pane fade" id="acercade" role="tabpanel" aria-labelledby="nav-profile-tab">
           <div class="hero-tabs about-banner">
             <div class="overlay overlay-resources">
               <div class="culture-daikin container">
@@ -254,7 +254,7 @@ includeTemplate('modal');
         <!--Second Tab Content Ends -->
 
 
-        <div class="timeline-container tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <div class="timeline-container tab-pane fade" id="historia" role="tabpanel" aria-labelledby="nav-contact-tab">
           <div class="container timeline-container">
             <div class="col-md-12">
               <div class="card">
@@ -322,7 +322,7 @@ includeTemplate('modal');
         <!--Third tab ends -->
 
 
-        <div class="tab-pane fade custom-position" id="nav-environment" role="tabpanel" aria-labelledby="nav-about-tab">
+        <div class="tab-pane fade custom-position" id="ambiente" role="tabpanel" aria-labelledby="nav-about-tab">
           <div class="general-container">
             <div class="general-blue">
               <div class="container blue-container">
@@ -354,7 +354,7 @@ includeTemplate('modal');
         <!--Fourth tab ends -->
 
 
-        <div class="tab-pane fade" id="nav-plant" role="tabpanel" aria-labelledby="nav-plant-tab">
+        <div class="tab-pane fade" id="planta" role="tabpanel" aria-labelledby="nav-plant-tab">
           <div class="hero-plant-container">
             <div class="hero-plant">
               <img src="<?= GLOBAL_URL; ?>/build/img/cultura_material_04.jpg" alt="">
@@ -419,10 +419,17 @@ includeTemplate('modal');
 </div>
 
 
-
-
-
-
 <?php
 includeTemplate('footer');
 ?>
+
+
+<script>
+jQuery(document).ready(function ($) {
+  const params = new URLSearchParams(window.location.search);
+  console.log("params . get > nav: ", params.get('nav'));
+  tab_name = "#nav-"+params.get('nav')+"-tab";
+  console.log("tab_name: ", tab_name);
+  $(tab_name).click();
+});
+</script>

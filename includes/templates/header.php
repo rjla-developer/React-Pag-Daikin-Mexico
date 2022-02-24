@@ -37,7 +37,7 @@
               <a class="nav-link" href="https://www.daikin.com/">DAIKIN GLOBAL <i class="bi bi-globe"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?=GLOBAL_URL;?>includes/product/contact.php">CONTACTO</a>
+              <a class="nav-link" href="<?=GLOBAL_URL;?>contacto">CONTACTO</a>
             </li>
           </ul>
         </div>
@@ -52,7 +52,7 @@
         <div class="custom-nav collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="<?=GLOBAL_URL;?>includes/product/cultura.php">Cultura Daikin</i></a>
+              <a class="nav-link" href="<?=GLOBAL_URL;?>nosotros/cultura/">Cultura Daikin</i></a>
             </li>
             <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -60,28 +60,28 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           
-          <a class="dropdown-item" href="<?=GLOBAL_URL;?>includes/product/vrv.php?product=vrv-1"><i class="bi bi-chevron-right"></i>VRV</a>
+          <a class="dropdown-item" href="<?=GLOBAL_URL;?>productos/vrv/1"><i class="bi bi-chevron-right"></i>VRV</a>
           
-          <a class="dropdown-item" href="<?=GLOBAL_URL;?>includes/product/residencial.php?product=residencial-1"><i class="bi bi-chevron-right"></i>Residencial</a>
+          <a class="dropdown-item" href="<?=GLOBAL_URL;?>productos/residencial/1"><i class="bi bi-chevron-right"></i>Residencial</a>
           
-          <a class="dropdown-item" href="<?=GLOBAL_URL;?>includes/product/aplicado.php?product=aplicado-1"><i class="bi bi-chevron-right"></i>Aplicado</a>
+          <a class="dropdown-item" href="<?=GLOBAL_URL;?>productos/aplicado/1"><i class="bi bi-chevron-right"></i>Aplicado</a>
         </div>
       </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="<?=GLOBAL_URL;?>includes/product/services.php">Servicios</a>
+              <a class="nav-link" href="<?=GLOBAL_URL;?>servicios">Servicios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Distribuidores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?=GLOBAL_URL;?>includes/product/jobs.php">Bolsa de Trabajo</a>
+              <a class="nav-link" href="<?=GLOBAL_URL;?>bolsa-de-trabajo">Bolsa de Trabajo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?=GLOBAL_URL;?>includes/product/newsInt.php">Noticias e Industria</a>
+              <a class="nav-link" href="<?=GLOBAL_URL;?>politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-corruptas-en-el-extranjero-de-1977-foreign-corrupt-practices-act-o-fcpa">Noticias e Industria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?=GLOBAL_URL;?>includes/product/contact.php">Contacto</a>
+              <a class="nav-link" href="<?=GLOBAL_URL;?>contacto">Contacto</a>
             </li>
           </ul>
         </div>

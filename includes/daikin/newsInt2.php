@@ -147,7 +147,7 @@ includeTemplate('modal');
                             de dinero...
                         </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-corruptas-en-el-extranjero-de-1977-foreign-corrupt-practices-act-o-fcpa"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ includeTemplate('modal');
                         <p class="dark-text-news">Términos y Condiciones de...
                         </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt2.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@ includeTemplate('modal');
                             <p class="dark-text-news">Ing. Javier Moreno Nuevo Vice...
                             </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,7 @@ includeTemplate('modal');
                             <p class="dark-text-news">Ing. Javier Moreno Nuevo Vice...
                             </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/product/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>

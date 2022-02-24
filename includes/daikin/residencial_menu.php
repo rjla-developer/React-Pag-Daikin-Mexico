@@ -12,13 +12,13 @@
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                     <div class="card-body card-0p">
                         <ul>
-                            <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-1">Purificador de aire</a></li>
-                            <li><a href="?product=residencial-2"><i class="bi bi-circle-fill"></i>Serie URURU SARARA Mini-Split</a></li>
-                            <li><a href="?product=residencial-3"><i class="bi bi-circle-fill"></i>Serie SL Mini-Split</a></li>
-                            <li><a href="?product=residencial-4"><i class="bi bi-circle-fill"></i>Serie CL Mini-Split</a></li>
-                            <li><a href="?product=residencial-5"><i class="bi bi-circle-fill"></i>Serie EL Mini-Split</a></li>
-                            <li><a href="?product=residencial-6"><i class="bi bi-circle-fill"></i>Serie Mx18 Mini-Split</a></li>
-                            <li><a href="?product=residencial-7"><i class="bi bi-circle-fill"></i>Serie VZ+ Mini-Split</a></li>
+                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/1">Purificador de aire</a></li>
+                            <li><a href="<?=GLOBAL_URL;?>productos/residencial/2"><i class="bi bi-circle-fill"></i>Serie URURU SARARA Mini-Split</a></li>
+                            <li><a href="<?=GLOBAL_URL;?>productos/residencial/3"><i class="bi bi-circle-fill"></i>Serie SL Mini-Split</a></li>
+                            <li><a href="<?=GLOBAL_URL;?>productos/residencial/4"><i class="bi bi-circle-fill"></i>Serie CL Mini-Split</a></li>
+                            <li><a href="<?=GLOBAL_URL;?>productos/residencial/5"><i class="bi bi-circle-fill"></i>Serie EL Mini-Split</a></li>
+                            <li><a href="<?=GLOBAL_URL;?>productos/residencial/6"><i class="bi bi-circle-fill"></i>Serie Mx18 Mini-Split</a></li>
+                            <li><a href="<?=GLOBAL_URL;?>productos/residencial/7"><i class="bi bi-circle-fill"></i>Serie VZ+ Mini-Split</a></li>
                         </ul>
                     </div>
                 </div>
@@ -60,13 +60,13 @@
                                         <div id="collapseCondens1" class="collapse" aria-labelledby="headingCodens1" data-parent="#collapseCondens">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-8">GSX14</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-9">CKL</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-10">GSC13</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-11">GSX13</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-12">GSX16</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-13">DX18TC</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-14">DX20VC</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/8">GSX14</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/9">CKL</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/10">GSC13</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/11">GSX13</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/12">GSX16</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/13">DX18TC</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/14">DX20VC</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -84,13 +84,13 @@
                                         <div id="collapseCondens2" class="collapse" aria-labelledby="headingCondens2" data-parent="#collapseCondens">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-15">GSZ14</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-16">GSH13</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-17">GSZ13</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-18">GSZ16</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-19">DZ18TC</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-20">DZ18VC</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-21">DZ20VC</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/15">GSZ14</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/16">GSH13</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/17">GSZ13</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/18">GSZ16</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/19">DZ18TC</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/20">DZ18VC</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/21">DZ20VC</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -126,8 +126,8 @@
                                         <div id="collapseHeat1" class="collapse" aria-labelledby="headingHeat1" data-parent="#collapseHeat">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-22">High Wall</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-23">Piso techo</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/22">High Wall</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/23">Piso techo</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -145,10 +145,10 @@
                                         <div id="collapseHeat2" class="collapse" aria-labelledby="headingHeat2" data-parent="#collapseHeat">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-24">Piso techo</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-25">Cassette</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-26">Fan & Coil con gabinete</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-27">Fan & coil</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/24">Piso techo</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/25">Cassette</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/26">Fan & Coil con gabinete</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/27">Fan & coil</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -183,11 +183,11 @@
                                         <div id="collapseAir1" class="collapse" aria-labelledby="headingAir1" data-parent="#collapseAir">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-28">ARUF</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-29">ASPT</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-30">AVPTC</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-31">DVPEC</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-32">DVPVC</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/28">ARUF</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/29">ASPT</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/30">AVPTC</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/31">DVPEC</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/32">DVPVC</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -205,8 +205,8 @@
                                         <div id="collapseAir2" class="collapse" aria-labelledby="headingAir2" data-parent="#collapseAir">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-33">MULTIZONE</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-34">MATCH-IT</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/33">MULTIZONE</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/34">MATCH-IT</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -244,9 +244,9 @@
                             <div id="collapsePqres" class="collapse" aria-labelledby="headingPqres" data-parent="#collapseEight">
                                 <div class="card-body card-0p">
                                     <ul>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-35">DP14CM</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-36">GPC13H</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-37">GPC14H</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/35">DP14CM</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/36">GPC13H</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/37">GPC14H</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -264,9 +264,9 @@
                             <div id="collapsePqres1" class="collapse" aria-labelledby="headingPqres1" data-parent="#collapseEight">
                                 <div class="card-body card-0p">
                                     <ul>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-38">DP14HM</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-39">GPH13H</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-40">GPH14H</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/38">DP14HM</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/39">GPH13H</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/40">GPH14H</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -284,8 +284,8 @@
                             <div id="collapsePqres2" class="collapse" aria-labelledby="headingPqres2" data-parent="#collapseEight">
                                 <div class="card-body card-0p">
                                     <ul>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-41">GPG13M</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-42">GPG14M</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/41">GPG13M</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/42">GPG14M</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -331,9 +331,9 @@
                                         <div id="collapseDcom1" class="collapse" aria-labelledby="headingDcom1" data-parent="#collapseDcom">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-43">GSC13</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-44">DX13</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-45">DX11</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/43">GSC13</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/44">DX13</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/45">DX11</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -351,9 +351,9 @@
                                         <div id="collapseCondens2" class="collapse" aria-labelledby="headingCondens2" data-parent="#collapseCondens">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-46">DZ14</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-47">DZ13</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-48">DZ11</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/46">DZ14</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/47">DZ13</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/48">DZ11</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -374,7 +374,7 @@
                             <div id="collapseDcom2" class="collapse" aria-labelledby="headingDcom2" data-parent="#collapseNine">
                                 <div class="card-body card-0p">
                                     <ul>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-49">DAR</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/49">DAR</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -408,10 +408,10 @@
                             <div id="collapsePqcom" class="collapse" aria-labelledby="headingPqcom" data-parent="#collapseTen">
                                 <div class="card-body card-0p">
                                     <ul>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-50">DSC</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-51">DP13CM</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-52">DP14CM</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-53">DCC</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/50">DSC</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/51">DP13CM</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/52">DP14CM</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/53">DCC</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -429,8 +429,8 @@
                             <div id="collapsePqcom1" class="collapse" aria-labelledby="headingPqcom1" data-parent="#collapseTen">
                                 <div class="card-body card-0p">
                                     <ul>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-54">DSH</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-55">DCH</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/54">DSH</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/55">DCH</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -448,8 +448,8 @@
                             <div id="collapsePqcom2" class="collapse" aria-labelledby="headingPqcom2" data-parent="#collapseTen">
                                 <div class="card-body card-0p">
                                     <ul>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-56">DSG</a></li>
-                                        <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-57">DCG</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/56">DSG</a></li>
+                                        <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/57">DCG</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -495,7 +495,7 @@
                                         <div id="collapseCompac1" class="collapse" aria-labelledby="headingCompac1" data-parent="#collapseCompac">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-58">PBC</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/58">PBC</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -513,7 +513,7 @@
                                         <div id="collapseCompac2" class="collapse" aria-labelledby="headingCompac2" data-parent="#collapseCompac">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-59">PBH</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/59">PBH</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -547,8 +547,8 @@
                                         <div id="collapseCons1" class="collapse" aria-labelledby="headingCons1" data-parent="#collapseCons">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-60">PTC C/Resistencia eléctrica</a></li>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-61">PTC S/Resistencia eléctrica</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/60">PTC C/Resistencia eléctrica</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/61">PTC S/Resistencia eléctrica</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -566,7 +566,7 @@
                                         <div id="collapseCons2" class="collapse" aria-labelledby="headingCons2" data-parent="#collapseCons">
                                             <div class="card-body card-0p">
                                                 <ul>
-                                                    <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-62">PTH</a></li>
+                                                    <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/62">PTH</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -592,7 +592,7 @@
                 <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
                     <div class="card-body card-0p">
                         <ul>
-                            <li><i class="bi bi-circle-fill"></i><a href="?product=residencial-63">GMS8</a></li>
+                            <li><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/63">GMS8</a></li>
                         </ul>
                     </div>
                 </div>

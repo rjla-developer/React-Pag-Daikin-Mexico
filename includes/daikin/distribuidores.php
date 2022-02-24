@@ -19,7 +19,7 @@ includeTemplate('header', $inicio = true);
     <div class="card-dist">
         <h3 class="blue-title-cult">Aguascalientes</h3>
         <div class="state">
-            <i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/product/distributorsInt.php?estado=aguascalientes">Aguascalientes</a>
+            <i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>includes/daikin/distributorsInt.php?estado=aguascalientes">Aguascalientes</a>
         </div>
     </div>
     <div class="card-dist">
