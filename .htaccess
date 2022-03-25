@@ -16,13 +16,8 @@ RewriteRule ^contacto$ ./includes/daikin/contact.php
 RewriteRule ^distribuidores/([a-z]*)/$ ./includes/daikin/distribution.php?city=$1
 RewriteRule ^distribuidores/([a-z]*)$ ./includes/daikin/distribution.php?city=$1
 
-RewriteRule ^productos/([a-z]*)/([0-9][0-9][0-9])/$ ./includes/daikin/$1.php?product=$1-$2
-RewriteRule ^productos/([a-z]*)/([0-9][0-9])/$ ./includes/daikin/$1.php?product=$1-$2
-RewriteRule ^productos/([a-z]*)/([0-9])/$ ./includes/daikin/$1.php?product=$1-$2
-
-RewriteRule ^productos/([a-z]*)/([0-9][0-9][0-9])$ ./includes/daikin/$1.php?product=$1-$2
-RewriteRule ^productos/([a-z]*)/([0-9][0-9])$ ./includes/daikin/$1.php?product=$1-$2
-RewriteRule ^productos/([a-z]*)/([0-9])$ ./includes/daikin/$1.php?product=$1-$2
+RewriteRule ^productos/([a-z]*)/([0-9]*)/$ ./includes/daikin/$1.php?product=$1-$2
+RewriteRule ^productos/([a-z]*)/([0-9]*)$ ./includes/daikin/$1.php?product=$1-$2
 
 RewriteRule ^politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-corruptas-en-el-extranjero-de-1977-foreign-corrupt-practices-act-o-fcpa/$ ./includes/daikin/newsInt.php
 RewriteRule ^politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-corruptas-en-el-extranjero-de-1977-foreign-corrupt-practices-act-o-fcpa$ ./includes/daikin/newsInt.php
