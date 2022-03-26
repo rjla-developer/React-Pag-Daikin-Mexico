@@ -3,51 +3,13 @@
 
 
     $categoriesFlag = false;
-    // $categoriesJson = file_get_contents("https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/lineups.json");
     $categoriesJson = file_get_contents("https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/categories_v2.json");
     $categoriesObject = json_decode($categoriesJson);
     $categoriesArray = json_decode($categoriesJson, true);
-    // $categoriesArray = $categoriesJsonDecode['categories'];
 
     $product = false;
     $urlProduct = (isset($_GET['route'])) ? $_GET['route'] : null;
-    // $categoryUrlProduct = (isset($_GET['product'])) ? $_GET['product'] : null;
     $categoryUrlProduct = explode("/",substr($urlProduct, 1))[0];
-
-
-
-
-    // echo "<br /> categoriesFlag::: <br />";
-    // print_r($categoriesFlag);
-    // echo "<br /> categoriesJson::: <br />";
-    // print_r($categoriesJson);
-    // echo "<br /> categoriesJsonDecode::: <br />";
-    // print_r($categoriesJsonDecode);
-    // echo "<br /> categoriesArray::: <br />";
-    // print_r($categoriesArray);
-    // echo "<br /> categoryUrlProduct::: <br />";
-    // print_r($categoryUrlProduct);
-
-    // $GLOBALS['categories_array']=null;
-    // echo "<br /> GLOBALS categories_array: <br />";
-    // print_r($GLOBALS['categories_array']);
-
-    // $GLOBALS['category_url_product']=null;
-    // echo "<br /> GLOBALS category_url_product: <br />";
-    // print_r($GLOBALS['category_url_product']);
-
-    if (!is_null($categoryUrlProduct) && !is_null($categoriesArray)) {
-        // echo "<br /> ENTRÓ $categoryUrlProduct !== false  && !is_null($categoriesArray) <br />";
-        // echo "<br /> >>>categoriesArray::: <br />";
-        // print_r($categoriesArray);
-        // $GLOBALS['categories_array']=$categoriesArray;
-        // $GLOBALS['category_url_product']=$categoryUrlProduct;
-    }
-    // echo "<br /> GLOBALS categories_array: <br />";
-    // print_r($GLOBALS['categories_array']);
-
-    // echo "<br /> GLOBALS category_url_product: <br />";
-    // print_r($GLOBALS['category_url_product']);
 
 
     includeTemplate('header', $inicio = true);
