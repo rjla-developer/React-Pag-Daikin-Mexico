@@ -1,4 +1,4 @@
-<div class="hero-products-category">
+<div class="hero-products-vrv">
     <div class="overlay-products">
         <div class="daikin-products container">
             <h3 class="white-title-culture">CATEGORY</h3>

@@ -24,3 +24,8 @@ RewriteRule ^politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-
 
 RewriteRule ^terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio/$ ./includes/daikin/newsInt2.php
 RewriteRule ^terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio$ ./includes/daikin/newsInt2.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^categorias/?(.*)$ ./includes/daikin/categories.php?route=/$1 [L,QSA]
