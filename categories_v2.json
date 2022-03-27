@@ -1,0 +1,377 @@
+{
+    "categories": {
+        "category-vrv": {
+            "level": "0",
+            "key": "category-vrv",
+            "title": "VRV",
+            "description": "TEST Con nuestra tecnología CATEGORY®, podemos personalizar cada zona de manera individual, ya sea por cuarto o por piso, dando como resultado una mayor eficiencia y un consumo mínimo de energía eléctrica.<br /><br />Estos sistemas están enfocados para uso comercial, como pueden ser: oficinas, colegios, hoteles, hospitales, residencias, etc. Este resultado se logra gracias a su gran adaptabilidad de diseño.<br /><br />Los productos Daikin son reconocidos por su gran calidad y confiabilidad. Ofrecemos una amplia variedad de productos de última generación, diseñados y fabricados con tecnologías propias, que brindan la flexibilidad de adaptarse a los requerimiento de su aplicación.",
+            "products": {},
+            "categories": {
+                "category-vrv-lvl-1-opt-1": {
+                    "level": "1",
+                    "key": "category-vrv-lvl-1-opt-1",
+                    "title": "Enfriados por agua",
+                    "products": {
+                        "vrv-lvl-1-opt-1-prod-1": {
+                            "id": "vrv-lvl-1-opt-1-prod-1",
+                            "images": [
+                                "https://new.daikin.com.mx/build/img/vrv/VRV-W-HEAT-PUMP-HEAT-RECOVERY.png"
+                            ],
+                            "content": {
+                                "title": "TEST - VRV W Heat Recovery Frío y calor simultáneos",
+                                "description": "Las condensadoras VRV W Heat Recovery tienen la capacidad de trabajar en frío y en calor al mismo tiempo, obteniendo un mayor rendimiento del sistema y ofreciendo flexibilidad de diseño.",
+                                "features": [
+                                    {
+                                        "feature": "Gran variedad de cajas selectoras"
+                                    },
+                                    {
+                                        "feature": "Reaprovechamiento de energía"
+                                    },
+                                    {
+                                        "feature": "Arranque sencillo del sistema"
+                                    },
+                                    {
+                                        "feature": "Direccionamiento automático de los equipos"
+                                    }
+                                ]
+                            },
+                            "downloads": [
+                                {
+                                    "download_link": "https://new.daikin.com.mx/daikin-content/vrv/Catálogo-Comercial-VRV-IV-HR.pdf",
+                                    "download_text": "Catálogo comercial"
+                                },
+                                {
+                                    "download_link": "https://new.daikin.com.mx/daikin-content/vrv/MI-VRV-IV-HR-REYQ-TTJU-y-TYDN-OK.pdf",
+                                    "download_text": "Manual de instalación"
+                                },
+                                {
+                                    "download_link": "https://new.daikin.com.mx/daikin-content/vrv/MO-VRV-IV-HR-REYQ-TTJU-y-TYDN.pdf",
+                                    "download_text": "Manual de operación"
+                                }
+                            ]
+                        },
+                        "vrv-lvl-1-opt-1-prod-2": {
+                            "id": "vrv-lvl-1-opt-1-prod-2",
+                            "images": [
+                                "https://new.daikin.com.mx/build/img/vrv/Daikin-VRV-WII.png"
+                            ],
+                            "content": {
+                                "title": "VRV W Heat Pump – Sistemas inteligentes",
+                                "description": "Las condensadoras VRV W integran el principio del funcionamiento de los sistemas enfriados por aire; utilizando el agua como medio de disipación de calor, logran un equipo mas compacto, flexible y eficiente.",
+                                "features": [
+                                    {
+                                        "feature": "Reducción en el área de servicio"
+                                    },
+                                    {
+                                        "feature": "Sin la necesidad de descarga de aire"
+                                    },
+                                    {
+                                        "feature": "Mejor distribución de la capacidad en el inmueble"
+                                    },
+                                    {
+                                        "feature": "Menor espacio de instalación"
+                                    }
+                                ]
+                            },
+                            "downloads": [
+                                {
+                                    "download_link": "https://new.daikin.com.mx/daikin-content/vrv/VRV-III-W-ilovepdf-compressed-2.pdf",
+                                    "download_text": "Catálogo comercial"
+                                },
+                                {
+                                    "download_link": "https://new.daikin.com.mx/daikin-content/vrv/MO-VRV-III-W.pdf",
+                                    "download_text": "Manual de instalación"
+                                },
+                                {
+                                    "download_link": "https://new.daikin.com.mx/daikin-content/vrv/MI-VRV-III-W.pdf",
+                                    "download_text": "Manual de operación"
+                                }
+                            ]
+                        }
+                    },
+                    "categories": {}
+                },
+                "category-vrv-lvl-1-opt-2": {
+                    "level": "1",
+                    "key": "category-vrv-lvl-1-opt-2",
+                    "title": "Enfriados por aire",
+                    "products": {
+                        "vrv-lvl-1-opt-2-prod-1": {
+                            "id": "vrv-lvl-1-opt-2-prod-1",
+                            "images": [""],
+                            "content": {
+                                "title": "",
+                                "description": "",
+                                "features": [
+                                    {
+                                        "feature": ""
+                                    }
+                                ]
+                            },
+                            "downloads": [
+                                {
+                                    "download_link": "",
+                                    "download_text": ""
+                                }
+                            ]
+                        },
+                        "vrv-lvl-1-opt-2-prod-2": {
+                            "id": "vrv-lvl-1-opt-2-prod-2",
+                            "images": [""],
+                            "content": {
+                                "title": "",
+                                "description": "",
+                                "features": [
+                                    {
+                                        "feature": ""
+                                    }
+                                ]
+                            },
+                            "downloads": [
+                                {
+                                    "download_link": "",
+                                    "download_text": ""
+                                }
+                            ]
+                        },
+                        "vrv-lvl-1-opt-2-prod-3": {
+                            "id": "vrv-lvl-1-opt-2-prod-3",
+                            "images": [""],
+                            "content": {
+                                "title": "",
+                                "description": "",
+                                "features": [
+                                    {
+                                        "feature": ""
+                                    }
+                                ]
+                            },
+                            "downloads": [
+                                {
+                                    "download_link": "",
+                                    "download_text": ""
+                                }
+                            ]
+                        }
+                    },
+                    "categories": {}
+                },
+                "category-vrv-lvl-1-opt-3": {
+                    "level": "1",
+                    "key": "category-vrv-lvl-1-opt-3",
+                    "title": "Nuevos controles y accesorios",
+                    "products": {},
+                    "categories": {}
+                },
+                "category-vrv-lvl-1-opt-4": {
+                    "level": "1",
+                    "key": "category-vrv-lvl-1-opt-4",
+                    "title": "Unidades interiores",
+                    "products": {},
+                    "categories": {}
+                },
+                "products": {}
+            }
+        },
+        "category-residencial": {
+            "level": "0",
+            "key": "category-residencial",
+            "title": "Residencial",
+            "products": {
+                "residencial-lvl-0-opt-1-prod-1": {
+                    "id": "residencial-lvl-0-opt-1-prod-1",
+                    "images": [
+                        "https://new.daikin.com.mx/build/img/vrv/VRV-W-HEAT-PUMP-HEAT-RECOVERY.png"
+                    ],
+                    "content": {
+                        "title": "VRV W Heat Recovery Frío y calor simultáneos",
+                        "description": "Las condensadoras VRV W Heat Recovery tienen la capacidad de trabajar en frío y en calor al mismo tiempo, obteniendo un mayor rendimiento del sistema y ofreciendo flexibilidad de diseño.",
+                        "features": [
+                            {
+                                "feature": "Gran variedad de cajas selectoras"
+                            },
+                            {
+                                "feature": "Reaprovechamiento de energía"
+                            },
+                            {
+                                "feature": "Arranque sencillo del sistema"
+                            },
+                            {
+                                "feature": "Direccionamiento automático de los equipos"
+                            }
+                        ]
+                    },
+                    "downloads": [
+                        {
+                            "download_link": "https://new.daikin.com.mx/daikin-content/vrv/Catálogo-Comercial-VRV-IV-HR.pdf",
+                            "download_text": "Catálogo comercial"
+                        },
+                        {
+                            "download_link": "https://new.daikin.com.mx/daikin-content/vrv/MI-VRV-IV-HR-REYQ-TTJU-y-TYDN-OK.pdf",
+                            "download_text": "Manual de instalación"
+                        },
+                        {
+                            "download_link": "https://new.daikin.com.mx/daikin-content/vrv/MO-VRV-IV-HR-REYQ-TTJU-y-TYDN.pdf",
+                            "download_text": "Manual de operación"
+                        }
+                    ]
+                }
+            },
+            "categories": {
+                "category-residencial-lvl-1-opt-1": {
+                    "level": "1",
+                    "key": "category-residencial-lvl-1-opt-1",
+                    "title": "Minisplits",
+                    "products": {
+                        "residencial-lvl-1-opt-1-prod-1": {
+                            "id": "residencial-lvl-1-opt-1-prod-1",
+                            "images": [""],
+                            "content": {
+                                "title": "",
+                                "description": "",
+                                "features": [
+                                    {
+                                        "feature": ""
+                                    }
+                                ]
+                            },
+                            "downloads": [
+                                {
+                                    "download_link": "",
+                                    "download_text": ""
+                                }
+                            ]
+                        },
+                        "residencial-lvl-1-opt-1-prod-2": {
+                            "id": "residencial-lvl-1-opt-1-prod-2",
+                            "images": [""],
+                            "content": {
+                                "title": "",
+                                "description": "",
+                                "features": [
+                                    {
+                                        "feature": ""
+                                    }
+                                ]
+                            },
+                            "downloads": [
+                                {
+                                    "download_link": "",
+                                    "download_text": ""
+                                }
+                            ]
+                        }
+                    },
+                    "categories": {}
+                },
+                "category-residencial-lvl-1-opt-2": {
+                    "level": "1",
+                    "key": "category-residencial-lvl-1-opt-2",
+                    "title": "Divididos residenciales",
+                    "products": {},
+                    "categories": {
+                        "category-residencial-lvl-2-opt-1": {
+                            "level": "2",
+                            "key": "category-residencial-lvl-2-opt-1",
+                            "title": "Condensadoras",
+                            "products": {},
+                            "categories": {
+                                "category-residencial-lvl-3-opt-1": {
+                                    "level": "3",
+                                    "key": "category-residencial-lvl-3-opt-1",
+                                    "title": "Sólo frío",
+                                    "products": {
+                                        "residencial-lvl-3-opt-1-prod-1": {
+                                            "id": "residencial-lvl-3-opt-1-prod-1",
+                                            "images": [
+                                                "http://daikin-mx-website.meg.lo//build/img/residencial/CKL-GSC13-GSX13-GSX16-2.jpg"
+                                            ],
+                                            "content": {
+                                                "title": "GSX14",
+                                                "description": "Eficiencia 14 SEER<br>Refrigerante R- 410A<br>Capacidades de 1.5 A 5 T.R.<br><br><img src='http://daikin.com.mx/wp-content/uploads/2017/02/R401.png' width='100' height='auto'>",
+                                                "features": [
+                                                    {
+                                                        "feature": "14 SEER"
+                                                    },
+                                                    {
+                                                        "feature": "Compresor Scroll silencioso de alta eficiencia"
+                                                    },
+                                                    {
+                                                        "feature": "Gabinete de acero con pintura de alta resistencia a la intemperie"
+                                                    },
+                                                    {
+                                                        "feature": "Serpentín Cobre aluminio (Smart Coil)"
+                                                    },
+                                                    {
+                                                        "feature": "Compresor COPELAND."
+                                                    },
+                                                    {
+                                                        "feature": "Tubo de cobre y aletas de aluminio"
+                                                    },
+                                                    {
+                                                        "feature": "208-230V"
+                                                    },
+                                                    {
+                                                        "feature": "Compatibles con evaporadores MQS, MQFC, MQCC, ARUF, ARPT"
+                                                    }
+                                                ]
+                                            },
+                                            "downloads": []
+                                        },
+                                        "residencial-lvl-3-opt-1-prod-2": {
+                                            "id": "residencial-lvl-3-opt-1-prod-2",
+                                            "images": [""],
+                                            "content": {
+                                                "title": "",
+                                                "description": "",
+                                                "features": [
+                                                    {
+                                                        "feature": ""
+                                                    }
+                                                ]
+                                            },
+                                            "downloads": [
+                                                {
+                                                    "download_link": "",
+                                                    "download_text": ""
+                                                }
+                                            ]
+                                        },
+                                        "residencial-lvl-3-opt-1-prod-3": {
+                                            "id": "residencial-lvl-3-opt-1-prod-3",
+                                            "images": [""],
+                                            "content": {
+                                                "title": "",
+                                                "description": "",
+                                                "features": [
+                                                    {
+                                                        "feature": ""
+                                                    }
+                                                ]
+                                            },
+                                            "downloads": [
+                                                {
+                                                    "download_link": "",
+                                                    "download_text": ""
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "categories": null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category-aplicado": {
+            "level": "0",
+            "key": "category-aplicado",
+            "title": "Aplicado",
+            "products": {},
+            "categories": {}
+        }
+    },
+    "products": {}
+}

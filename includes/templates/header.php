@@ -60,11 +60,11 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           
-          <a class="dropdown-item" href="<?=GLOBAL_URL;?>productos/vrv/1"><i class="bi bi-chevron-right"></i>VRV</a>
+          <a class="dropdown-item" href="<?=GLOBAL_URL;?>categorias/category-vrv/"><i class="bi bi-chevron-right"></i>VRV</a>
           
-          <a class="dropdown-item" href="<?=GLOBAL_URL;?>productos/residencial/1"><i class="bi bi-chevron-right"></i>Residencial</a>
+          <a class="dropdown-item" href="<?=GLOBAL_URL;?>categorias/category-residencial/"><i class="bi bi-chevron-right"></i>Residencial</a>
           
-          <a class="dropdown-item" href="<?=GLOBAL_URL;?>productos/aplicado/1"><i class="bi bi-chevron-right"></i>Aplicado</a>
+          <a class="dropdown-item" href="<?=GLOBAL_URL;?>categorias/category-aplicado/"><i class="bi bi-chevron-right"></i>Aplicado</a>
         </div>
       </li>
 
