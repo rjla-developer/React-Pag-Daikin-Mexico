@@ -1,9 +1,25 @@
 <?php
     require '../functions.php';
 
-
     $categoriesFlag = false;
-    $categoriesJson = file_get_contents("https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/categories_v2.json");
+
+    // $url_lineups = "https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/lineups.json";
+    // $url_lineups = "https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/categories_v2.json";
+    $url_lineups = "../../categories_v2.json";
+
+    if (file_exists($cache_lineups_file) && (filemtime($cache_lineups_file) > (time() - 60 * 1 ))) {
+        // Cache file is less than five minutes old. 
+        // Don't bother refreshing, just use the file as-is.
+        $file = file_get_contents($cache_lineups_file);
+     } else {
+        // Our cache is out-of-date, so load the data from our remote server,
+        // and also save it over our cache for next time.
+        $file = file_get_contents($url_lineups);
+        file_put_contents($cache_lineups_file, $file, LOCK_EX);
+     }
+
+    $categoriesJson = $file;
+
     $categoriesObject = json_decode($categoriesJson);
     $categoriesArray = json_decode($categoriesJson, true);
 

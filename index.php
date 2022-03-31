@@ -327,16 +327,17 @@ includeTemplate('modal');
 
         <div class="news-card">
             <div class="slide">
-                    <div class="news-wrapper">
-                        <p class="blue-title news-name">Nuevo vicepresidente</p>
-                        <div class="img-cont">
-                            <img src="build/img/noticia4.jpg" alt=""> 
-                        </div>
-                        <div class="card-content">
-                            <p class="dark-text-news">Ing. Javier Moreno Nuevo Vice...
-                            </p>
+                <div class="news-wrapper">
+                    <p class="blue-title news-name">Política Antisoborno</p>
+                    <div class="img-cont">
+                        <img src="build/img/noticia1.jpg" alt=""> 
+                    </div>
+                    <div class="card-content">
+                        <p class="dark-text-news">Política anti-soborno, antilavado
+                            de dinero...
+                        </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-corruptas-en-el-extranjero-de-1977-foreign-corrupt-practices-act-o-fcpa"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
@@ -345,16 +346,16 @@ includeTemplate('modal');
 
         <div class="news-card">
             <div class="slide">
-                    <div class="news-wrapper">
-                        <p class="blue-title news-name">Nuevo vicepresidente</p>
-                        <div class="img-cont">
-                            <img src="build/img/noticia4.jpg" alt=""> 
-                        </div>
-                        <div class="card-content">
-                            <p class="dark-text-news">Ing. Javier Moreno Nuevo Vice...
-                            </p>
+                <div class="news-wrapper">
+                    <p class="blue-title news-name">Términos y Condiciones</p>
+                    <div class="img-cont">
+                        <img src="build/img/noticia2.jpg" alt=""> 
+                    </div>
+                    <div class="card-content">
+                        <p class="dark-text-news">Términos y Condiciones de...
+                        </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
