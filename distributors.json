@@ -14,6 +14,18 @@
                     "site": "www.climaproyectos.com",
                     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.0510544187746!2d-103.3310035851567!3d20.626775706755495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b25be421b667%3A0x3230358852370493!2sCalz.%20L%C3%A1zaro%20C%C3%A1rdenas%201445%2C%20Alamo%20Industrial%2C%2045593%20San%20Pedro%20Tlaquepaque%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1632522556292!5m2!1ses-419!2smx"
                 }
+            },
+            {
+                "content": {
+                    "image": "Logo-AIREMERCADO.png",
+                    "partner": "Airemercado ",
+                    "titular": "",
+                    "calle": "Av España 1264, Moderna, 44190 Guadalajara, Jal.",
+                    "phone": "(33)36157995 y (33)36169192",
+                    "email": "mkt-digital@airemercado.mx",
+                    "site": "https://airemercado.mx/",
+                    "map": ""
+                }
             }
         ]
     },

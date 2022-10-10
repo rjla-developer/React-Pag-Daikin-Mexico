@@ -18,6 +18,9 @@ $name = $city['city'];
 $state = $city['state'];
 $distributors = $city['distributors'];
 
+// print_r('---');
+// print_r($distributors);
+
 if ($cityUrl !== false && $city !== false) {
 ?>
     <div class="container">
@@ -39,10 +42,12 @@ if ($cityUrl !== false && $city !== false) {
                         </div>
                         <div class="contact-details">
                             <h3 class="dark-title align-left"><?= $distributor['content']['partner']; ?></h3>
-                        <div class="details">
-                            <p class="dark-text">Titular</p>
-                            <p class="dark-text"><?= $distributor['content']['titular']; ?></p>
-                        </div>
+                        <?php if($distributor['content']['titular'] != ""){ ?>
+                            <div class="details">
+                                <p class="dark-text">Titular</p>
+                                <p class="dark-text"><?= $distributor['content']['titular']; ?></p>
+                            </div>
+                        <?php } ?>
                         <div class="details">
                             <p class="dark-text">Calle</p>
                             <p class="dark-text"><?= $distributor['content']['calle']; ?></p>
@@ -55,10 +60,12 @@ if ($cityUrl !== false && $city !== false) {
                             <p class="dark-text">E-Mail</p>
                             <p class="dark-text"><?= $distributor['content']['email']; ?></p>
                         </div>
-                        <div class="details">
-                            <p class="dark-text">Sitio Web</p>
-                            <p class="dark-text"><?= $distributor['content']['site']; ?></p>
-                        </div>
+                        <?php if($distributor['content']['site'] != ""){ ?>
+                            <div class="details">
+                                <p class="dark-text">Sitio Web</p>
+                                <p class="dark-text"><?= $distributor['content']['site']; ?></p>
+                            </div>
+                        <?php } ?>
                     </div>
                     </div>
                     

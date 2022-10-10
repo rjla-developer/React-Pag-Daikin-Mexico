@@ -3,9 +3,8 @@
 
     $categoriesFlag = false;
 
-    // $url_lineups = "https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/lineups.json";
+    $url_lineups = "https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/lineups.json";
     // $url_lineups = "https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/categories_v2.json";
-    $url_lineups = "../../categories_v2.json";
 
     if (file_exists($cache_lineups_file) && (filemtime($cache_lineups_file) > (time() - 60 * 1 ))) {
         // Cache file is less than five minutes old. 

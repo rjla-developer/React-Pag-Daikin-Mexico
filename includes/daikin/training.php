@@ -2,6 +2,24 @@
 require '../functions.php';
 includeTemplate('header', $inicio = true);
 includeTemplate('modal');
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$url_lineups = "https://daikinmx.megcrm.mx/internal/api/training-center/events";
+
+$file = file_get_contents($url_lineups);
+$coursesJson = $file;
+
+$coursesObject = json_decode($coursesJson);
+$events = json_decode($coursesJson, true);
+
+// print_r("\n\n url_lineups: ");
+// print_r($url_lineups);
+// print_r("\n\n events: ");
+// print_r($events);
+
 ?>
 
 <div class="hero-training">
@@ -14,7 +32,7 @@ includeTemplate('modal');
 </div>
 
 <div class="gray-separator">
-    <h3 class="white-title-culture">Elige un curso</h3>
+    <h3 class="white-title-culture">Elige un cursos</h3>
 </div>
 <div class="gray-separator">
 
@@ -23,36 +41,59 @@ includeTemplate('modal');
     </div>
 </div>
 
+<?php
+    //$events = $coursesArray["events"];
+    for($i = 0; $i < sizeof($events); $i++){
+        // echo '<i class="bi bi-chevron-right"></i>'.$events[$i]["title"].'';
+        // style="gap: 3rem !important; margin: 3rem auto !important;"
+?>
+        <div class="course-container container" style="border-top: 1px solid #dddddd; padding-top: 25px;">
+            <div class="daikin-wbt-container">
+                <h3 class="blue-title-cult"><?=$events[$i]["title"];?></h3>
 
-<div class="course-container container">
-    <div class="daikin-wbt-container">
-        <h3 class="blue-title-cult">Daikin WBT</h3>
+                <p class="dark-text"><?=$events[$i]["description"];?></p>
 
-        <p class="dark-text">Entrenamiento WEB.</p>
-        <p class="dark-text">Sólo requieres computadora y conexión a internet.</p>
-    </div>
+                <img src="<?=$events[$i]["banner_url"];?>" style="max-width: 100%; max-height: 150px; margin-top: 25px;" />
+            </div>
 
+            <div class="course-details">
+                <div class="details-container" style="grid-template-rows: repeat(3,1fr) !important;">
+                    <h3 class="blue-title-cult">Duración</h3>
+                    <h3 class="blue-title-cult">Dirección</h3>
+                    <h3 class="blue-title-cult">Regístrate: </h3>
+                    <?php if ($events[$i]['documents']) {?>
+                        <h3 class="blue-title-cult">Documentos: </h3>
+                    <?php } ?>
+                </div>
 
-    <div class="course-details">
-        <div class="details-container">
-            <h3 class="blue-title-cult">Duración</h3>
-            <h3 class="blue-title-cult">Tamaño de grupo</h3>
-            <h3 class="blue-title-cult">Prerequisitos</h3>
-            <h3 class="blue-title-cult">Precio</h3>
-            <h3 class="blue-title-cult">Capacitadores</h3>
-            <h3 class="blue-title-cult">Horario</h3>
+                <div class="details-info" style="grid-template-rows: repeat(3,1fr) !important;">
+                    <p class="dark-text">Del <b><?=$events[$i]["from"];?></b> al <b><?=$events[$i]["to"];?></b> </p>
+                    <p class="dark-text"><?=$events[$i]["address"];?></p>
+                    <p class="dark-text"> <a target="_blank" href="<?=$events[$i]["registration_form"];?>"> <?=$events[$i]["registration_form"];?> </a> </p>
+
+                    <?php if ($events[$i]['documents']) {?>
+                        <div class="download-container">
+                            <div class="download-options">
+                                <?php
+                                    foreach ($events[$i]['documents'] as $document) {
+                                        // print_r("\n\n value: ");
+                                        // print_r($value);
+                                ?>
+                                    <div class="download-option" style="margin: 10px 0;">
+                                        <a target="blank" href="<?= $document['url']; ?>">  <?= $document['name']; ?></a>
+                                    </div>
+                                <?php
+                                    }
+                                ?>
+                            </div>
+                        </div>
+                    <?php
+                        }
+                    ?>
+                </div>
+            </div>
         </div>
-
-        <div class="details-info">
-            <p class="dark-text">1 dia (8horas)</p>
-            <p class="dark-text">30 personas</p>
-            <p class="dark-text">Ninguno</p>
-            <p class="dark-text">$90 dólares américanos (más IVA)</p>
-            <p class="dark-text">Francisco Raúl Chavolla</p>
-            <p class="dark-text">00:00 - 23:59</p>
-        </div>
-    </div>
-</div>
+<?php } ?>
 
 <div class="download-cont container">
     <a href="">Cuentas de depósito</a>

@@ -2,6 +2,13 @@
 require 'includes/functions.php';
 includeTemplate('header', $inicio = true);
 includeTemplate('modal');
+
+
+$url_lineups = "https://daikinmx.megcrm.mx/internal/api/training-center/events";
+$file = file_get_contents($url_lineups);
+$coursesJson = $file;
+$coursesObject = json_decode($coursesJson);
+$events = json_decode($coursesJson, true);
 ?>
 
 <div class="hero">
@@ -83,7 +90,7 @@ includeTemplate('modal');
 <section class="projects" id="projects">
     <h1 class="dark-title">Proyectos</h1>
     <h3 class="blue-title">LIDERANDO EL CAMINO DE LA CLIMATIZACIÓN SUSTENTABLE</h3>
-    <div class="slider container">
+    <div class="slider slider-gral container">
         <a href="<?= GLOBAL_URL; ?>includes/daikin/mall.php">
             <div class="project-card">
                 <div class="slide">
@@ -254,7 +261,46 @@ includeTemplate('modal');
             <h3>Formando especialistas en aire acondicionado.</h3>
             <p class="dot-center"><i class="bi bi-circle-fill"></i></p>
             <div class="btn-main">
-                <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training.php"><i class="bi bi-chevron-right"></i>Conoce Más</a>
+                <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training.php">
+                    <i class="bi bi-chevron-right" style="color: white !important;"></i>
+                    Conoce Más
+                </a>
+            </div>
+
+            <div class="slider slider-training container">
+                <?php
+                    for($i = 0; $i < sizeof($events); $i++){
+                ?>
+                    <div class="project-card">
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="<?=$events[$i]["banner_url"];?>" alt="<?=$events[$i]["title"];?>">
+                            </div>
+                            <div class="slide-container">
+                                <p class="slide-title"><?=$events[$i]["title"];?></p>
+
+                                <p class="slide-text"><?=$events[$i]["description"];?></p>
+
+                                <p class="slide-text">Del <b><?=$events[$i]["from"];?></b> al <b><?=$events[$i]["to"];?></b></p>
+                            </div>
+                            <div class="slide-buttons">
+                                <div class="btn-main">
+                                    <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training_detail.php?id=<?=$events[$i]["id"];?>">
+                                        Detalles
+                                    </a>
+                                </div>
+                                <div class="btn-main">
+                                    <a class="btn-dark" href="<?=$events[$i]["registration_form"];?>" target="_blank">
+                                        Regístrate
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <?php
+                    }
+                ?>
             </div>
         </div>
     </div>
@@ -287,7 +333,7 @@ includeTemplate('modal');
 
 <section class="news">
     <h1 class="dark-title">Noticias</h1>
-    <div class="slider container">
+    <div class="slider slider-gral container">
         <div class="news-card">
             <div class="slide">
                 <div class="news-wrapper">
@@ -328,34 +374,33 @@ includeTemplate('modal');
         <div class="news-card">
             <div class="slide">
                 <div class="news-wrapper">
-                    <p class="blue-title news-name">Política Antisoborno</p>
+                    <p class="blue-title news-name">Daikin anuncia inversión </p>
                     <div class="img-cont">
-                        <img src="build/img/noticia1.jpg" alt=""> 
+                        <img height="170px" src="build/img/noticia-5-chica.jpg" alt=""> 
                     </div>
                     <div class="card-content">
-                        <p class="dark-text-news">Política anti-soborno, antilavado
-                            de dinero...
+                        <p class="dark-text-news" style="font-size: 14px;">De $300 millones de dólares en San Luis Potosí...
                         </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-corruptas-en-el-extranjero-de-1977-foreign-corrupt-practices-act-o-fcpa"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>daikin-inversion-san-luis-potosi"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        
         <div class="news-card">
             <div class="slide">
                 <div class="news-wrapper">
-                    <p class="blue-title news-name">Términos y Condiciones</p>
+                    <p class="blue-title news-name">Daikin Comfort Technologies</p>
                     <div class="img-cont">
-                        <img src="build/img/noticia2.jpg" alt=""> 
+                        <img height="170px" src="build/img/planta1.jpg" alt=""> 
                     </div>
                     <div class="card-content">
-                        <p class="dark-text-news">Términos y Condiciones de...
+                        <p class="dark-text-news" style="font-size: 14px;">Daikin Comfort Technologies construirá...
                         </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>daikin-comfort-technologies-planta"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>

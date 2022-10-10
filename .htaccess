@@ -1,6 +1,7 @@
 Options +FollowSymLinks
 RewriteEngine On
 
+
 RewriteRule ^nosotros/cultura/$ ./includes/daikin/cultura.php
 RewriteRule ^nosotros/cultura$ ./includes/daikin/cultura.php
 
@@ -24,6 +25,12 @@ RewriteRule ^politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-
 
 RewriteRule ^terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio/$ ./includes/daikin/newsInt2.php
 RewriteRule ^terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio$ ./includes/daikin/newsInt2.php
+
+RewriteRule ^daikin-comfort-technologies-planta/$ ./includes/daikin/newsInt4.php
+RewriteRule ^daikin-comfort-technologies-planta$ ./includes/daikin/newsInt4.php
+
+RewriteRule ^daikin-inversion-san-luis-potosi/$ ./includes/daikin/newsInt5.php
+RewriteRule ^daikin-inversion-san-luis-potosi$ ./includes/daikin/newsInt5.php
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f

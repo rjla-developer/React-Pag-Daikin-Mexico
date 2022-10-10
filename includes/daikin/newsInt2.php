@@ -175,38 +175,21 @@ includeTemplate('modal');
         <div class="news-card">
             <div class="slide">
                     <div class="news-wrapper">
-                        <p class="blue-title news-name">Nuevo vicepresidente</p>
+                        <p class="blue-title news-name">Daikin Comfort Technologies</p>
                         <div class="img-cont">
-                            <img src="../../build/img/noticia4.jpg" alt=""> 
+                            <img height="170px" src="../../build/img/planta1.jpg" alt=""> 
                         </div>
                         <div class="card-content">
-                            <p class="dark-text-news">Ing. Javier Moreno Nuevo Vice...
+                            <p class="dark-text-news" style="font-size: 14px;">Daikin Comfort Technologies construirá...
                             </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>daikin-comfort-technologies-planta"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <div class="news-card">
-            <div class="slide">
-                    <div class="news-wrapper">
-                        <p class="blue-title news-name">Nuevo vicepresidente</p>
-                        <div class="img-cont">
-                            <img src="../../build/img/noticia4.jpg" alt=""> 
-                        </div>
-                        <div class="card-content">
-                            <p class="dark-text-news">Ing. Javier Moreno Nuevo Vice...
-                            </p>
-                        <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/newsInt3.php"><i class="bi bi-chevron-right"></i>Leer Más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
     </div>
 </section>
