@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".slider").slick({
+    $(".slider-gral").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: false,
@@ -45,6 +45,39 @@ $(document).ready(function () {
         autoplaySpeed: 1000,
         arrows: true,
         dots: true,
+        prevArrow:
+            '<span class="previous"> <i class="bi bi-chevron-left"></i> </span>',
+        nextArrow:
+            '<span class="next"> <i class="bi bi-chevron-right"></i></span>',
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                },
+            },
+        ],
+    });
+});
+
+//slider training
+
+$(document).ready(function () {
+    $(".slider-training").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 1000,
+        arrows: true,
+        dots: false,
         prevArrow:
             '<span class="previous"> <i class="bi bi-chevron-left"></i> </span>',
         nextArrow:

@@ -5,14 +5,12 @@ includeTemplate('modal');
 ?>
 
 <div class="wrapper container">
-    <div class="news-hero3">
-
-    </div>
+    <div class="news-hero2" style="background-image: url(../../build/img/noticia-5-grande.jpeg) !important;"></div>
 
     <div class="news-intro-cont">
-        <div class="news-intro">
+        <div class="news-intro" style="max-width: 40rem;">
             <p class="white-text">
-                ANFAD Nombra nuevo Vicepresidente en el sector de aire acondicionado.
+                Daikin anuncia inversión de $300 millones de dólares en San Luis Potosí para su segunda planta de producción en México
             </p>
         </div>
     </div>
@@ -20,16 +18,31 @@ includeTemplate('modal');
 
 <div class="news-wrapper">
     <div class="news-int container">
-        <h3 class="blue-title-cult">ANFAD Nombra nuevo Vicepresidente en el sector de aire acondicionado.</h3>
-        <p class="dark-text">El pasado 26 de mayo, se reunió el Comité Directivo de Aires acondicionados de la Asociación Nacional de Fabricantes de Aparatos Domésticos (ANFAD), A. C., en donde, además de revisar diferentes temas, se eligió al nuevo Vicepresidente del Sector. Con el consenso unánime de todos los Asociados del Sector, resultó electo el Ing Francisco Javier Moreno López, quien a partir de mayo ocupa esta Vicepresidencia de ANFAD.</p>
-        <p class="dark-text">El nuevo Vicepresidente, que actualmente ocupa el cargo de Director Comercial en la multinacional japonesa Daikin, es Ingeniero en Alimentos con especialidad en Ingeniería en Refrigeración graduado de la UNAM, cuenta con un MBA por la EGADE Business School-Estrategia de Negocios, y lo respaldan más de 26 años de experiencia en la industria de la refrigeración y aire acondicionado.</p>
-        <p class="dark-text">Ante el nombramiento, comenta que “resulta todo un hito en mi carrera, por la importancia de estar como representante de la Asociación en una Industria tan relevante como lo es el HVAC, y al mismo tiempo, es una gran responsabilidad con los agremiados ya que mediante voto han depositado la confianza en mi persona para dirigir y acompañar los planes e iniciativas que surgen dentro del sector”, afirma el directivo.</p>
-        <p class="dark-text">Además, mantiene clara la dirección y los objetivos junto con ANFAD, para “llevar la voz y opinión de la Industria en los foros relevantes que ayuden a brindar las bases de crecimiento, tomando en cuenta nuestra responsabilidad con el medio ambiente y al mismo tiempo ofreciendo mayores beneficios a los usuarios de los equipos que fabricamos, por que a final de cuentas ellos son el motor y la razón de ser de esta industria”, afirma el nuevo Vicepresidente.</p>
+
+        <h4 class="blue-title-cult" style="font-size: 2rem;">    
+            ●	Daikin busca integrar la producción a nivel local para mantener altos estándares de calidad y eficiencia, al mismo tiempo que se generan 2 mil 500 empleos en la entidad
+            <br /><br />
+            ●	La nueva planta de 11 hectáreas entrará en pleno funcionamiento en 2024 y complementará las capacidades regionales de fabricación para América del Norte y en América Latina
+        </h4>
+        
+        <p class="dark-text">
+            <b>San Luis Potosí, México, 12 de septiembre de 2022</b> 
+            Daikin, multinacional líder de la industria de calefacción, ventilación y aire acondicionado (HVAC, por sus siglas en inglés) anunció una inversión de 300 millones de dólares, con lo que se estima se crearán más de 2 mil 500 empleos para la nueva planta que iniciará operaciones en 2024. Con lo anterior, la firma japonesa, reitera su confianza en México y en el estado de San Luis Potosí. 
+        </p>
+        <br />
+        <p class="dark-text">
+            La ceremonia de anuncio de inversión contó con la presencia del Secretario de Desarrollo Económico del Gobierno del Estado de San Luis Potosí, Juan Carlos Valladares Eichelmann, así como los ejecutivos, Shigeki Hagiwara, Oficial Asociado Senior, Representante de Latinoamérica, Daikin Industries, LTD y Andrés Benavides, Director General de Daikin Manufacturing Mexico. La inversión de Daikin en San Luis Potosí, forma parte de la estrategia de crecimiento de la compañía, en respuesta a la creciente demanda de productos en Latinoamérica y América del Norte. 
+        </p>
+        <br />
+        <p class="dark-text">
+            “La producción regional, la innovación, la calidad japonesa y también el fortalecimiento de vínculos con la sociedad en los países en que tenemos presencia, convertirán a Daikin en el líder de la industria de HVAC en Latinoamérica y Norteamérica”, afirmó Shigeki Hagiwara y Andrés Benavides agregó que en esta nueva fábrica se producirán productos residenciales y comerciales, ambos con tecnologías innovadoras y sustentables.
+        </p>
+        <br />
+        <p class="dark-text">
+            El Secretario de Desarrollo Económico del Gobierno del Estado, Juan Carlos Valladares Eichelmann, enfatizó “esta nueva inversión de Daikin, sienta un precedente importante para lograr el objetivo planteado por el gobernador Ricardo Gallardo Cardona para posicionar a San Luis Potosí como el mejor estado para invertir en México; al mismo tiempo, impulsar la expansión y el crecimiento de las empresas que actualmente se encuentran en territorio potosino”.
+        </p>
     </div>
 </div>
-
-
-
 
 <section class="news-cont">
     <h1 class="blue-title-cult container">Otras noticias sobre Daikin México</h1>
@@ -92,8 +105,6 @@ includeTemplate('modal');
     </div>
     </div>
 </section>
-
-
 
 
 <?php

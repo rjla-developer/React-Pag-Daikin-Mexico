@@ -1,35 +1,49 @@
 <?php
     require '../functions.php';
 
+
     $categoriesFlag = false;
+    $categoriesJson = file_get_contents("https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/lineups.json");
+    $categoriesJsonDecode = json_decode($categoriesJson, true);
+    $categoriesArray = $categoriesJsonDecode['categories'];
+    $categoryUrlProduct = (isset($_GET['product'])) ? $_GET['product'] : null;
 
-    $url_lineups = "https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/lineups.json";
-    // $url_lineups = "https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/cms/categories_v2.json";
+    // echo "<br /> categoriesFlag::: <br />";
+    // print_r($categoriesFlag);
+    // echo "<br /> categoriesJson::: <br />";
+    // print_r($categoriesJson);
+    // echo "<br /> categoriesJsonDecode::: <br />";
+    // print_r($categoriesJsonDecode);
+    // echo "<br /> categoriesArray::: <br />";
+    // print_r($categoriesArray);
+    // echo "<br /> categoryUrlProduct::: <br />";
+    // print_r($categoryUrlProduct);
 
-    if (file_exists($cache_lineups_file) && (filemtime($cache_lineups_file) > (time() - 60 * 1 ))) {
-        // Cache file is less than five minutes old. 
-        // Don't bother refreshing, just use the file as-is.
-        $file = file_get_contents($cache_lineups_file);
-     } else {
-        // Our cache is out-of-date, so load the data from our remote server,
-        // and also save it over our cache for next time.
-        $file = file_get_contents($url_lineups);
-        file_put_contents($cache_lineups_file, $file, LOCK_EX);
-     }
+    $GLOBALS['categories_array']=null;
+    // echo "<br /> GLOBALS categories_array: <br />";
+    // print_r($GLOBALS['categories_array']);
 
-    $categoriesJson = $file;
+    $GLOBALS['category_url_product']=null;
+    // echo "<br /> GLOBALS category_url_product: <br />";
+    // print_r($GLOBALS['category_url_product']);
 
-    $categoriesObject = json_decode($categoriesJson);
-    $categoriesArray = json_decode($categoriesJson, true);
+    if (!is_null($categoryUrlProduct) && !is_null($categoriesArray)) {
+        // echo "<br /> ENTRÓ $categoryUrlProduct !== false  && !is_null($categoriesArray) <br />";
+        // echo "<br /> >>>categoriesArray::: <br />";
+        // print_r($categoriesArray);
+        $GLOBALS['categories_array']=$categoriesArray;
+        $GLOBALS['category_url_product']=$categoryUrlProduct;
+    }
+    // echo "<br /> GLOBALS categories_array: <br />";
+    // print_r($GLOBALS['categories_array']);
 
-    $product = false;
-    $urlProduct = (isset($_GET['route'])) ? $_GET['route'] : null;
-    $categoryUrlProduct = explode("/",substr($urlProduct, 1))[0];
+    // echo "<br /> GLOBALS category_url_product: <br />";
+    // print_r($GLOBALS['category_url_product']);
 
 
     includeTemplate('header', $inicio = true);
     includeTemplate('modal');
-    include('categories_body.php');
+    include('category_body.php');
     includeTemplate('footer');
 ?>
 
