@@ -45,11 +45,11 @@ $event = json_decode($coursesJson, true);
     </div>
 </div>
 <!-- style="border-top: 1px solid #dddddd; padding-top: 25px;" -->
-    <div class="course-container container details" style="display: block; margin: 35px auto;">
+    <div class="course-container container details">
 
-        <div class="daikin-wbt-container">
+        <div class="daikin-wbt-container text-center">
             <h3 class="blue-title-cult"><?=$event["title"];?></h3>
-            <img src="<?=$event["banner_url"];?>" style="max-width: 100%; max-height: 150px; margin-top: 25px;" />
+            <img src="<?=$event["banner_url"];?>" class="img-fluid" />
             <p class="dark-text"><?=$event["description"];?></p>
         </div>
 
@@ -65,7 +65,7 @@ $event = json_decode($coursesJson, true);
 
             <div class="details-col">
                 <h3 class="blue-title-cult">Regístrate: </h3>
-                <p class="dark-text"> <a target="_blank" href="<?=$event["registration_form"];?>"> <?=$event["registration_form"];?> </a> </p>
+                <p class="dark-text mt-3"> <a target="_blank" href="<?=$event["registration_form"];?>"> <?=$event["registration_form"];?> </a> </p>
 
                 <h3 class="blue-title-cult">Documentos: </h3>
                 <?php if ($event['documents']) {?>
@@ -76,7 +76,7 @@ $event = json_decode($coursesJson, true);
                                     // print_r("\n\n value: ");
                                     // print_r($value);
                             ?>
-                                <div class="download-option" style="margin: 10px 0;">
+                                <div class="download-option mt-3">
                                     <a target="blank" href="<?= $document['url']; ?>">  <?= $document['name']; ?></a>
                                 </div>
                             <?php
@@ -90,12 +90,6 @@ $event = json_decode($coursesJson, true);
             </div>
         </div>
     </div>
-
-<div class="download-cont container">
-    <a href="">Cuentas de depósito</a>
-    <a href="">Hoteles Cercanos</a>
-    <a href="">Fechas disponibles</a>
-</div>
 
 <div class="wrapper-info">
 <div class="aditional-info-container container">

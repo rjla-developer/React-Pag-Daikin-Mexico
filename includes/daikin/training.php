@@ -32,95 +32,82 @@ $events = json_decode($coursesJson, true);
 </div>
 
 <div class="gray-separator">
-    <h3 class="white-title-culture">Elige un cursos</h3>
-</div>
-<div class="gray-separator">
-
-    <div class="container btn-cont">
-        <a class="btn-blue" href=""><i class="bi bi-chevron-right"></i> Daikin WBT</a>
-    </div>
+    <h3 class="white-title-culture">Elige un curso</h3>
 </div>
 
 <?php
-    //$events = $coursesArray["events"];
-    for($i = 0; $i < sizeof($events); $i++){
-        // echo '<i class="bi bi-chevron-right"></i>'.$events[$i]["title"].'';
-        // style="gap: 3rem !important; margin: 3rem auto !important;"
+//$events = $coursesArray["events"];
+for ($i = 0; $i < sizeof($events); $i++) {
+    // echo '<i class="bi bi-chevron-right"></i>'.$events[$i]["title"].'';
+    // style="gap: 3rem !important; margin: 3rem auto !important;"
 ?>
-        <div class="course-container container" style="border-top: 1px solid #dddddd; padding-top: 25px;">
-            <div class="daikin-wbt-container">
-                <h3 class="blue-title-cult"><?=$events[$i]["title"];?></h3>
+    <div class="course-container container details">
 
-                <p class="dark-text"><?=$events[$i]["description"];?></p>
+        <div class="daikin-wbt-container text-center pt-5 border-top-cls index-<?=$i;?>">
+            <h3 class="blue-title-cult"><?= $events[$i]["title"]; ?></h3>
+            <img src="<?= $events[$i]["banner_url"]; ?>" class="img-fluid" />
+            <p class="dark-text"><?= $events[$i]["description"]; ?></p>
+        </div>
 
-                <img src="<?=$events[$i]["banner_url"];?>" style="max-width: 100%; max-height: 150px; margin-top: 25px;" />
+        <div class="course-details">
+            <div class="details-col first">
+                <h3 class="blue-title-cult">Duración</h3>
+                <p class="dark-text">Del <b><?= $events[$i]["from"]; ?></b> al <b><?= $events[$i]["to"]; ?></b> </p>
+                <h3 class="blue-title-cult">Dirección</h3>
+                <p class="dark-text"><?= $events[$i]["address"]; ?></p>
+                <?php if ($events[$i]['documents']) { ?>
+                <?php } ?>
             </div>
 
-            <div class="course-details">
-                <div class="details-container" style="grid-template-rows: repeat(3,1fr) !important;">
-                    <h3 class="blue-title-cult">Duración</h3>
-                    <h3 class="blue-title-cult">Dirección</h3>
-                    <h3 class="blue-title-cult">Regístrate: </h3>
-                    <?php if ($events[$i]['documents']) {?>
-                        <h3 class="blue-title-cult">Documentos: </h3>
-                    <?php } ?>
-                </div>
+            <div class="details-col">
+                <h3 class="blue-title-cult">Regístrate: </h3>
+                <p class="dark-text mt-3"> <a target="_blank" href="<?= $events[$i]["registration_form"]; ?>"> <?= $events[$i]["registration_form"]; ?> </a> </p>
 
-                <div class="details-info" style="grid-template-rows: repeat(3,1fr) !important;">
-                    <p class="dark-text">Del <b><?=$events[$i]["from"];?></b> al <b><?=$events[$i]["to"];?></b> </p>
-                    <p class="dark-text"><?=$events[$i]["address"];?></p>
-                    <p class="dark-text"> <a target="_blank" href="<?=$events[$i]["registration_form"];?>"> <?=$events[$i]["registration_form"];?> </a> </p>
-
-                    <?php if ($events[$i]['documents']) {?>
-                        <div class="download-container">
-                            <div class="download-options">
-                                <?php
-                                    foreach ($events[$i]['documents'] as $document) {
-                                        // print_r("\n\n value: ");
-                                        // print_r($value);
-                                ?>
-                                    <div class="download-option" style="margin: 10px 0;">
-                                        <a target="blank" href="<?= $document['url']; ?>">  <?= $document['name']; ?></a>
-                                    </div>
-                                <?php
-                                    }
-                                ?>
-                            </div>
+                <h3 class="blue-title-cult">Documentos: </h3>
+                <?php if ($events[$i]['documents']) { ?>
+                    <div class="download-container">
+                        <div class="download-options">
+                            <?php
+                            foreach ($events[$i]['documents'] as $document) {
+                                // print_r("\n\n value: ");
+                                // print_r($value);
+                            ?>
+                                <div class="download-option mt-3">
+                                    <a target="blank" href="<?= $document['url']; ?>"> <?= $document['name']; ?></a>
+                                </div>
+                            <?php
+                            }
+                            ?>
                         </div>
-                    <?php
-                        }
-                    ?>
-                </div>
+                    </div>
+                <?php
+                }
+                ?>
             </div>
         </div>
+    </div>
 <?php } ?>
 
-<div class="download-cont container">
-    <a href="">Cuentas de depósito</a>
-    <a href="">Hoteles Cercanos</a>
-    <a href="">Fechas disponibles</a>
-</div>
-
 <div class="wrapper-info">
-<div class="aditional-info-container container">
-    <div class="people-title container">
-        <h3 class="blue-title-cult">Personas y empresas certificadas</h3>
-    </div>
-    <div class="aditional-info container">
+    <div class="aditional-info-container container">
+        <div class="people-title container">
+            <h3 class="blue-title-cult">Personas y empresas certificadas</h3>
+        </div>
+        <div class="aditional-info container">
 
-        <div class="extra-info"><i class="bi bi-geo-alt-fill"></i>
-            <p class="dark-text">BLVD. Centro Industrial No. 1025 Fraccionamiento Industrial Puente de Vigas, Tlalnepantla de Baz, Edo. de México, C.P. 54070</p>
+            <div class="extra-info"><i class="bi bi-geo-alt-fill"></i>
+                <p class="dark-text">BLVD. Centro Industrial No. 1025 Fraccionamiento Industrial Puente de Vigas, Tlalnepantla de Baz, Edo. de México, C.P. 54070</p>
+            </div>
+
+            <div class="extra-info"><i class="bi bi-map"></i><a href="">Ver en mapa</a></div>
+
+            <div class="extra-info"><i class="bi bi-telephone-fill"></i>
+                <p class="dark-text">(55)50-46-63-20, EXT. 6461 y 6462</p>
+            </div>
+
         </div>
 
-        <div class="extra-info"><i class="bi bi-map"></i><a href="">Ver en mapa</a></div>
-
-        <div class="extra-info"><i class="bi bi-telephone-fill"></i>
-            <p class="dark-text">(55)50-46-63-20, EXT. 6461 y 6462</p>
-        </div>
-
     </div>
-
-</div>
 </div>
 <?php
 includeTemplate('footer');

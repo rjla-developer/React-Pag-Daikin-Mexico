@@ -263,7 +263,7 @@ $events = json_decode($coursesJson, true);
             <div class="btn-main">
                 <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training.php">
                     <i class="bi bi-chevron-right" style="color: white !important;"></i>
-                    Conoce Más
+                    Ver todos los eventos
                 </a>
             </div>
 
@@ -283,18 +283,29 @@ $events = json_decode($coursesJson, true);
 
                                 <p class="slide-text">Del <b><?=$events[$i]["from"];?></b> al <b><?=$events[$i]["to"];?></b></p>
                             </div>
-                            <div class="slide-buttons">
-                                <div class="btn-main">
-                                    <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training_detail.php?id=<?=$events[$i]["id"];?>">
-                                        Detalles
-                                    </a>
+
+                            <?php if(isset($events[$i]["registration_form"])){ ?>
+                                <div class="slide-buttons">
+                                    <div class="btn-main two">
+                                        <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training_detail.php?id=<?=$events[$i]["id"];?>">
+                                            Detalles
+                                        </a>
+                                    </div>
+                                    <div class="btn-main two">
+                                        <a class="btn-dark" href="<?=$events[$i]["registration_form"];?>" target="_blank">
+                                            Regístrate
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="btn-main">
-                                    <a class="btn-dark" href="<?=$events[$i]["registration_form"];?>" target="_blank">
-                                        Regístrate
-                                    </a>
+                            <?php }else{ ?>
+                                <div class="slide-buttons">
+                                    <div class="btn-main">
+                                        <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training_detail.php?id=<?=$events[$i]["id"];?>">
+                                            Detalles
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
+                            <?php } ?>
                         </div>
                     </div>
                 </a>
