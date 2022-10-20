@@ -3,7 +3,6 @@ require 'includes/functions.php';
 includeTemplate('header', $inicio = true);
 includeTemplate('modal');
 
-
 $url_lineups = "https://daikinmx.megcrm.mx/internal/api/training-center/events";
 $file = file_get_contents($url_lineups);
 $coursesJson = $file;
@@ -276,13 +275,14 @@ $events = json_decode($coursesJson, true);
                             <div class="img-cont">
                                 <img src="<?=$events[$i]["banner_url"];?>" alt="<?=$events[$i]["title"];?>">
                             </div>
-                            <div class="slide-container">
+
+                            <!-- <div class="slide-container">
                                 <p class="slide-title"><?=$events[$i]["title"];?></p>
 
                                 <p class="slide-text"><?=$events[$i]["description"];?></p>
 
                                 <p class="slide-text">Del <b><?=$events[$i]["from"];?></b> al <b><?=$events[$i]["to"];?></b></p>
-                            </div>
+                            </div> -->
 
                             <?php if(isset($events[$i]["registration_form"])){ ?>
                                 <div class="slide-buttons">
@@ -308,7 +308,6 @@ $events = json_decode($coursesJson, true);
                             <?php } ?>
                         </div>
                     </div>
-                </a>
                 <?php
                     }
                 ?>
