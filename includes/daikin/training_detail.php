@@ -86,6 +86,28 @@ $event = json_decode($coursesJson, true);
 
             <div class="details-col">
 
+                <?php if(isset($event["documents"])){ ?>
+                    <?php if(sizeof($event["documents"]) > 0){ ?>
+                        <h3 class="blue-title-cult">Documentos: </h3>
+                        <div class="download-container">
+                            <div class="download-options">
+                                <?php
+                                    foreach ($event['documents'] as $document) {
+                                        // print_r("\n\n value: ");
+                                        // print_r($value);
+                                ?>
+                                    <div class="download-option mt-3">
+                                        <a target="blank" href="<?= $document['url']; ?>">  
+                                            <?= $document['name']; ?>
+                                        </a>
+                                    </div>
+                                <?php } ?>
+                            </div>
+                        </div>
+                    <?php } ?>
+                <?php } ?>
+
+
                 <?php if(isset($event["registration_form"])){ ?>
                     <!-- <h3 class="blue-title-cult">Regístrate: </h3>
                     <p class="dark-text mt-3"> 
@@ -94,29 +116,10 @@ $event = json_decode($coursesJson, true);
                         </a> 
                     </p> -->
 
-                    <div class="">
+                    <div class="register-button">
                         <a target="_blank" href="<?= $event["registration_form"]; ?>">
-                            <button type="button" class="btn btn-primary" style="font-size: 20px;"> Regístrate </button>
+                            <button type="button" class="btn btn-primary"> Regístrate </button>
                         </a>
-                    </div>
-                <?php } ?>
-
-                <?php if(isset($event["documents"])){ ?>
-                    <h3 class="blue-title-cult">Documentos: </h3>
-                    <div class="download-container">
-                        <div class="download-options">
-                            <?php
-                                foreach ($event['documents'] as $document) {
-                                    // print_r("\n\n value: ");
-                                    // print_r($value);
-                            ?>
-                                <div class="download-option mt-3">
-                                    <a target="blank" href="<?= $document['url']; ?>">  
-                                        <?= $document['name']; ?>
-                                    </a>
-                                </div>
-                            <?php } ?>
-                        </div>
                     </div>
                 <?php } ?>
                 
@@ -125,25 +128,25 @@ $event = json_decode($coursesJson, true);
     </div>
 
 <div class="wrapper-info">
-<div class="aditional-info-container container">
-    <div class="people-title container">
-        <h3 class="blue-title-cult">Personas y empresas certificadas</h3>
-    </div>
-    <div class="aditional-info container">
+    <div class="aditional-info-container container">
+        <div class="people-title container">
+            <h3 class="blue-title-cult">Personas y empresas certificadas</h3>
+        </div>
+        <div class="aditional-info container">
 
-        <div class="extra-info"><i class="bi bi-geo-alt-fill"></i>
-            <p class="dark-text">BLVD. Centro Industrial No. 1025 Fraccionamiento Industrial Puente de Vigas, Tlalnepantla de Baz, Edo. de México, C.P. 54070</p>
+            <div class="extra-info"><i class="bi bi-geo-alt-fill"></i>
+                <p class="dark-text">BLVD. Centro Industrial No. 1025 Fraccionamiento Industrial Puente de Vigas, Tlalnepantla de Baz, Edo. de México, C.P. 54070</p>
+            </div>
+
+            <div class="extra-info"><i class="bi bi-map"></i><a href="">Ver en mapa</a></div>
+
+            <div class="extra-info"><i class="bi bi-telephone-fill"></i>
+                <p class="dark-text">(55)50-46-63-20, EXT. 6461 y 6462</p>
+            </div>
+
         </div>
 
-        <div class="extra-info"><i class="bi bi-map"></i><a href="">Ver en mapa</a></div>
-
-        <div class="extra-info"><i class="bi bi-telephone-fill"></i>
-            <p class="dark-text">(55)50-46-63-20, EXT. 6461 y 6462</p>
-        </div>
-
     </div>
-
-</div>
 </div>
 <?php
 includeTemplate('footer');

@@ -249,23 +249,29 @@ $events = json_decode($coursesJson, true);
 <section class="training-station">
     <div class="training-img">
         <img srcset="build/img/centro_de_entrenamiento_16-OK.jpg 1032w,
-                    build/img/centro_de_entrenamiento_16-OK.jpg 2064w" sizes="(min-width: 1280px) 1200px,
+                    build/img/centro_de_entrenamiento_16-OK.jpg 2064w" 
+                    sizes="(min-width: 1280px) 1200px,
                     (min-width:1100px) 400px,100vw" 
-                    src="build/img/centro_de_entrenamiento_16-OK.jpg" alt="Daikin">
+                    src="build/img/centro_de_entrenamiento_16-OK.jpg" 
+                    alt="Daikin" />
     </div>
 
-    <div class="training-info container">
+    <div class="training-container">
         <div class="training-content">
             <h2 class="dark-title">Centro de entrenamiento</h2>
             <h3>Formando especialistas en aire acondicionado.</h3>
-            <p class="dot-center"><i class="bi bi-circle-fill"></i></p>
+            <!-- <p class="dot-center"><i class="bi bi-circle-fill"></i></p> -->
             <div class="btn-main">
                 <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training.php">
                     <i class="bi bi-chevron-right" style="color: white !important;"></i>
                     Ver todos los eventos
                 </a>
             </div>
+        </div>
+    </div>
 
+    <div class="training-info container">
+        <div class="training-content">
             <div class="slider slider-training container">
                 <?php
                     for($i = 0; $i < sizeof($events); $i++){

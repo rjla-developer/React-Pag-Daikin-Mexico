@@ -81,6 +81,28 @@ for ($i = 0; $i < sizeof($events); $i++) {
 
             <div class="details-col">
 
+                <?php if(isset($events[$i]["documents"])){ ?>
+                    <?php if(sizeof($events[$i]["documents"]) > 0){ ?>
+                        <h3 class="blue-title-cult">Documentos: </h3>
+                        <div class="download-container">
+                            <div class="download-options">
+                                <?php
+                                foreach ($events[$i]['documents'] as $document) {
+                                    // print_r("\n\n value: ");
+                                    // print_r($value);
+                                ?>
+                                    <div class="download-option mt-3">
+                                        <a target="blank" href="<?= $document['url']; ?>"> 
+                                            <?= $document['name']; ?>
+                                        </a>
+                                    </div>
+                                <?php } ?>
+                            </div>
+                        </div>
+                    <?php } ?>
+                <?php } ?>
+
+
                 <?php if(isset($events[$i]["registration_form"])){ ?>
                     <!-- <h3 class="blue-title-cult">Regístrate: </h3>
                     <p class="dark-text mt-3"> 
@@ -89,29 +111,10 @@ for ($i = 0; $i < sizeof($events); $i++) {
                         </a> 
                     </p> -->
 
-                    <div class="">
-                        <a target="_blank" href="<?= $events[$i]["registration_form"]; ?>">
-                            <button type="button" class="btn btn-primary" style="font-size: 20px;"> Regístrate </button>
+                    <div class="register-button">
+                        <a target="_blank" href="<?= $events[$i]["registration_form"]; ?>"> 
+                            <button type="button" class="btn btn-primary"> Regístrate </button> 
                         </a>
-                    </div>
-                <?php } ?>
-
-                <?php if(isset($events[$i]["documents"])){ ?>
-                    <h3 class="blue-title-cult">Documentos: </h3>
-                    <div class="download-container">
-                        <div class="download-options">
-                            <?php
-                            foreach ($events[$i]['documents'] as $document) {
-                                // print_r("\n\n value: ");
-                                // print_r($value);
-                            ?>
-                                <div class="download-option mt-3">
-                                    <a target="blank" href="<?= $document['url']; ?>"> 
-                                        <?= $document['name']; ?>
-                                    </a>
-                                </div>
-                            <?php } ?>
-                        </div>
                     </div>
                 <?php } ?>
 
