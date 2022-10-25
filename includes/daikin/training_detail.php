@@ -52,9 +52,21 @@ $event = json_decode($coursesJson, true);
             <?php if(isset($event["title"])){ ?>
                 <h3 class="blue-title-cult"><?=$event["title"];?></h3>
             <?php } ?>
+
+
             <?php if(isset($event["banner_url"])){ ?>
-                <img src="<?=$event["banner_url"];?>" class="img-fluid" />
+
+                <?php if(isset($event["registration_form"])){ ?>
+                    <a href="<?=$event["registration_form"];?>" target="_blank">
+                        <img src="<?=$event["banner_url"];?>" class="img-fluid" />
+                    </a>
+                <?php } else { ?>
+                    <img src="<?=$event["banner_url"];?>" class="img-fluid" />
+                <?php } ?>
+
             <?php } ?>
+
+
             <?php if(isset($event["description"])){ ?>
                 <p class="dark-text"><?=$event["description"];?></p>
             <?php } ?>

@@ -275,12 +275,31 @@ $events = json_decode($coursesJson, true);
             <div class="slider slider-training container">
                 <?php
                     for($i = 0; $i < sizeof($events); $i++){
+                        if(isset($events[$i]["banner_url"])){
                 ?>
                     <div class="project-card">
                         <div class="slide">
-                            <div class="img-cont">
-                                <img src="<?=$events[$i]["banner_url"];?>" alt="<?=$events[$i]["title"];?>">
-                            </div>
+
+                            <?php
+                                if(isset($events[$i]["registration_form"])){
+                            ?>
+                                <div class="img-cont">
+                                    <a class="btn-dark" href="<?=$events[$i]["registration_form"];?>" target="_blank">
+                                        <img src="<?=$events[$i]["banner_url"];?>" alt="<?=(isset($events[$i]["title"]))?$events[$i]["title"]:"";?>">
+                                    </a>
+                                </div>
+                            <?php
+                                } else {
+                            ?>
+                                <div class="img-cont">
+                                    <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training_detail.php?id=<?=$events[$i]["id"];?>" target="_blank"> 
+                                        <img src="<?=$events[$i]["banner_url"];?>" alt="<?=(isset($events[$i]["title"]))?$events[$i]["title"]:"";?>">
+                                    </a>
+                                </div>
+                            <?php
+                                    
+                                }
+                            ?>
 
                             <!-- <div class="slide-container">
                                 <p class="slide-title"><?=$events[$i]["title"];?></p>
@@ -315,6 +334,7 @@ $events = json_decode($coursesJson, true);
                         </div>
                     </div>
                 <?php
+                        }
                     }
                 ?>
             </div>

@@ -48,9 +48,21 @@ for ($i = 0; $i < sizeof($events); $i++) {
             <?php if(isset($events[$i]["title"])){ ?>
                 <h3 class="blue-title-cult"><?= $events[$i]["title"]; ?></h3>
             <?php } ?>
+
+
             <?php if(isset($events[$i]["banner_url"])){ ?>
-                <img src="<?= $events[$i]["banner_url"]; ?>" class="img-fluid" />
+
+                <?php if(isset($events[$i]["registration_form"])){ ?>
+                    <a href="<?=$events[$i]["registration_form"];?>" target="_blank">
+                        <img src="<?= $events[$i]["banner_url"]; ?>" class="img-fluid" />
+                    </a>
+                <?php } else { ?>
+                    <img src="<?= $events[$i]["banner_url"]; ?>" class="img-fluid" />
+                <?php } ?>
+
             <?php } ?>
+
+
             <?php if(isset($events[$i]["description"])){ ?>
                 <p class="dark-text"><?= $events[$i]["description"]; ?></p>
             <?php } ?>
