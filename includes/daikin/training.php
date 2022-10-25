@@ -44,45 +44,92 @@ for ($i = 0; $i < sizeof($events); $i++) {
     <div class="course-container container details">
 
         <div class="daikin-wbt-container text-center pt-5 border-top-cls index-<?=$i;?>">
-            <h3 class="blue-title-cult"><?= $events[$i]["title"]; ?></h3>
-            <img src="<?= $events[$i]["banner_url"]; ?>" class="img-fluid" />
-            <p class="dark-text"><?= $events[$i]["description"]; ?></p>
+
+            <?php if(isset($events[$i]["title"])){ ?>
+                <h3 class="blue-title-cult"><?= $events[$i]["title"]; ?></h3>
+            <?php } ?>
+
+
+            <?php if(isset($events[$i]["banner_url"])){ ?>
+
+                <?php if(isset($events[$i]["registration_form"])){ ?>
+                    <a href="<?=$events[$i]["registration_form"];?>" target="_blank">
+                        <img src="<?= $events[$i]["banner_url"]; ?>" class="img-fluid" />
+                    </a>
+                <?php } else { ?>
+                    <img src="<?= $events[$i]["banner_url"]; ?>" class="img-fluid" />
+                <?php } ?>
+
+            <?php } ?>
+
+
+            <?php if(isset($events[$i]["description"])){ ?>
+                <p class="dark-text"><?= $events[$i]["description"]; ?></p>
+            <?php } ?>
+
         </div>
 
         <div class="course-details">
             <div class="details-col first">
-                <h3 class="blue-title-cult">Duración</h3>
-                <p class="dark-text">Del <b><?= $events[$i]["from"]; ?></b> al <b><?= $events[$i]["to"]; ?></b> </p>
-                <h3 class="blue-title-cult">Dirección</h3>
-                <p class="dark-text"><?= $events[$i]["address"]; ?></p>
-                <?php if ($events[$i]['documents']) { ?>
+
+                <?php if(isset($events[$i]["from"]) || isset($events[$i]["to"])){ ?>
+                    <h3 class="blue-title-cult">Duración</h3>
+                    <p class="dark-text">
+                        <?php if(isset($events[$i]["from"])){ ?>
+                            Del <b><?= $events[$i]["from"]; ?></b> 
+                        <?php } ?>
+                        <?php if(isset($events[$i]["to"])){ ?>
+                            al <b><?= $events[$i]["to"]; ?></b> 
+                        <?php } ?>
+                    </p>
                 <?php } ?>
+
+                <?php if(isset($events[$i]["address"])){ ?>
+                    <h3 class="blue-title-cult">Dirección</h3>
+                    <p class="dark-text"><?= $events[$i]["address"]; ?></p>
+                <?php } ?>
+
             </div>
 
             <div class="details-col">
-                <h3 class="blue-title-cult">Regístrate: </h3>
-                <p class="dark-text mt-3"> <a target="_blank" href="<?= $events[$i]["registration_form"]; ?>"> <?= $events[$i]["registration_form"]; ?> </a> </p>
 
-                <h3 class="blue-title-cult">Documentos: </h3>
-                <?php if ($events[$i]['documents']) { ?>
-                    <div class="download-container">
-                        <div class="download-options">
-                            <?php
-                            foreach ($events[$i]['documents'] as $document) {
-                                // print_r("\n\n value: ");
-                                // print_r($value);
-                            ?>
-                                <div class="download-option mt-3">
-                                    <a target="blank" href="<?= $document['url']; ?>"> <?= $document['name']; ?></a>
-                                </div>
-                            <?php
-                            }
-                            ?>
+                <?php if(isset($events[$i]["documents"])){ ?>
+                    <?php if(sizeof($events[$i]["documents"]) > 0){ ?>
+                        <h3 class="blue-title-cult">Documentos: </h3>
+                        <div class="download-container">
+                            <div class="download-options">
+                                <?php
+                                foreach ($events[$i]['documents'] as $document) {
+                                    // print_r("\n\n value: ");
+                                    // print_r($value);
+                                ?>
+                                    <div class="download-option mt-3">
+                                        <a target="blank" href="<?= $document['url']; ?>"> 
+                                            <?= $document['name']; ?>
+                                        </a>
+                                    </div>
+                                <?php } ?>
+                            </div>
                         </div>
+                    <?php } ?>
+                <?php } ?>
+
+
+                <?php if(isset($events[$i]["registration_form"])){ ?>
+                    <!-- <h3 class="blue-title-cult">Regístrate: </h3>
+                    <p class="dark-text mt-3"> 
+                        <a target="_blank" href="<?= $events[$i]["registration_form"]; ?>"> 
+                            <?= $events[$i]["registration_form"]; ?> 
+                        </a> 
+                    </p> -->
+
+                    <div class="register-button">
+                        <a target="_blank" href="<?= $events[$i]["registration_form"]; ?>"> 
+                            <button type="button" class="btn btn-primary"> Regístrate </button> 
+                        </a>
                     </div>
-                <?php
-                }
-                ?>
+                <?php } ?>
+
             </div>
         </div>
     </div>
