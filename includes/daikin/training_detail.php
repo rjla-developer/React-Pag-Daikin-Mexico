@@ -49,14 +49,14 @@ $event = json_decode($coursesJson, true);
 
         <div class="daikin-wbt-container text-center">
         
-            <?php if(isset($event["title"])){ ?>
+            <?php if(isset($event["title"]) && $event["title"]!=""){ ?>
                 <h3 class="blue-title-cult"><?=$event["title"];?></h3>
             <?php } ?>
 
 
-            <?php if(isset($event["banner_url"])){ ?>
+            <?php if(isset($event["banner_url"]) && $event["banner_url"]!=""){ ?>
 
-                <?php if(isset($event["registration_form"])){ ?>
+                <?php if(isset($event["registration_form"]) && $event["registration_form"]!=""){ ?>
                     <a href="<?=$event["registration_form"];?>" target="_blank">
                         <img src="<?=$event["banner_url"];?>" class="img-fluid" />
                     </a>
@@ -67,29 +67,38 @@ $event = json_decode($coursesJson, true);
             <?php } ?>
 
 
-            <?php if(isset($event["description"])){ ?>
+            <?php if(isset($event["description"]) && $event["description"]!=""){ ?>
                 <p class="dark-text"><?=$event["description"];?></p>
             <?php } ?>
 
         </div>
 
         <div class="course-details">
-            <div class="details-col first">
+
+            <?php 
+                if(isset($event["documents"]) && isset($event["registration_form"]) && $event["registration_form"]!=""){
+            ?>
+                <div class="details-col first">
+            <?php } else { ?>
+                <div class="details-col">
+            <?php
+                }
+            ?>
 
                 <?php if(isset($event["from"]) || isset($event["to"])){ ?>
                     <h3 class="blue-title-cult">Duración</h3>
                     <p class="dark-text">
-                        <?php if(isset($event["from"])){ ?>
+                        <?php if(isset($event["from"]) && $event["from"]!=""){ ?>
                             Del <b><?=$event["from"];?></b> 
                         <?php } ?>
                         
-                        <?php if(isset($event["to"])){ ?>
+                        <?php if(isset($event["to"]) && $event["to"]!=""){ ?>
                             al <b><?=$event["to"];?></b> 
                         <?php } ?>
                     </p>
                 <?php } ?>
                 
-                <?php if(isset($event["address"])){ ?>
+                <?php if(isset($event["address"]) && $event["address"]!=""){ ?>
                     <h3 class="blue-title-cult">Dirección</h3>
                     <p class="dark-text"><?=$event["address"];?></p>
                 <?php } ?>
@@ -120,7 +129,7 @@ $event = json_decode($coursesJson, true);
                 <?php } ?>
 
 
-                <?php if(isset($event["registration_form"])){ ?>
+                <?php if(isset($event["registration_form"]) && $event["registration_form"]!=""){ ?>
                     <!-- <h3 class="blue-title-cult">Regístrate: </h3>
                     <p class="dark-text mt-3"> 
                         <a target="_blank" href="<?=$event["registration_form"];?>"> 

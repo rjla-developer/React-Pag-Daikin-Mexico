@@ -45,14 +45,14 @@ for ($i = 0; $i < sizeof($events); $i++) {
 
         <div class="daikin-wbt-container text-center pt-5 border-top-cls index-<?=$i;?>">
 
-            <?php if(isset($events[$i]["title"])){ ?>
+            <?php if(isset($events[$i]["title"]) && $events[$i]["title"]!=""){ ?>
                 <h3 class="blue-title-cult"><?= $events[$i]["title"]; ?></h3>
             <?php } ?>
 
 
-            <?php if(isset($events[$i]["banner_url"])){ ?>
+            <?php if(isset($events[$i]["banner_url"]) && $events[$i]["banner_url"]!=""){ ?>
 
-                <?php if(isset($events[$i]["registration_form"])){ ?>
+                <?php if(isset($events[$i]["registration_form"]) && $events[$i]["registration_form"]!=""){ ?>
                     <a href="<?=$events[$i]["registration_form"];?>" target="_blank">
                         <img src="<?= $events[$i]["banner_url"]; ?>" class="img-fluid" />
                     </a>
@@ -63,28 +63,37 @@ for ($i = 0; $i < sizeof($events); $i++) {
             <?php } ?>
 
 
-            <?php if(isset($events[$i]["description"])){ ?>
+            <?php if(isset($events[$i]["description"]) && $events[$i]["description"]!=""){ ?>
                 <p class="dark-text"><?= $events[$i]["description"]; ?></p>
             <?php } ?>
 
         </div>
 
         <div class="course-details">
-            <div class="details-col first">
+            
+            <?php 
+                if(isset($events[$i]["documents"]) && isset($events[$i]["registration_form"]) && $events[$i]["registration_form"]!=""){
+            ?>
+                <div class="details-col first">
+            <?php } else { ?>
+                <div class="details-col">
+            <?php
+                }
+            ?>
 
                 <?php if(isset($events[$i]["from"]) || isset($events[$i]["to"])){ ?>
                     <h3 class="blue-title-cult">Duración</h3>
                     <p class="dark-text">
-                        <?php if(isset($events[$i]["from"])){ ?>
+                        <?php if(isset($events[$i]["from"]) && $events[$i]["from"]!=""){ ?>
                             Del <b><?= $events[$i]["from"]; ?></b> 
                         <?php } ?>
-                        <?php if(isset($events[$i]["to"])){ ?>
+                        <?php if(isset($events[$i]["to"]) && $events[$i]["to"]!=""){ ?>
                             al <b><?= $events[$i]["to"]; ?></b> 
                         <?php } ?>
                     </p>
                 <?php } ?>
 
-                <?php if(isset($events[$i]["address"])){ ?>
+                <?php if(isset($events[$i]["address"]) && $events[$i]["address"]!=""){ ?>
                     <h3 class="blue-title-cult">Dirección</h3>
                     <p class="dark-text"><?= $events[$i]["address"]; ?></p>
                 <?php } ?>
@@ -115,7 +124,7 @@ for ($i = 0; $i < sizeof($events); $i++) {
                 <?php } ?>
 
 
-                <?php if(isset($events[$i]["registration_form"])){ ?>
+                <?php if(isset($events[$i]["registration_form"]) && $events[$i]["registration_form"]!=""){ ?>
                     <!-- <h3 class="blue-title-cult">Regístrate: </h3>
                     <p class="dark-text mt-3"> 
                         <a target="_blank" href="<?= $events[$i]["registration_form"]; ?>"> 
