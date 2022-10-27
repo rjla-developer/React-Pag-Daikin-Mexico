@@ -275,13 +275,13 @@ $events = json_decode($coursesJson, true);
             <div class="slider slider-training container">
                 <?php
                     for($i = 0; $i < sizeof($events); $i++){
-                        if(isset($events[$i]["banner_url"])){
+                        if(isset($events[$i]["banner_url"]) && $events[$i]["banner_url"]!=""){
                 ?>
                     <div class="project-card">
                         <div class="slide">
 
                             <?php
-                                if(isset($events[$i]["registration_form"])){
+                                if(isset($events[$i]["registration_form"]) && $events[$i]["registration_form"]!=""){
                             ?>
                                 <div class="img-cont">
                                     <a class="btn-dark" href="<?=$events[$i]["registration_form"];?>" target="_blank">
@@ -292,7 +292,7 @@ $events = json_decode($coursesJson, true);
                                 } else {
                             ?>
                                 <div class="img-cont">
-                                    <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training_detail.php?id=<?=$events[$i]["id"];?>" target="_blank"> 
+                                    <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training_detail.php?id=<?=$events[$i]["id"];?>"> 
                                         <img src="<?=$events[$i]["banner_url"];?>" alt="<?=(isset($events[$i]["title"]))?$events[$i]["title"]:"";?>">
                                     </a>
                                 </div>
@@ -309,7 +309,7 @@ $events = json_decode($coursesJson, true);
                                 <p class="slide-text">Del <b><?=$events[$i]["from"];?></b> al <b><?=$events[$i]["to"];?></b></p>
                             </div> -->
 
-                            <?php if(isset($events[$i]["registration_form"])){ ?>
+                            <?php if(isset($events[$i]["registration_form"]) && $events[$i]["registration_form"]!=""){ ?>
                                 <div class="slide-buttons">
                                     <div class="btn-main two">
                                         <a class="btn-dark" href="<?= GLOBAL_URL; ?>includes/daikin/training_detail.php?id=<?=$events[$i]["id"];?>">
