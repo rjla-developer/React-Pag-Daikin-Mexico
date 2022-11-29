@@ -3,7 +3,9 @@ require 'includes/functions.php';
 includeTemplate('header', $inicio = true);
 includeTemplate('modal');
 
-$url_lineups = "https://daikinmx.megcrm.mx/internal/api/training-center/events";
+// $url_lineups = "https://daikinmx.megcrm.mx/internal/api/training-center/events";
+$url_lineups = "https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/tc_events/static/all.json";
+
 $file = file_get_contents($url_lineups);
 $coursesJson = $file;
 $coursesObject = json_decode($coursesJson);
@@ -71,6 +73,19 @@ $events = json_decode($coursesJson, true);
                         100vw" src="build/img/refacciones_servicio_05.png" alt="test">
                     </div>
                     <h3 class="blue-title">Servicio</h3>
+
+                </a>
+            </div>
+
+            <div class="product">
+                <a href="<?= GLOBAL_URL; ?>productos/purificadores/1">
+                    <div class="prd-image">
+                        <img class="product-img" srcset="build/img/image003.png 428w,
+                        build/img/image003.png 856w" sizes="(min-width: 1280px) 1200px,
+                        (min-width:768px) 400px,
+                        100vw" src="build/img/image003.png" alt="test" style="max-height:144px;">
+                    </div>
+                    <h3 class="blue-title">PURIFICADORES</h3>
 
                 </a>
             </div>
