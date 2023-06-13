@@ -7,7 +7,7 @@
       <ul>
         <li><i class="bi bi-chevron-right"></i><a class="" href="../../index.php#products">Productos</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>servicios">Servicios</a></li>
-        <li><i class="bi bi-chevron-right"></i><a class="" href="../../index.php#dsc">DSC</a></li>
+        <!-- <li><i class="bi bi-chevron-right"></i><a class="" href="../../index.php#dsc">DSC</a></li> -->
         <li><i class="bi bi-chevron-right"></i><a class="" href="../../index.php#projects">Proyectos</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>nosotros/cultura/#planta">Planta</a></li>
         <li><i class="bi bi-chevron-right"></i><a href="<?= GLOBAL_URL; ?>contacto">Contáctanos</a></li>
@@ -218,6 +218,16 @@
 <script src="<?= GLOBAL_URL; ?>build/plugins/bootstrap.min.js"></script>
 <script src="<?= GLOBAL_URL; ?>build/plugins/slick.min.js"></script>
 <script src="<?= GLOBAL_URL; ?>build/js/scripts.min.js"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3EDF60YTPQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3EDF60YTPQ');
+</script>
 
 </body>
 

@@ -13,12 +13,12 @@
                     <div class="card-body card-0p">
                         <ul>
                             <li class="product-item product-item-1"><i class="bi bi-circle-fill"></i><a href="<?=GLOBAL_URL;?>productos/residencial/1">Purificador de aire</a></li>
-                            <li class="product-item product-item-2"><a href="<?=GLOBAL_URL;?>productos/residencial/2"><i class="bi bi-circle-fill"></i>Serie URURU SARARA Mini-Split</a></li>
                             <li class="product-item product-item-3"><a href="<?=GLOBAL_URL;?>productos/residencial/3"><i class="bi bi-circle-fill"></i>Serie SL Mini-Split</a></li>
                             <li class="product-item product-item-4"><a href="<?=GLOBAL_URL;?>productos/residencial/4"><i class="bi bi-circle-fill"></i>Serie CL Mini-Split</a></li>
-                            <li class="product-item product-item-5"><a href="<?=GLOBAL_URL;?>productos/residencial/5"><i class="bi bi-circle-fill"></i>Serie EL Mini-Split</a></li>
                             <li class="product-item product-item-6"><a href="<?=GLOBAL_URL;?>productos/residencial/6"><i class="bi bi-circle-fill"></i>Serie Mx18 Mini-Split</a></li>
                             <li class="product-item product-item-7"><a href="<?=GLOBAL_URL;?>productos/residencial/7"><i class="bi bi-circle-fill"></i>Serie VZ+ Mini-Split</a></li>
+                            <li class="product-item product-item-64"><a href="<?=GLOBAL_URL;?>productos/residencial/64"><i class="bi bi-circle-fill"></i>Serie Nara (Minisplit DAILP)</a></li>
+                            <li class="product-item product-item-65"><a href="<?=GLOBAL_URL;?>productos/residencial/65"><i class="bi bi-circle-fill"></i>Serie Lo7 (Minisplit Lo7)</a></li>
                         </ul>
                     </div>
                 </div>

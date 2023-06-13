@@ -60,11 +60,11 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           
-          <a class="dropdown-item" href="<?=GLOBAL_URL;?>categorias/category-vrv/"><i class="bi bi-chevron-right"></i>VRV</a>
+          <a class="dropdown-item" href="<?=GLOBAL_URL;?>productos/vrv/1/"><i class="bi bi-chevron-right"></i>VRV</a>
           
-          <a class="dropdown-item" href="<?=GLOBAL_URL;?>categorias/category-residencial/"><i class="bi bi-chevron-right"></i>Residencial</a>
+          <a class="dropdown-item" href="<?=GLOBAL_URL;?>productos/residencial/1/"><i class="bi bi-chevron-right"></i>Residencial</a>
           
-          <a class="dropdown-item" href="<?=GLOBAL_URL;?>categorias/category-aplicado/"><i class="bi bi-chevron-right"></i>Aplicado</a>
+          <a class="dropdown-item" href="<?=GLOBAL_URL;?>productos/aplicado/1/"><i class="bi bi-chevron-right"></i>Aplicado</a>
         </div>
       </li>
 
@@ -74,15 +74,15 @@
             <li class="nav-item">
               <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Distribuidores</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="<?=GLOBAL_URL;?>bolsa-de-trabajo">Bolsa de Trabajo</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="<?=GLOBAL_URL;?>politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-corruptas-en-el-extranjero-de-1977-foreign-corrupt-practices-act-o-fcpa">Noticias e Industria</a>
+              <a class="nav-link" href="<?=GLOBAL_URL;?>daikin-noticias-industria">Noticias e Industria</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="<?=GLOBAL_URL;?>contacto">Contacto</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
