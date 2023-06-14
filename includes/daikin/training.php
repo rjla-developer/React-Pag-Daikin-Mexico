@@ -7,9 +7,11 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$url_lineups = "https://daikinmx.megcrm.mx/internal/api/training-center/events";
+// $url_lineups = "https://daikinmx.megcrm.mx/internal/api/training-center/events";
+$url_lineups = "https://storage.googleapis.com/meg-crm.appspot.com/RG0PUw2IUTELgo2cVOF4/tc_events/static/all.json";
 
 $file = file_get_contents($url_lineups);
+
 $coursesJson = $file;
 
 $coursesObject = json_decode($coursesJson);

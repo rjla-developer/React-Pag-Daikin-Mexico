@@ -88,19 +88,19 @@ includeTemplate('modal');
 <section class="news-cont">
     <h1 class="blue-title-cult container">Otras noticias sobre Daikin México</h1>
     <div class="slider container">
+
         <div class="news-card">
             <div class="slide">
                 <div class="news-wrapper">
-                    <p class="blue-title news-name">Política Antisoborno</p>
+                    <p class="blue-title news-name">Términos y Condiciones</p>
                     <div class="img-cont">
-                        <img src="../../build/img/noticia1.jpg" alt=""> 
+                        <img height="170px" src="../../build/img/noticia2.jpg" alt=""> 
                     </div>
                     <div class="card-content">
-                        <p class="dark-text-news">Política anti-soborno, antilavado
-                            de dinero...
+                        <p class="dark-text-news">Términos y Condiciones de...
                         </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>politica-anti-soborno-anti-lav-ado-de-dinero-y-de-ley-de-practicas-corruptas-en-el-extranjero-de-1977-foreign-corrupt-practices-act-o-fcpa"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
@@ -110,15 +110,15 @@ includeTemplate('modal');
         <div class="news-card">
             <div class="slide">
                 <div class="news-wrapper">
-                    <p class="blue-title news-name">Términos y Condiciones</p>
+                    <p class="blue-title news-name">Daikin anuncia inversión </p>
                     <div class="img-cont">
-                        <img src="../../build/img/noticia2.jpg" alt=""> 
+                        <img height="170px" src="build/img/noticia-5-chica.jpg" alt=""> 
                     </div>
                     <div class="card-content">
-                        <p class="dark-text-news">Términos y Condiciones de...
+                        <p class="dark-text-news" style="font-size: 14px;">De $300 millones de dólares en San Luis Potosí...
                         </p>
                         <div class="btn-news">
-                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio"><i class="bi bi-chevron-right"></i>Leer Más</a>
+                            <a class="btn-dark" href="<?= GLOBAL_URL; ?>daikin-inversion-san-luis-potosi"><i class="bi bi-chevron-right"></i>Leer Más</a>
                         </div>
                     </div>
                 </div>
