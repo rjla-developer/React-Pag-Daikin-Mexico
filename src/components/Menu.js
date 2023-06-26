@@ -6,9 +6,7 @@ function Menu() {
     <Container fluid className="fixed-top" id="home">
       {/* Menu Phone */}
       <Navbar
-        className="d-block d-md-none"
-        bg="light"
-        variant="light"
+        className="d-block d-xl-none bg-gray shadow"
         expand="lg"
       >
         <Container className="py-3 px-1">
@@ -44,7 +42,7 @@ function Menu() {
 
       {/* Menu computer */}
       <Navbar
-        className="d-md-block d-none"
+        className="d-xl-block d-none"
         /* bg="light"
         variant="light" */
         expand="lg"
@@ -63,9 +61,7 @@ function Menu() {
         </Container>
       </Navbar>
       <Navbar
-        className="d-md-block d-none bg-gray"
-       /*  bg="dark"
-        variant="dark" */
+        className="d-xl-block d-none bg-gray shadow"
         expand="lg"
       >
         <Container className="">
