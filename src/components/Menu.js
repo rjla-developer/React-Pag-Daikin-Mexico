@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
 function Menu() {
   return (
-    <Container fluid className="fixed-top" id="home">
+    <Container fluid className="fixed-top px-0" id="home">
       {/* Menu Phone */}
       <Navbar
         className="d-block d-xl-none bg-gray shadow"
