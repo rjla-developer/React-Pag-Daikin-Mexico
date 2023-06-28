@@ -1,12 +1,13 @@
 import "./App.css";
 import Menu from "./components/Menu";
-/* import Footer from "./components/Footer"; */
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div >
       <Menu />
-      {/* <Footer /> */}
+      <div className="mb-5 pb-5">.</div>
+      <Footer />
     </div>
   );
 }
