@@ -4,7 +4,7 @@ import '../css/Footer.css'
 
 function Footer() {
   return (
-    <footer className="bg-gray2 text-white">
+    <footer className="bg-gray2 text-white fixed-bottom">
       {/* Computadora */}
       <Container className="d-none d-lg-block">
         <Row className="py-5">
