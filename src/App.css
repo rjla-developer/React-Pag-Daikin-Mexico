@@ -1,5 +1,9 @@
 /* General: */
 
+body {
+    padding-top: 100px;
+}
+
 /* --------- Tipografía */
 
 .fontsize-1{
@@ -24,4 +28,13 @@
 
 .txt-blue{
     color: #0097E0;
+}
+
+
+/* Css para pantallas con tamaño superior a 1200px */
+
+@media (min-width: 1200px) {
+    body {
+        padding-top: 140px;
+    }
 }

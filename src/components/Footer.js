@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Accordion, ListGroup } from "react-bootstrap";
-import '../css/Footer.css'
+import '../css/cssComponents/Footer.css'
 
 function Footer() {
   return (
-    <footer className="bg-gray2 text-white fixed-bottom">
+    <footer className="bg-gray2 text-white">
       {/* Computadora */}
       <Container className="d-none d-lg-block">
         <Row className="py-5">

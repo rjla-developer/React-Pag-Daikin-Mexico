@@ -1,0 +1,30 @@
+/* Css para pantallas con tamaño superior a 1200px */
+
+@media (min-width: 1200px) {
+    body {
+        padding-top: 80px;
+    }
+}
+
+.containerDesc {
+  background: linear-gradient(
+    93deg,
+    rgba(0, 140, 209, 0.9248074229691877) 52%,
+    rgba(104, 185, 226, 1) 83%,
+    rgba(130, 196, 230, 1) 95%,
+    rgba(154, 207, 234, 1) 99%,
+    rgba(249, 249, 249, 1) 100%
+  );
+}
+
+
+.btn-outline-primary {
+  --bs-btn-color: #0097E0 !important;
+  --bs-btn-border-color: #0097E0 !important;
+  --bs-btn-hover-bg: #0097E0 !important;
+  --bs-btn-hover-border-color: #0097E0 !important;
+  --bs-btn-active-bg: #0097E0 !important;
+  --bs-btn-active-border-color: #0097E0 !important;
+  --bs-btn-disabled-color: #0097E0 !important;
+  --bs-btn-disabled-border-color: #0097E0 !important;
+}
