@@ -19,23 +19,23 @@ function Home() {
   const productosItems = [
     {
       urlImg: vrvImg,
-      nomServicio: "VRV",
+      nameService: "VRV",
     },
     {
       urlImg: aplicadoImg,
-      nomServicio: "APLICADO",
+      nameService: "APLICADO",
     },
     {
       urlImg: residencialImg,
-      nomServicio: "RESIDENCIAL",
+      nameService: "RESIDENCIAL",
     },
     {
       urlImg: servicioImg,
-      nomServicio: "SERVICIO",
+      nameService: "SERVICIO",
     },
     {
       urlImg: purificadoresImg,
-      nomServicio: "PURIFICADORES",
+      nameService: "PURIFICADORES",
     },
   ];
 
@@ -113,7 +113,7 @@ function Home() {
                 <div>
                   <Producto
                     imgUrl={elemento.urlImg}
-                    nomProduct={elemento.nomServicio}
+                    nomProduct={elemento.nameService}
                   />
                 </div>
               </Grow>
