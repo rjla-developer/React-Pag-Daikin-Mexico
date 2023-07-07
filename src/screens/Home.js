@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "../css/cssScreens/Home.css";
 import Grow from "@mui/material/Grow";
 
 //Pestañas
 import Producto from "../components/homeComponents/Producto";
+import Proyectos from "../components/homeComponents/Proyectos";
 
 //Imagenes
 import vrvImg from "../img/Home/seccProductos/vrv_4_series_03.png";
@@ -121,6 +122,23 @@ function Home() {
           ))}
 
         </Row>
+      </Row>
+      <Row className="p-0 p-lg-5 bg-white">
+        <Col className="p-0 p-lg-5 shadow">
+            <Image fluid src={require("../img/Home/seccFresh/fresh_pure_desktop.jpg")} alt=""/>
+        </Col>
+      </Row>
+      <Row className="bg-white text-center d-flex align-items-center justify-content-center">
+        <Col className="mx-0 mx-lg-5 p-4 p-lg-5">
+          <p className="fs-2 fw-bold mt-3 mb-3">PROYECTOS</p>
+          <p className="d-block d-lg-none txt-blue m-0 fs-6 mb-4 mb-lg-5">
+            LIDERANDO EL CAMINO DE LA CLIMATIZACIÓN SUSTENTABLE
+          </p>
+          <p className="d-none d-lg-block txt-blue m-0 fs-5 mb-4 mb-lg-5">
+            LIDERANDO EL CAMINO DE LA CLIMATIZACIÓN SUSTENTABLE
+          </p>
+          <Proyectos />
+        </Col>
       </Row>
     </Container>
   );

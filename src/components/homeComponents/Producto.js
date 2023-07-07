@@ -9,7 +9,7 @@ const Producto = ({ imgUrl, nomProduct }) => {
     <Paper sx={{ m: 1 }} elevation={4}>
       <Box sx={{ width: 250, height: "100%" }}>
         <Button variant="outline-primary">
-          <Image fluid src={imgUrl} alt="test" />
+          <Image fluid src={imgUrl} alt={"servicio"} />
           <p className="mb-0 fs-4">{nomProduct}</p>
         </Button>
       </Box>

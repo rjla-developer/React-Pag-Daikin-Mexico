@@ -1,0 +1,32 @@
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0097E0 !important;
+    --bs-btn-border-color: #0097E0 !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0097E0 !important;
+    --bs-btn-hover-border-color: #0097E0 !important;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0097E0 !important;
+    --bs-btn-active-border-color: #0097E0 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0097E0 !important;
+    --bs-btn-disabled-border-color: #0097E0 !important;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 4px) !important;
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #0097E0 !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #0097E0 !important;
+}
