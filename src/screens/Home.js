@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "../css/cssScreens/Home.css";
 import Grow from "@mui/material/Grow";
 
 //Pestañas
 import Producto from "../components/homeComponents/Producto";
 import Proyectos from "../components/homeComponents/Proyectos";
+import Noticias from "../components/homeComponents/Noticias";
 
 //Imagenes
 import vrvImg from "../img/Home/seccProductos/vrv_4_series_03.png";
@@ -109,7 +110,10 @@ function Home() {
         </p>
         <Row className="d-flex align-items-center justify-content-center mx-0">
           {productosItems.map((elemento, index) => (
-            <Col key={index} className="d-flex align-items-center justify-content-center">
+            <Col
+              key={index}
+              className="d-flex align-items-center justify-content-center"
+            >
               <Grow in={isVisible}>
                 <div>
                   <Producto
@@ -120,12 +124,15 @@ function Home() {
               </Grow>
             </Col>
           ))}
-
         </Row>
       </Row>
       <Row className="p-0 p-lg-5 bg-white">
         <Col className="p-0 p-lg-5 shadow">
-            <Image fluid src={require("../img/Home/seccFresh/fresh_pure_desktop.jpg")} alt=""/>
+          <Image
+            fluid
+            src={require("../img/Home/seccFresh/fresh_pure_desktop.jpg")}
+            alt=""
+          />
         </Col>
       </Row>
       <Row className="bg-white text-center d-flex align-items-center justify-content-center">
@@ -140,6 +147,51 @@ function Home() {
           <Proyectos />
         </Col>
       </Row>
+
+
+      <Container>
+        <Row className="py-5 my-5 d-flex justify-content-center align-items-center">
+          <Col
+            xs={12}
+            md={6}
+            className="order-last order-md-first d-flex justify-content-center align-items-center text-center mt-5 mt-md-0"
+          >
+            <div>
+              <h2 className="text-secondary">Red de distribuidores Daikin</h2>
+              <h4 className="txt-blue">
+                Conoce los Estados de la República en donde se encuentran
+                nuestros distribuidores
+              </h4>
+              <p className="text-secondary opacity-50 mb-3 mb-md-5">
+                <i className="bi bi-circle-fill"></i>
+              </p>
+              <Button variant="outline-primary">
+                <p className="mb-0 fw-bold fs-5">
+                  <i className="bi bi-chevron-right"></i>Conoce Más
+                </p>
+              </Button>
+            </div>
+          </Col>
+          <Col xs={12} md={6} className="">
+            <a href="/">
+              <Image
+                fluid
+                src={require("../img/Home/seccDistribuidores/red_distribuidores_171.jpg")}
+                alt=""
+              />
+            </a>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container>
+        <Row className="text-center my-4 d-flex align-items-center justify-content-center">
+          <Col>
+            <h2>NOTICIAS</h2>
+            <Noticias />
+          </Col>
+        </Row>
+      </Container>
     </Container>
   );
 }
