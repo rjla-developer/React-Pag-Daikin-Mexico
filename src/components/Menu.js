@@ -10,13 +10,13 @@ function Menu() {
         expand="lg"
       >
         <Container className="py-3 px-1">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img className="logo-img" src={require("../img/logo_171x37.png")} alt="" width={200}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarNav"  className="me-3"/>
           <Navbar.Collapse id="navbarNav">
             <Nav className="mr-auto">
-              <Nav.Link  href={"nosotros/cultura/"}>Cultura Daikin</Nav.Link>
+              <Nav.Link  href="/">Cultura Daikin</Nav.Link>
               <NavDropdown title="Productos" id="navbarDropdown">
                 <NavDropdown.Item href={"productos/vrv/1/"}>
                   <i className="bi bi-chevron-right"></i> VRV
@@ -43,12 +43,10 @@ function Menu() {
       {/* Menu computer */}
       <Navbar
         className="d-xl-block d-none"
-        /* bg="light"
-        variant="light" */
         expand="lg"
       >
         <Container className="py-2">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img className="logo-img" src={require("../img/logo_171x37.png")} alt="" width={160}/>
             <span className="fontsize-1 country ms-3">MÉXICO</span>
           </Navbar.Brand>
@@ -66,7 +64,7 @@ function Menu() {
       >
         <Container className="">
           <Nav className="mr-auto">
-            <Nav.Link href={"nosotros/cultura/"}>Cultura Daikin</Nav.Link>
+            <Nav.Link href={"/cultura"}>Cultura Daikin</Nav.Link>
             <NavDropdown title="Productos" id="navbarDropdown">
               <NavDropdown.Item href={"productos/vrv/1/"}>
                 <i className="bi bi-chevron-right"></i> VRV
