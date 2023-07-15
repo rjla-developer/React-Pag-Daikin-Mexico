@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Accordion, ListGroup } from "react-bootstrap";
-import '../css/cssComponents/Footer.css'
+import "../css/cssComponents/Footer.css";
 
 function Footer() {
   return (
@@ -266,7 +266,7 @@ function Footer() {
       </Container>
 
       {/* Celulares */}
-      <Accordion eventKey="0" className="d-block d-lg-none text-white" flush>
+      <Accordion className="d-block d-lg-none text-white" flush>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Sobre Daikin</Accordion.Header>
           <Accordion.Body>
@@ -635,12 +635,24 @@ function Footer() {
               lg={6}
               className="text-center text-xl-end mt-2 mt-lg-0"
             >
-              <a
-                className="text-decoration-none text-white opacity-50"
-                href="https://daikin.com.mx/daikin-content/Aviso_de_privacidad.pdf"
-              >
-                Aviso de privacidad
-              </a>
+              <Row className="d-flex justify-content-end">
+                <Col xs={"auto"}>
+                  <a
+                    className="text-decoration-none text-white opacity-50"
+                    href={require("../pdf/DAMX-Aviso-de-Privacidad-Integral.pdf")}
+                  >
+                    Aviso de privacidad de Daikin México(DAMX)
+                  </a>
+                </Col>
+                <Col xs={"auto"}>
+                  <a
+                    className="text-decoration-none text-white opacity-50"
+                    href={require("../pdf/DMMX - Aviso de Privacidad Integral.pdf")}
+                  >
+                    Daikin Manufacturing México(DMMX)
+                  </a>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>

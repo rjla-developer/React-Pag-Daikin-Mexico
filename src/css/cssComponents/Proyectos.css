@@ -13,10 +13,14 @@
     bottom: var(--swiper-pagination-bottom, 4px) !important;
 }
 
-.swiper-pagination-bullet-active {
-    background: #0097E0 !important;
+#CarouselProyectos .swiper-button-prev{
+    color: #0097E0 !important;
 }
 
-.swiper-button-prev, .swiper-button-next {
+#CarouselProyectos .swiper-button-next{
     color: #0097E0 !important;
+}
+
+#CarouselProyectos .swiper-pagination-bullet-active{
+    background: #0097E0 !important;
 }

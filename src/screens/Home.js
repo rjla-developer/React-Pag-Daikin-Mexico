@@ -7,6 +7,7 @@ import Grow from "@mui/material/Grow";
 import Producto from "../components/homeComponents/Producto";
 import Proyectos from "../components/homeComponents/Proyectos";
 import Noticias from "../components/homeComponents/Noticias";
+import Formando from "../components/homeComponents/Formando";
 
 //Imagenes
 import vrvImg from "../img/Home/seccProductos/vrv_4_series_03.png";
@@ -56,8 +57,8 @@ function Home() {
   }, []);
 
   return (
-    <Container fluid>
-      <Row className="d-flex align-items-center justify-content-between">
+    <Container fluid className="bg-gray">
+      <Row className="d-flex align-items-center justify-content-between ">
         <Col className="d-none d-xl-block"></Col>
         <Col className="p-0 position-absolute" xs={12} xl={6}>
           <div className="containerDesc m-0 p-4 p-xl-5 text-white">
@@ -103,7 +104,7 @@ function Home() {
           />
         </Col>
       </Row>
-      <Row className="text-center py-5">
+      <Row className="text-center bg-white px-3 pb-5">
         <p className="fs-2 fw-bold mt-5 mb-3">PRODUCTOS</p>
         <p className="txt-blue m-0 fs-5 mb-5">
           CONOCE LOS PRODUCTOS QUE DAIKIN TE OFRECE
@@ -126,7 +127,7 @@ function Home() {
           ))}
         </Row>
       </Row>
-      <Row className="p-0 p-lg-5 bg-white">
+      <Row className="p-0 p-lg-5">
         <Col className="p-0 p-lg-5 shadow">
           <Image
             fluid
@@ -148,49 +149,54 @@ function Home() {
         </Col>
       </Row>
 
+      <Formando />
 
-      <Container>
-        <Row className="py-5 my-5 d-flex justify-content-center align-items-center">
-          <Col
-            xs={12}
-            md={6}
-            className="order-last order-md-first d-flex justify-content-center align-items-center text-center mt-5 mt-md-0"
-          >
-            <div>
-              <h2 className="text-secondary">Red de distribuidores Daikin</h2>
-              <h4 className="txt-blue">
-                Conoce los Estados de la República en donde se encuentran
-                nuestros distribuidores
-              </h4>
-              <p className="text-secondary opacity-50 mb-3 mb-md-5">
-                <i className="bi bi-circle-fill"></i>
-              </p>
-              <Button variant="outline-primary">
-                <p className="mb-0 fw-bold fs-5">
-                  <i className="bi bi-chevron-right"></i>Conoce Más
+      <Container className="bg-white py-5" fluid>
+        <Container>
+          <Row className="py-5 d-flex justify-content-center align-items-center">
+            <Col
+              xs={12}
+              md={6}
+              className="order-last order-md-first d-flex justify-content-center align-items-center text-center mt-5 mt-md-0"
+            >
+              <div>
+                <h2 className="text-secondary">Red de distribuidores Daikin</h2>
+                <h4 className="txt-blue">
+                  Conoce los Estados de la República en donde se encuentran
+                  nuestros distribuidores
+                </h4>
+                <p className="text-secondary opacity-50 mb-3 mb-md-5">
+                  <i className="bi bi-circle-fill"></i>
                 </p>
-              </Button>
-            </div>
-          </Col>
-          <Col xs={12} md={6} className="">
-            <a href="/">
-              <Image
-                fluid
-                src={require("../img/Home/seccDistribuidores/red_distribuidores_171.jpg")}
-                alt=""
-              />
-            </a>
-          </Col>
-        </Row>
+                <Button variant="outline-primary">
+                  <p className="mb-0 fw-bold fs-5">
+                    <i className="bi bi-chevron-right"></i>Conoce Más
+                  </p>
+                </Button>
+              </div>
+            </Col>
+            <Col xs={12} md={6} className="">
+              <a href="/">
+                <Image
+                  fluid
+                  src={require("../img/Home/seccDistribuidores/red_distribuidores_171.jpg")}
+                  alt=""
+                />
+              </a>
+            </Col>
+          </Row>
+        </Container>
       </Container>
 
-      <Container>
-        <Row className="text-center my-4 d-flex align-items-center justify-content-center">
-          <Col>
-            <h2>NOTICIAS</h2>
-            <Noticias />
-          </Col>
-        </Row>
+      <Container className="bg-gray m-0 p-0" fluid>
+        <Container className="">
+          <Row className="text-center py-5 d-flex align-items-center justify-content-center">
+            <Col>
+              <h2>NOTICIAS</h2>
+              <Noticias />
+            </Col>
+          </Row>
+        </Container>
       </Container>
     </Container>
   );

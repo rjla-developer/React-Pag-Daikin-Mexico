@@ -71,7 +71,7 @@ function Noticias() {
         className="mySwiper pb-4 py-md-5"
       >
         {noticeItems.map((elemento, index) => (
-          <SwiperSlide className="px-2 px-lg-5">
+          <SwiperSlide key={index} className="px-2 px-lg-5">
             <Card style={ {height: "500px"} } className="shadow">
               <Card.Img
                 className="img-fluid"

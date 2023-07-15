@@ -13,7 +13,7 @@ function Menu() {
           <Navbar.Brand href="#home">
             <img className="logo-img" src={require("../img/logo_171x37.png")} alt="" width={200}/>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarNav" />
+          <Navbar.Toggle aria-controls="navbarNav"  className="me-3"/>
           <Navbar.Collapse id="navbarNav">
             <Nav className="mr-auto">
               <Nav.Link  href={"nosotros/cultura/"}>Cultura Daikin</Nav.Link>

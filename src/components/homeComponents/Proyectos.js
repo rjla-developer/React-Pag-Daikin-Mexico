@@ -91,7 +91,8 @@ function Proyectos() {
           clickable: true,
         }}
         modules={[Pagination, Navigation, Keyboard]}
-        className="mySwiper pb-5"
+        id="CarouselProyectos"
+        className=" mySwiper pb-5"
       >
         {proyectosItems.map((elemento, index) => (
           <SwiperSlide className="px-0 px-lg-5" key={index}>
