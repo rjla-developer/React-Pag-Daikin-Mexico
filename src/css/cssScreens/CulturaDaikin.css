@@ -1,0 +1,58 @@
+.overlay2 {
+    position: absolute;
+    top: 203px;
+    left: 0;
+    width: 100%;
+    height: 51%;
+    background: linear-gradient(
+      to bottom,
+      rgba(66, 178, 232, 0.8) 0%,
+      rgba(33, 89, 116, 0.8) 100%
+    );
+}
+
+.imgScreen {
+    position: absolute;
+    top: 203px;
+    left: 0;
+    width: 100%;
+    height: 51%;
+    object-fit: cover;
+}
+
+.textDesc{
+    position: absolute;
+    top: 203px;
+}
+
+
+.containerCultu{
+    padding-top: 380px;
+}
+
+
+
+.resources-banner {
+    background-image: url("../../img/CulturaDaikin/CulturaDaikin/cultura_material_01.jpg");
+    margin-top: 0;
+    height: 30rem;
+    
+  }
+
+.resources-banner .overlay-resources {
+    height: 30rem;
+    background: linear-gradient(
+      to bottom,
+      rgba(66, 178, 232, 0.8) 0%,
+      rgba(33, 89, 116, 0.8) 100%
+    );
+}
+
+.overlay-resources .culture-daikin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    
+  }
