@@ -12,17 +12,11 @@ import "swiper/css/pagination";
 import { Pagination, Navigation, Keyboard } from "swiper/modules";
 
 //Img noticias
-import imgTermYCondi from "../../img/Home/seccNoticias/noticia2.jpg";
 import imgAnunciaInve from "../../img/Home/seccNoticias/noticia-5-chica.jpg";
 import imgComfortTech from "../../img/Home/seccNoticias/planta1.jpg";
 
 function Noticias() {
   const noticeItems = [
-    {
-      imgUrl: imgTermYCondi,
-      title: "Términos y Condiciones",
-      desc: "Términos y Condiciones de...",
-    },
     {
       imgUrl: imgAnunciaInve,
       title: "Daikin anuncia inversión",
@@ -42,10 +36,10 @@ function Noticias() {
 
     const handleResize = (event) => {
       if (event.matches) {
-        console.log(event.matches);
+        /* console.log(event.matches); */
         setmediaQueryBool(event.matches);
       } else {
-        console.log(event.matches);
+        /* console.log(event.matches); */
         setmediaQueryBool(event.matches);
       }
     };
@@ -62,17 +56,17 @@ function Noticias() {
       <Swiper
         navigation={mediaQueryBool ? true : false}
         keyboard={true}
-        slidesPerView={mediaQueryBool ? 3 : 1}
+        slidesPerView={mediaQueryBool ? 2 : 1}
         spaceBetween={10}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination, Navigation, Keyboard]}
-        className="mySwiper pb-4 py-md-5"
+        className="mySwiper pb-4 py-md-5 "
       >
         {noticeItems.map((elemento, index) => (
-          <SwiperSlide key={index} className="px-2 px-lg-5">
-            <Card style={ {height: "500px"} } className="shadow">
+          <SwiperSlide key={index} className="px-2 px-lg-5 d-flex align-items-center justify-content-center">
+            <Card style={ {height: "500px", width:"300px"} } className="shadow">
               <Card.Img
                 className="img-fluid"
                 variant="top"

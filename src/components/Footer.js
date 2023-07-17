@@ -641,7 +641,7 @@ function Footer() {
                     className="text-decoration-none text-white opacity-50"
                     href={require("../pdf/DAMX-Aviso-de-Privacidad-Integral.pdf")}
                   >
-                    Aviso de privacidad de Daikin México(DAMX)
+                    Aviso de privacidad de Daikin México
                   </a>
                 </Col>
                 <Col xs={"auto"}>
@@ -649,7 +649,15 @@ function Footer() {
                     className="text-decoration-none text-white opacity-50"
                     href={require("../pdf/DMMX - Aviso de Privacidad Integral.pdf")}
                   >
-                    Daikin Manufacturing México(DMMX)
+                    Aviso de privacidad Daikin Manufacturing México
+                  </a>
+                </Col>
+                <Col xs={"auto"}>
+                  <a
+                    className="text-decoration-none text-white opacity-50"
+                    href={"https://daikin.com.mx/terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio"}
+                  >
+                    Términos y Condiciones
                   </a>
                 </Col>
               </Row>
