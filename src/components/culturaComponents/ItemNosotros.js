@@ -1,0 +1,157 @@
+import React from "react";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
+
+function ItemNosotros() {
+  return (
+    <div>
+      <Row className="resources-banner-nosotros py-5 text-white">
+        <div className="overlay-resources d-flex align-items-center justify-content-center">
+          <Col xs={6}>
+            <div>
+              <h3 className="mb-4">Nosotros</h3>
+              <p>
+                Somos la compañía más grande de aire acondicionado, calefacción,
+                ventilación y refrigeración a nivel mundial. Ofrecemos
+                soluciones innovadoras de climatización para satisfacer
+                necesidades en mercados residenciales, comerciales e
+                industriales.
+              </p>
+            </div>
+          </Col>
+        </div>
+      </Row>
+      <Container className="px-3 my-5 py-5">
+        <h2 className="txt-blue mb-5 text-start">
+          Somos reconocidos mundialmente por nuestra calidad y versatilidad en
+          las soluciones que ofrecemos.
+        </h2>
+        <p className="mb-5 text-start">
+          Nos involucramos de inicio a fin en el diseño de nuestros sistemas
+          HVAC, proporcionando óptimos beneficios que superen sus expectativas
+          en cuanto a:
+        </p>
+        <Row className="txt-blue d-flex justify-content-center mb-5">
+          <Col className="border-blue d-flex align-items-center justify-content-center py-4 mx-3">
+            <p className="mb-0">Eficiencia energética</p>
+          </Col>
+          <Col className="border-blue d-flex align-items-center justify-content-center py-4 mx-3">
+            <p className="mb-0">
+              Calidad superior del aire interior. (Calidad en el aire
+              acondicionado)Eficiencia energética
+            </p>
+          </Col>
+          <Col className="border-blue d-flex align-items-center justify-content-center py-4 mx-3">
+            <p className="mb-0">
+              Menor costo para la propiedad. (Reducción de costos)
+            </p>
+          </Col>
+          <Col className="border-blue d-flex align-items-center justify-content-center py-4 mx-3">
+            <p className="mb-0">Funcionamiento silencioso</p>
+          </Col>
+        </Row>
+        <p className="text-start">
+          Millones de personas cada día dependen de nuestros productos para
+          proporcionar el clima adecuado a numerosos edificios mundialmente
+          destacados por su confort y sustentabilidad.
+        </p>
+      </Container>
+      <Container fluid className="bg-blue">
+        <Container>
+          <Row className="text-white d-flex align-items-center justify-content-center py-5">
+            <Col xs={7}>
+              <div className="">
+                <h3 className="">Filosofía Daikin</h3>
+                <p className="mb-0">
+                  Escuchamos y satisfacemos los deseos y necesidades de nuestros
+                  clientes. Contribuimos a la comunidad con las más avanzadas
+                  tecnologías e innovaciones, anticipando las necesidades
+                  futuras del mercado y preservando el medio ambiente. Nuestra
+                  gente es nuestro más preciado recurso. Somos un grupo experto,
+                  flexible y comprometido que ofrece soluciones, no simplemente
+                  productos. Construimos relaciones amigables y constructivas
+                  con nuestros aliados de negocio para lograr el beneficio
+                  mutuo.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+      <Container>
+        <Row className="d-flex align-items-center justify-content-center my-5">
+          <Col xs={5} className="me-5">
+            <Image
+              className="img-fluid redonded"
+              src={require("../../img/CulturaDaikin/Nosotros/cultura_material_09.jpg")}
+            />
+          </Col>
+          <Col xs={5} className="text-start">
+            <div class="">
+              <h3 class="txt-blue mb-4">Soluciones innovadoras</h3>
+              <p class="">
+                En Daikin siempre buscamos crear nuevas tecnologías en aire
+                acondicionado para satisfacer las necesidades de nuestros
+                clientes. Por ello contamos con nuestro Centro de Desarrollo
+                ubicado en Minneapolis, USA, el cual está altamente equipado
+                para acelerar el desarrollo de nuevas e innovadoras creaciones,
+                como: avances tecnológicos, innovaciones en ahorro de energía,
+                entre otros, con la finalidad de crear experiencias y soluciones
+                únicas, efectivas y sustentables.
+              </p>
+            </div>
+          </Col>
+        </Row>
+
+        <Row className="d-flex align-items-center justify-content-center py-5 mt-5">
+          <Col xs={5} className="text-start me-5">
+            <div class="">
+              <h3 class="txt-blue mb-5">Presencia Global, Soporte Local</h3>
+              <p class="mb-5">
+                En Daikin tendrán la seguridad de contar siempre con un
+                representante cerca de su localidad, quienes combinan un amplio
+                conocimiento de nuestros productos y la experiencia local para
+                ofrecer soluciones efectivas y adaptables. Cobertura en más de
+                75 países para asegurar que nuestros productos y servicios estén
+                siempre a su alcance.
+              </p>
+              <Row className="txt-blue mb-3">
+                <Col>
+                  <Button className="w-100 shadow" href="">
+                    México
+                  </Button>
+                </Col>
+                <Col>
+                  <Button className="w-100 shadow" href="">
+                    Global
+                  </Button>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Button className="w-100 shadow" href="">
+                    Contactos de Ventas y Servicios
+                  </Button>
+                </Col>
+                <Col>
+                  <Button className="w-100 shadow" href="">
+                    Localidades Daikin
+                  </Button>
+                </Col>
+              </Row>
+            </div>
+          </Col>
+
+          <Col xs={5} className="">
+            <Image
+              className="img-fluid redonded"
+              src={require("../../img/CulturaDaikin/Nosotros/cultura_material_07.jpg")}
+            />
+          </Col>
+        </Row>
+        <Row></Row>
+      </Container>
+    </div>
+  );
+}
+
+export default ItemNosotros;
