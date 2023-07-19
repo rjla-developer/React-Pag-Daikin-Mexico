@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "../css/cssScreens/CulturaDaikin.css";
 
 import PropTypes from "prop-types";
@@ -64,18 +64,21 @@ function CulturaDaikin() {
           <Tabs
             value={value}
             onChange={handleChange}
-            aria-label="basic tabs example"
-            className="px-5 pt-4"
+            className="px-0 px-lg-5 pt-2 pt-lg-4"
+            variant="scrollable"
+            scrollButtons
+            allowScrollButtonsMobile
+            aria-label="scrollable force tabs example"
           >
-            <Tab label="Cultura Daikin" {...a11yProps(0)} className="px-5" />
-            <Tab label="Nosotros" {...a11yProps(1)} className="px-5" />
-            <Tab label="Historia" {...a11yProps(2)} className="px-5" />
+            <Tab label="Cultura Daikin" {...a11yProps(0)} className="px-3 px-lg-5" />
+            <Tab label="Nosotros" {...a11yProps(1)} className="px-3 px-lg-5" />
+            <Tab label="Historia" {...a11yProps(2)} className="px-3 px-lg-5" />
             <Tab
               label="Responsabilidad Ambiental"
               {...a11yProps(3)}
-              className="px-5"
+              className="px-3 px-lg-5"
             />
-            <Tab label="Planta" {...a11yProps(4)} className="px-5" />
+            <Tab label="Planta" {...a11yProps(4)} className="px-3 px-lg-5" />
           </Tabs>
         </Container>
       </Box>

@@ -1,38 +1,36 @@
 .overlay2 {
   position: absolute;
-  top: 203px;
+  top: 157px;
   left: 0;
   width: 100%;
-  height: 51%;
-  background: linear-gradient(
-    to bottom,
-    rgba(66, 178, 232, 0.8) 0%,
-    rgba(33, 89, 116, 0.8) 100%
-  );
+  height: 83%;
+  background: linear-gradient(to bottom,
+      rgba(66, 178, 232, 0.8) 0%,
+      rgba(33, 89, 116, 0.8) 100%);
 }
 
 .imgScreen {
   position: absolute;
-  top: 203px;
+  top: 157px;
   left: 0;
   width: 100%;
-  height: 51%;
+  height: 83%;
   object-fit: cover;
 }
 
 .textDesc {
   position: absolute;
-  top: 203px;
+  top: 157px;
 }
 
 .containerCultu {
-  padding-top: 380px;
+  padding-top: 550px;
 }
 
 .resources-banner {
   background-image: url("../../img/CulturaDaikin/CulturaDaikin/cultura_material_01.jpg");
   margin-top: 0;
-  height: 30rem;
+  height: 20rem;
 }
 
 .resources-banner-nosotros {
@@ -42,22 +40,18 @@
 }
 
 .resources-banner .overlay-resources {
-  height: 30rem;
-  background: linear-gradient(
-    to bottom,
-    rgba(66, 178, 232, 0.8) 0%,
-    rgba(33, 89, 116, 0.8) 100%
-  );
+  height: 20rem;
+  background: linear-gradient(to bottom,
+      rgba(66, 178, 232, 0.8) 0%,
+      rgba(33, 89, 116, 0.8) 100%);
 }
 
 .resources-banner-nosotros .overlay-resources {
   height: 20rem;
   margin-top: -48px;
-  background: linear-gradient(
-    to bottom,
-    rgba(66, 178, 232, 0.8) 0%,
-    rgba(33, 89, 116, 0.8) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgba(66, 178, 232, 0.8) 0%,
+      rgba(33, 89, 116, 0.8) 100%);
 }
 
 .overlay-resources .culture-daikin {
@@ -65,7 +59,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 30rem;
+  height: 20rem;
 }
 
 .border-blue {
@@ -73,14 +67,14 @@
   border-radius: 10px;
 }
 
-.img-responsabilidad{
+.img-responsabilidad {
   position: absolute;
   margin-left: 200px;
   margin-top: 80px;
+  border-radius: 1rem;
 }
 
-
-.container-txt-planta{
+.container-txt-planta {
   position: absolute;
   padding: 60px;
   width: 700px;
@@ -88,4 +82,68 @@
   margin-left: 650px;
   margin-top: 110px;
   text-align: start;
+}
+
+
+
+@media (min-width: 576px) {
+  .overlay2 {
+    top: 156px;
+    height: 53%;
+  }
+
+  .imgScreen {
+    top: 156px;
+    height: 53%;
+  }
+
+  .textDesc {
+    top: 156px;
+  }
+
+  .containerCultu {
+    padding-top: 385px;
+  }
+
+  .resources-banner {
+    height: 20rem;
+  }
+
+  .border-blue {
+    border: 1px solid #0097e0;
+    border-radius: 10px;
+  }
+
+  .img-responsabilidad {
+    margin-left: 600px;
+  }
+
+}
+
+
+
+@media (min-width: 1200px) {
+  .overlay2 {
+    top: 203px;
+    height: 51%;
+  }
+
+  .imgScreen {
+    top: 203px;
+    height: 51%;
+  }
+
+  .textDesc {
+    top: 203px;
+  }
+
+  .containerCultu {
+    padding-top: 370px;
+  }
+
+  .img-responsabilidad {
+    margin-left: 900px;
+  }
+
+  
 }

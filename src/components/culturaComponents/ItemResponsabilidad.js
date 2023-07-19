@@ -5,14 +5,14 @@ function ItemResponsabilidad() {
   return (
     <>
       <Image
-        className="img-responsabilidad w-25"
+        className="img-responsabilidad w-25 d-none d-md-block"
         src={require("../../img/CulturaDaikin/Responsabilidad/cultura_material_02.jpg")}
       />
 
-      <Container fluid className="bg-blue py-5">
-        <Container className="py-5">
+      <Container fluid className="bg-blue py-3 py-md-5">
+        <Container className="py-3 py-md-5">
           <Row>
-            <Col xs={6}>
+            <Col xs={12} md={6}>
               <div className="text-white text-start">
                 <h3 className="mb-4">Responsabilidad ambiental</h3>
                 <p className="mb-0">
@@ -26,15 +26,22 @@ function ItemResponsabilidad() {
                 </p>
               </div>
             </Col>
+            <Col xs={12} md={6}>
+              <Image
+                fluid
+                className="my-4 d-block d-md-none rounded"
+                src={require("../../img/CulturaDaikin/Responsabilidad/cultura_material_02.jpg")}
+              />
+            </Col>
           </Row>
           <Row></Row>
         </Container>
       </Container>
 
-      <Container fluid className="bg-white py-5">
-        <Container className="py-5">
+      <Container fluid className="bg-white py-3 py-md-5">
+        <Container className="py-3 py-md-5">
           <Row>
-            <Col xs={6}>
+            <Col xs={12} md={6}>
               <div className="text-start">
                 <h3 className="txt-blue mb-4">Responsabilidad ambiental</h3>
                 <ul>
