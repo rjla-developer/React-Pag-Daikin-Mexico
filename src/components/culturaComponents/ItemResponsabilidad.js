@@ -5,7 +5,7 @@ function ItemResponsabilidad() {
   return (
     <>
       <Image
-        className="position-absolute m-5 w-25"
+        className="img-responsabilidad w-25"
         src={require("../../img/CulturaDaikin/Responsabilidad/cultura_material_02.jpg")}
       />
 

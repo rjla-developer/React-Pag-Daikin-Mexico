@@ -72,3 +72,20 @@
   border: 1px solid #0097e0;
   border-radius: 10px;
 }
+
+.img-responsabilidad{
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+
+.container-txt-planta{
+  position: absolute;
+  padding: 60px;
+  width: 700px;
+  background-color: white;
+  margin-left: 650px;
+  margin-top: 110px;
+  text-align: start;
+}

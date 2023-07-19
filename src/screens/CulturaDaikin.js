@@ -12,6 +12,7 @@ import ItemCultura from "../components/culturaComponents/ItemCultura";
 import ItemNosotros from "../components/culturaComponents/ItemNosotros";
 import ItemHistoria from "../components/culturaComponents/ItemHistoria";
 import ItemResponsabilidad from "../components/culturaComponents/ItemResponsabilidad";
+import ItemPlanta from "../components/culturaComponents/ItemPlanta";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -92,7 +93,7 @@ function CulturaDaikin() {
           <ItemResponsabilidad />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={4}>
-          Item Three
+          <ItemPlanta />
         </CustomTabPanel>
       </Container>
     </Box>
