@@ -58,7 +58,7 @@ function Formando() {
             <img
               className=""
               src={require("../../img/Home/seccEntrenamiento/centro_de_entrenamiento_16-OK.jpg")}
-              alt="Imagen de fondo"
+              alt="Imagen de fondo del centro de entrenamiento Daikin"
             />
           </div>
           <div className="overlay d-none d-lg-block"></div>
@@ -109,7 +109,7 @@ function Formando() {
                     <img
                       className="img-fluid rounded"
                       src={elemento.banner_url}
-                      alt="Imagen"
+                      alt="Imagen con la información del curso"
                     />
                     <p className="text-white mb-0 py-2 fw-bold mt-2">
                       {elemento.title}

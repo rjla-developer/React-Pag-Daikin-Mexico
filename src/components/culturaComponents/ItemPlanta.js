@@ -30,7 +30,7 @@ function ItemPlanta() {
           <Image
             className="img-fluid"
             src={require("../../img/CulturaDaikin/Planta/cultura_material_04.jpg")}
-            alt=""
+            alt="Estatua del Ángel de la independencia, ubicado de Ciudad de México"
           />
         </Col>
         <Col xs={12} md={5} className="p-4 p-md-5 m-0 text-start">

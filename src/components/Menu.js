@@ -11,7 +11,7 @@ function Menu() {
       >
         <Container className="py-3 px-1">
           <Navbar.Brand href="/">
-            <img className="logo-img" src={require("../img/logo_171x37.png")} alt="" width={200}/>
+            <img className="logo-img" src={require("../img/logo_171x37.png")} alt="Logo Daikin México" width={200}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarNav"  className="me-3"/>
           <Navbar.Collapse id="navbarNav">
@@ -47,7 +47,7 @@ function Menu() {
       >
         <Container className="py-2">
           <Navbar.Brand href="/">
-            <img className="logo-img" src={require("../img/logo_171x37.png")} alt="" width={160}/>
+            <img className="logo-img" src={require("../img/logo_171x37.png")} alt="Logo Daikin México" width={160}/>
             <span className="fontsize-1 country ms-3">MÉXICO</span>
           </Navbar.Brand>
             <Nav className="mr-auto">

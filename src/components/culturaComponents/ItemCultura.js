@@ -7,7 +7,7 @@ function ItemCultura() {
       <img
         className="imgScreen"
         src={require("../../img/CulturaDaikin/CulturaDaikin/cultura_material_06.jpg")}
-        alt=""
+        alt="Cultura Daikin fondo"
       />
       <Row className="d-flex align-items-center justify-content-center p-0">
         <div className="overlay2"></div>
@@ -44,9 +44,9 @@ function ItemCultura() {
         <Col xs={12} md={6} className="bg-primary p-0">
           <Image
             fluid
-            className="w-100"
+            className="h-100"
             src={require("../../img/CulturaDaikin/CulturaDaikin/cultura_material_11.jpg")}
-            alt={""}
+            alt={"Árbol de cerezos"}
           />
         </Col>
         <Col
@@ -71,9 +71,9 @@ function ItemCultura() {
         <Col xs={12} md={6} className="bg-primary p-0 order-md-last">
           <Image
             fluid
-            className="w-100"
+            className="h-100"
             src={require("../../img/CulturaDaikin/CulturaDaikin/cultura_material_10.jpg")}
-            alt={"servicio"}
+            alt={"Puente rojo en lago de Japón"}
           />
         </Col>
         <Col
@@ -102,9 +102,9 @@ function ItemCultura() {
         <Col xs={12} md={6} className="bg-primary p-0">
           <Image
             fluid
-            className="w-100"
+            className="h-100"
             src={require("../../img/CulturaDaikin/CulturaDaikin/cultura_material_05.jpg")}
-            alt={"servicio"}
+            alt={"Hojas de otoño"}
           />
         </Col>
         <Col
@@ -131,9 +131,9 @@ function ItemCultura() {
         <Col xs={12} md={6} className="bg-primary p-0 order-md-last">
           <Image
             fluid
-            className="w-100"
+            className="h-100"
             src={require("../../img/CulturaDaikin/CulturaDaikin/cultura_material_03.jpg")}
-            alt={"servicio"}
+            alt={"Época de invierno"}
           />
         </Col>
         <Col
@@ -141,7 +141,7 @@ function ItemCultura() {
           md={6}
           className="p-0 d-flex align-items-center justify-content-center"
         >
-          <div className="p-0 p-lg-5 m-5 m-lg-5 text-start">
+          <div className="p-0 p-lg-5 m-5 text-start">
             <h3 className="txt-blue mb-4">Invierno severo con nieve intensa</h3>
             <p className="text-uppercase">DICIEMBRE-FEBRERO</p>
             <p className="pe-0 pe-lg-5 me-0 me-lg-5">

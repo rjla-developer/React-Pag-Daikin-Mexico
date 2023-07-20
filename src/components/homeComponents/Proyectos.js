@@ -100,7 +100,7 @@ function Proyectos() {
               <img
                 className="img-fluid rounded"
                 src={elemento.imgUrl}
-                alt="Imagen"
+                alt="Proyecto"
               />
               <p className="txt-blue mb-0 py-2 fw-bold">
                 {elemento.nameProyect}

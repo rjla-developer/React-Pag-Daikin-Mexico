@@ -91,14 +91,14 @@ function Home() {
           <img
             className="d-none d-xl-block"
             src={require("../img/Home/edificios_arboles_011.jpg")}
-            alt=""
+            alt="Grandes edificios con árboles"
             width={1100}
             height={650}
           />
           <img
             className="d-block d-xl-none"
             src={require("../img/Home/edificios_arboles_011.jpg")}
-            alt=""
+            alt="Grandes edificios con árboles"
             width={"100%"}
             height={350}
           />
@@ -132,7 +132,7 @@ function Home() {
           <Image
             fluid
             src={require("../img/Home/seccFresh/fresh_pure_desktop.jpg")}
-            alt=""
+            alt="Imagen sobre pureza y frescura de nuestros aires acondicionados"
           />
         </Col>
       </Row>
@@ -180,7 +180,7 @@ function Home() {
                 <Image
                   fluid
                   src={require("../img/Home/seccDistribuidores/red_distribuidores_171.jpg")}
-                  alt=""
+                  alt="Mapa de México"
                 />
               </a>
             </Col>
