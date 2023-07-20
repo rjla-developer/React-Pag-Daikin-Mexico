@@ -10,16 +10,16 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Menu />
       <React.StrictMode>
-          <BrowserRouter>
-            <Routes>
-              <Route path="/" element={<Home />}></Route>
-              <Route path="/cultura" element={<CulturaDaikin />}></Route>
-            </Routes>
-          </BrowserRouter>
+        <BrowserRouter>
+          <Menu />
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/cultura" element={<CulturaDaikin />}></Route>
+          </Routes>
+          <Footer />
+        </BrowserRouter>
       </React.StrictMode>
-      <Footer />
     </>
   );
 }
