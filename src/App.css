@@ -39,6 +39,9 @@ body {
     color: #0097E0;
 }
 
+.nav-link {
+    color: black !important;
+}
 
 /* Css para pantallas con tamaño superior a 1200px */
 
@@ -46,8 +49,10 @@ body {
     body {
         padding-top: 130px;
     }
+
+    .nav-link {
+        color: #6c757d !important;
+    }
+    
 }
 
-.nav-link {
-    color: black !important;
-}
