@@ -47,7 +47,7 @@ function Noticias() {
       imgItem: imgComfortTech,
       imgCover: imgComfortTech,
       titleItem: "Daikin Comfort Technologies",
-      title: "Daikin Comfort Technologies",
+      title: "Daikin Comfort Technologies construirá una planta de producción de $230 millones de dólares en México",
       descItem: "Daikin Comfort Technologies construirá...",
       desc: "Bajo el lema “Creciendo Juntos por San Luis”, las entidades anunciaron un histórico acuerdo comercial que vincula a la marca japonesa y al club potosino por los siguientes tres años",
       content:
