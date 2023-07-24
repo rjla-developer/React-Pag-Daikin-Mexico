@@ -13,12 +13,12 @@ function ItemCultura() {
         <div className="overlay2"></div>
         <Col xs={12} md={10} xl={6} className="textDesc">
           <div className="py-4 px-4 text-light">
-            <h3 className="">Cultura Daikin</h3>
-            <p className="">
+            <h3>Cultura Daikin</h3>
+            <p>
               Situado al este del continente asiático, Japón tiene cuatro
               estaciones distintivas: primavera, verano, otoño e invierno.
             </p>
-            <p className="">
+            <p>
               Japón es un país insular que se propaga ampliamente, de norte a
               sur, rodeada de mar. Hokkaido, en el norte se encuentra en una
               zona subártica con temperaturas muy por debajo de cero grados en
@@ -28,7 +28,7 @@ function ItemCultura() {
               encuentra del lado del Océano Pacífico o el Mar de Japón y en
               diferentes regiones.
             </p>
-            <p className="">
+            <p>
               Los equipos de aire acondicionado Daikin han evolucionado en
               respuesta a tal diversidad climática.
             </p>
@@ -169,7 +169,7 @@ function ItemCultura() {
             Tecnologías de ahorro de energía, originado por el recurso limitado
             de energía en Japón
           </h3>
-          <p className="">
+          <p>
             Japón depende de otros países para el suministro de energía, debido
             a sus limitados recursos. Como resultado, la manufactura japonesa ha
             logrado un alto rendimiento ambiental, enfocado en el consumo de
@@ -181,11 +181,11 @@ function ItemCultura() {
           <h3 className="mb-4">
             Aire acondicionado, sólo habitaciones ocupadas
           </h3>
-          <p className="">
+          <p>
             Un sistema de aire acondicionado convencional enfría todo el
             edificio, incluyendo las habitaciones desocupadas.
           </p>
-          <p className="">
+          <p>
             Con el fin de crear ambientes cómodos utilizando menos energía, se
             nos ocurrió el concepto de aire acondicionado sólo en habitaciones
             necesarias.
@@ -195,12 +195,12 @@ function ItemCultura() {
           <h3 className="mb-4">
             Ahorro de Energía a través de la Tecnología Inverter
           </h3>
-          <p className="">
+          <p>
             Inverter es una tecnología de ahorro de energía capaz de eliminar
             funciones con desperdicio de energía al controlar eficientemente la
             velocidad del motor.
           </p>
-          <p className="">
+          <p>
             En comparación con los equipos no Inverter, los aires acondicionados
             Inverter consumen aproximadamente un 60% menos de energía.
           </p>
@@ -208,14 +208,14 @@ function ItemCultura() {
       </Row>
       <Row className="resources-banner">
         <Col className="overlay-resources">
-          <div class="culture-daikin text-white px-3 px-md-0">
-            <h3 class="">De Japón para el mundo</h3>
-            <h4 class="">DAIKIN</h4>
-            <p class="">
+          <div className="culture-daikin text-white px-3 px-md-0">
+            <h3>De Japón para el mundo</h3>
+            <h4>DAIKIN</h4>
+            <p>
               La diversidad climática de Japón y los recursos limitados llevaron
               al nacimiento de las tecnologías de Daikin, una Marca de Japón.
             </p>
-            <p class="">
+            <p>
               Daikin continuará llevando al mundo estas tecnologías a las
               personas de varios países para vivir sus vidas cotidianas con
               mayor
