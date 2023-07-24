@@ -11,6 +11,14 @@
     background-color: #fafafa;
 }
 
+.card {
+    background-color: #f5f5f5;
+    border: none;
+}
+
+.card-body {
+    margin: 5rem 0;
+}
 
 .timeline {
     border-left: 5px solid #0097E0;

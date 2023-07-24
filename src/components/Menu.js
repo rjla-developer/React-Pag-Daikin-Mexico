@@ -47,7 +47,7 @@ function Menu() {
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link>
-                <Link className="text-decoration-none text-black" to={"/servicios"}>
+                <Link className="text-decoration-none text-black" to={"/"}>
                   Servicios
                 </Link>
               </Nav.Link>
@@ -57,7 +57,7 @@ function Menu() {
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link className="text-decoration-none text-black" to={"/noticias"}>
+                <Link className="text-decoration-none text-black" to={"/"}>
                   Noticias e Industria
                 </Link>
               </Nav.Link>
@@ -115,7 +115,7 @@ function Menu() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link>
-              <Link className="text-decoration-none text-secondary" to={"/servicios"}>
+              <Link className="text-decoration-none text-secondary" to={"/"}>
                 Servicios
               </Link>
             </Nav.Link>
@@ -125,8 +125,8 @@ function Menu() {
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link className="text-decoration-none text-secondary" to={"/noticias"}>
-                Noticias e Industria
+              <Link className="text-decoration-none text-secondary" to={"/"}>
+                Noticias e Industria{" "}
               </Link>
             </Nav.Link>
           </Nav>

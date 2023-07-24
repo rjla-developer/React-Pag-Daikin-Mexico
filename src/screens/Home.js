@@ -6,7 +6,7 @@ import Grow from "@mui/material/Grow";
 //Pestañas
 import Producto from "../components/homeComponents/Producto";
 import Proyectos from "../components/homeComponents/Proyectos";
-import Noticias from "../components/noticiasComponents/Noticias";
+import Noticias from "../components/homeComponents/Noticias";
 import Formando from "../components/homeComponents/Formando";
 
 //Imagenes
