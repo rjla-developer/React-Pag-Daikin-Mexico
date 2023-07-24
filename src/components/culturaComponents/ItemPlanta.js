@@ -85,11 +85,11 @@ function ItemPlanta() {
           <Row>
             <Col>
               <div className="text-white text-start">
-                <h5 class="white-title-culture">
+                <h5 className="white-title-culture">
                   Mercaderes # 20-301 Colonia San José Insurgentes C.P. 03900,
                   México, D.F.
                 </h5>
-                <h5 class="white-title-culture mb-0">+(52)(55) 5147 0148</h5>
+                <h5 className="white-title-culture mb-0">+(52)(55) 5147 0148</h5>
               </div>
             </Col>
           </Row>

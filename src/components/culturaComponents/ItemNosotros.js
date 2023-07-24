@@ -80,9 +80,9 @@ function ItemNosotros() {
       <Container>
         <Row className="d-flex align-items-center justify-content-center my-5">         
           <Col xs={12} md={5} className="text-start order-md-last mb-3 mb-md-0">
-            <div class="">
-              <h3 class="txt-blue mb-2 mb-md-4">Soluciones innovadoras</h3>
-              <p class="">
+            <div className="">
+              <h3 className="txt-blue mb-2 mb-md-4">Soluciones innovadoras</h3>
+              <p className="">
                 En Daikin siempre buscamos crear nuevas tecnologías en aire
                 acondicionado para satisfacer las necesidades de nuestros
                 clientes. Por ello contamos con nuestro Centro de Desarrollo
@@ -105,9 +105,9 @@ function ItemNosotros() {
 
         <Row className="d-flex align-items-center justify-content-center py-1 py-md-5 mt-0 mt-md-5">
           <Col xs={12} md={5} className="text-start me-0 me-md-5">
-            <div class="">
-              <h3 class="txt-blue mb-3 mb-md-4">Presencia Global, Soporte Local</h3>
-              <p class="mb-4 mb-md-5">
+            <div className="">
+              <h3 className="txt-blue mb-3 mb-md-4">Presencia Global, Soporte Local</h3>
+              <p className="mb-4 mb-md-5">
                 En Daikin tendrán la seguridad de contar siempre con un
                 representante cerca de su localidad, quienes combinan un amplio
                 conocimiento de nuestros productos y la experiencia local para
