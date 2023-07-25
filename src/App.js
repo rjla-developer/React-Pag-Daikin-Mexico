@@ -8,6 +8,7 @@ import CulturaDaikin from "./screens/CulturaDaikin";
 import Servicios from "./screens/Servicios";
 import NoticiasEIndustria from "./screens/NoticiasEIndustria";
 import Noticia from "./components/noticiasComponents/Noticia";
+import Distribuidores from "./screens/Distribuidores";
 import Footer from "./components/Footer";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/servicios" element={<Servicios />}></Route>
             <Route path="/noticias" element={<NoticiasEIndustria />}></Route>
             <Route path="/noticia" element={<Noticia />}></Route>
+            <Route path="/distribuidores" element={<Distribuidores />}></Route>
           </Routes>
           <Footer />
         </BrowserRouter>
