@@ -9,25 +9,25 @@ function Distribuidores() {
 
   return (
     <Container>
-      <h1 className="text-center txt-blue mb-2 mt-5">
+      <h1 className="text-center txt-blue mb-2 mt-3 mt-md-5">
         {propsDistribuidor["state"]}
       </h1>
       {propsDistribuidor["cities"].map((cityData, index) => {
         return (
           <div key={"ciudad "+ index}>
-            <h3 className="text-center txt-blue mb-5">{cityData["city"]}</h3>
+            <h2 className="text-center txt-blue mb-4">{cityData["city"]}</h2>
             {cityData["distributors"].map((element, index) => {
               /* console.log(element.content); */
               /* ${element.content['image']} */
               return (
                 <Row key={index} className="mb-5 d-flex align-items-center">
-                  <Col>
+                  <Col xs={12} md={6}>
                     {element.content["image"] !== "" ? (
                       <Image
                         fluid
                         src={require(`../img/Distribuidores/logos/${element.content["image"]}`)}
                         alt="Mapa de México"
-                        className="w-50 mb-3"
+                        className="w-50 mb-0 mb-md-3"
                       />
                     ) : null}
 
@@ -53,7 +53,7 @@ function Distribuidores() {
                       </tbody>
                     </Table>
                   </Col>
-                  <Col>
+                  <Col xs={12} md={6}>
                     {element.content["map"] !== "" ? (
                       <div className="location-wrapper">
                         <iframe

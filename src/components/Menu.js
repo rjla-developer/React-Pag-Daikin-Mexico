@@ -10,6 +10,7 @@ import {
 import { Link } from "react-router-dom";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
+import axios from "axios";
 
 const dataDistributors = {
   jalisco: {
@@ -620,6 +621,25 @@ const dataDistributors = {
 function Menu() {
   const [showModal, setShowModal] = useState(false);
   const [setstateOption, setSetstateOption] = useState({});
+  const [dataDistributors, setDataDistributors] = useState({});
+
+  useEffect(() => {
+    fetchData();
+
+    return () => {};
+  }, []);
+
+  const fetchData = () => {
+    axios
+      .get("/api/distributorsByState.json")
+      .then((response) => {
+        setDataDistributors(response.data);
+        /* console.log(response.data); */
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+  };
 
   const handleShowModal = () => {
     setShowModal(true);
@@ -631,6 +651,7 @@ function Menu() {
 
   const options = Object.values(dataDistributors);
 
+  /* console.log(dataDis) */
   return (
     <Container fluid className="fixed-top px-0 bg-white" id="home">
       {/* Menu Phone */}
@@ -682,9 +703,7 @@ function Menu() {
                   Servicios
                 </Link>
               </Nav.Link>
-              <Nav.Link onClick={handleShowModal}>
-                  Distribuidores
-              </Nav.Link>
+              <Nav.Link onClick={handleShowModal}>Distribuidores</Nav.Link>
               <Nav.Link>
                 <Link
                   className="text-decoration-none text-black"
@@ -754,9 +773,7 @@ function Menu() {
                 Servicios
               </Link>
             </Nav.Link>
-            <Nav.Link onClick={handleShowModal}>
-              Distribuidores
-            </Nav.Link>
+            <Nav.Link onClick={handleShowModal}>Distribuidores</Nav.Link>
             <Nav.Link>
               <Link
                 className="text-decoration-none text-secondary"
@@ -775,23 +792,30 @@ function Menu() {
           <Modal.Title>Elige un estado:</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Autocomplete
-            disablePortal
-            id="grouped-state"
-            options={options}
-            getOptionLabel={(option) => option.state}
-            sx={{ width: 300 }}
-            renderInput={(params) => <TextField {...params} label="Estado" />}
-            onChange={(event, value) => {
-              setSetstateOption(value);
-            }}
-          />
+          {dataDistributors != null ? (
+            <Autocomplete
+              disablePortal
+              id="grouped-state"
+              options={options}
+              getOptionLabel={(option) => option.state}
+              sx={{ width: 300 }}
+              renderInput={(params) => <TextField {...params} label="Estado" />}
+              onChange={(event, value) => {
+                setSetstateOption(value);
+              }}
+            />
+          ) : null}
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleCloseModal}>
             Cerrar
           </Button>
-          <Link className="btn btn-primary" to={"/distribuidores"} onClick={handleCloseModal} state={setstateOption}>
+          <Link
+            className="btn btn-primary"
+            to={"/distribuidores"}
+            onClick={handleCloseModal}
+            state={setstateOption}
+          >
             Continuar
           </Link>
         </Modal.Footer>
