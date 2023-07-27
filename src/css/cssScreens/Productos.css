@@ -1,0 +1,33 @@
+.resources-banner-productos {
+  background-image: url("../../img/Productos//VRV/VRV.jpg");
+  margin-top: 0;
+  height: 35rem;
+}
+
+.resources-banner-productos .overlay-resources {
+  height: 35rem;
+  margin-top: -48px;
+  background: linear-gradient(
+    to bottom,
+    rgba(66, 178, 232, 0.8) 0%,
+    rgba(33, 89, 116, 0.8) 100%
+  );
+}
+
+@media (min-width: 1200px) {
+  .resources-banner-productos {
+    background-image: url("../../img/Productos//VRV/VRV.jpg");
+    margin-top: 0;
+    height: 25rem;
+  }
+  
+  .resources-banner-productos .overlay-resources {
+    height: 25rem;
+    margin-top: -48px;
+    background: linear-gradient(
+      to bottom,
+      rgba(66, 178, 232, 0.8) 0%,
+      rgba(33, 89, 116, 0.8) 100%
+    );
+  }
+}

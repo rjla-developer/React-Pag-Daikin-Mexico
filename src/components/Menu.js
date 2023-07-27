@@ -755,14 +755,29 @@ function Menu() {
               </Link>
             </Nav.Link>
             <NavDropdown title="Productos" id="navbarDropdown">
-              <NavDropdown.Item href={"/"}>
-                <i className="bi bi-chevron-right"></i> VRV
+              <NavDropdown.Item>
+                <Link
+                  className="text-decoration-none text-secondary"
+                  to={"/vrv"}
+                >
+                  <i className="bi bi-chevron-right"></i> VRV
+                </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href={"/"}>
-                <i className="bi bi-chevron-right"></i> Residencial
+              <NavDropdown.Item>
+                <Link
+                  className="text-decoration-none text-secondary"
+                  to={"/residencial"}
+                >
+                  <i className="bi bi-chevron-right"></i> Residencial
+                </Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href={"/"}>
-                <i className="bi bi-chevron-right"></i> Aplicado
+              <NavDropdown.Item>
+                <Link
+                  className="text-decoration-none text-secondary"
+                  to={"/"}
+                >
+                  <i className="bi bi-chevron-right"></i> Aplicado
+                </Link>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link>
