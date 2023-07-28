@@ -58,8 +58,12 @@ function Footer() {
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
-                  Distribuidores
+                <a
+                  className="text-decoration-none text-secondary"
+                  href={require("../pdf/DAMX - TC  Eng-Spa- Final V4.pdf")}
+                  target="_blank"
+                >
+                  Terminos y condiciones
                 </a>
               </li>
             </ul>
@@ -349,6 +353,16 @@ function Footer() {
                   href="/"
                 >
                   <p className="mb-0">Distribuidores</p>
+                  <i className="bi bi-chevron-right text-end"></i>
+                </a>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <a
+                  className="text-decoration-none text-white d-flex justify-content-between"
+                  href={require("../pdf/DAMX - TC  Eng-Spa- Final V4.pdf")}
+                  target="_blank"
+                >
+                  <p className="mb-0">Terminos y condiciones</p>
                   <i className="bi bi-chevron-right text-end"></i>
                 </a>
               </ListGroup.Item>
@@ -650,14 +664,6 @@ function Footer() {
                     href={require("../pdf/DMMX - Aviso de Privacidad Integral.pdf")}
                   >
                     Aviso de privacidad Daikin Manufacturing México
-                  </a>
-                </Col>
-                <Col xs={"auto"}>
-                  <a
-                    className="text-decoration-none text-white opacity-50"
-                    href={"https://daikin.com.mx/terminos-y-condiciones-de-venta-directa-de-equipo-y-servicio"}
-                  >
-                    Términos y Condiciones
                   </a>
                 </Col>
               </Row>
