@@ -14,6 +14,24 @@
   );
 }
 
+.containerProducts .accordion-item {
+  background-color: #0097E0 !important;
+}
+
+.containerProducts .list-group-item {
+  background-color: #48b0e4 !important;
+  color: white !important;
+}
+
+.containerProducts .accordion-button {
+  background-color: #0097E0 !important;
+  color: white !important;
+}
+
+.containerProducts .accordion {
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(45, 91, 161, 0.25);
+}
+
 @media (min-width: 1200px) {
   .resources-banner-productos {
     background-image: url("../../img/Productos//VRV/VRV.jpg");

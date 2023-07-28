@@ -65,7 +65,7 @@ function VRV() {
       </Row>
       <Container>
         <Row className="my-5 pt-3 pb-5">
-          <Col xs={12} md={3}>
+          <Col xs={12} md={3} className="containerProducts">
             <Accordion>
               <Accordion.Item eventKey="0" className="text-white">
                 <Accordion.Header>Enfriados por agua</Accordion.Header>
