@@ -15,7 +15,15 @@
 }
 
 .circule-icon-servicio{
-    background-color: white;
-    padding: 2rem;
-    border-radius: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+.iconServices{
+  width: 4rem;
+  height: 4rem;
 }

@@ -14,7 +14,7 @@ function Servicios() {
     <Container fluid className="p-0">
       <Row className="resources-banner-servicios">
         <div className="overlay-resources d-flex align-items-center justify-content-center text-center ">
-          <Col xs={12} md={6} className="">
+          <Col xs={10} md={6} className="">
             <div className="text-white">
               <h3>Servicios</h3>
               <p>
@@ -28,7 +28,7 @@ function Servicios() {
       </Row>
       <Container>
         <Row>
-          <Col xs={6} className="p-5">
+          <Col xs={12} md={6} className="p-5">
             <Image
               fluid
               className="h-100 rounded"
@@ -44,14 +44,14 @@ function Servicios() {
                   cliente y satisfacer sus necesidades.
                 </li>
                 <li className="mb-4">
-                  <i className="bi bi-chevron-right"></i>Velamos por sus intereses,
-                  asegurándonos de sacar el máximo provecho a su presupuesto
-                  mediante bajos costos de mantenimiento y protegiendo su
-                  inversión.
+                  <i className="bi bi-chevron-right"></i>Velamos por sus
+                  intereses, asegurándonos de sacar el máximo provecho a su
+                  presupuesto mediante bajos costos de mantenimiento y
+                  protegiendo su inversión.
                 </li>
                 <li className="mb-4">
-                  <i className="bi bi-chevron-right"></i>Contamos con profesionales
-                  y técnicos altamente calificados.
+                  <i className="bi bi-chevron-right"></i>Contamos con
+                  profesionales y técnicos altamente calificados.
                 </li>
                 <li className="mb-4">
                   <i className="bi bi-chevron-right"></i>Nuestro servicio es
@@ -66,44 +66,54 @@ function Servicios() {
       <div className="bg-blue">
         <Container>
           <Row className="py-5 text-white">
-            <h3 className="text-center">Nuestros servicios incluyen</h3>
-            <Col >
+            <h3 className="text-center mb-5">Nuestros servicios incluyen</h3>
+            <Col className="d-flex align-items-center justify-content-center text-center">
               <div>
-                <div className="circule-icon-servicio">
-                  <Image className="w-100" src={safety} alt="" />
+                <div className="circule-icon-servicio mb-2">
+                  <Image className="iconServices" src={safety} alt="" />
                 </div>
                 <p className="white-text">Mantenimiento</p>
               </div>
             </Col>
-            <Col >
-              <div className="">
-                <Image src={wrench} alt="" />
+            <Col className="d-flex align-items-center justify-content-center text-center">
+              <div>
+                <div className="circule-icon-servicio mb-2">
+                  <Image className="iconServices" src={wrench} alt="" />
+                </div>
                 <p className="white-text">Reparaciones</p>
               </div>
             </Col>
 
-            <Col>
-              <div className="">
-                <Image src={screw} alt="" />
+            <Col className="d-flex align-items-center justify-content-center text-center">
+              <div>
+                <div className="circule-icon-servicio mb-2">
+                  <Image className="iconServices" src={screw} alt="" />
+                </div>
                 <p className="white-text">Partes y repuestos</p>
               </div>
             </Col>
 
-            <Col>
-              <div className="">
-                <Image src={drill} alt="" />
+            <Col className="d-flex align-items-center justify-content-center text-center">
+              <div>
+                <div className="circule-icon-servicio mb-2">
+                  <Image className="iconServices" src={drill} alt="" />
+                </div>
+                <p className="white-text">Reemplazos</p>
               </div>
-              <p className="white-text">Reemplazos</p>
             </Col>
-            <Col>
-              <div className="">
-                <Image src={gloves} alt="" />
+            <Col className="d-flex align-items-center justify-content-center text-center">
+              <div>
+                <div className="circule-icon-servicio mb-2">
+                  <Image className="iconServices" src={gloves} alt="" />
+                </div>
                 <p className="white-text">"Turn-key"</p>
               </div>
             </Col>
-            <Col>
-              <div className="">
-                <Image src={sketch} alt="" />
+            <Col className="d-flex align-items-center justify-content-center text-center">
+              <div>
+                <div className="circule-icon-servicio mb-2">
+                  <Image className="iconServices" src={sketch} alt="" />
+                </div>
                 <p className="white-text">Actualizaciones</p>
               </div>
             </Col>
@@ -113,93 +123,107 @@ function Servicios() {
       <Container>
         <Row className="py-5">
           <h3 className="text-center txt-blue mb-5">Informaciones</h3>
-          <Col className="mb-3 mx-0" xs={3}>
+          <Col className="mb-3 mx-0" xs={12} md={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN México</h5>
               <p className="">
-                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)81 8333-1335
+                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)81
+                8333-1335
               </p>
               <p className="">Ext. 6713 y 6704</p>
               <p className="">
-                <i className="bi bi-envelope-fill txt-blue me-2"></i>servicio@daikin.com.mx
+                <i className="bi bi-envelope-fill txt-blue me-2"></i>
+                servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={3}>
+          <Col className="mb-3 mx-0" xs={12} md={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN CDMX</h5>
               <p className="">
-                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)55 5147-0148
+                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)55
+                5147-0148
               </p>
               <p className="">Ext. 6568</p>
               <p className="">
-                <i className="bi bi-envelope-fill txt-blue me-2"></i>servicio@daikin.com.mx
+                <i className="bi bi-envelope-fill txt-blue me-2"></i>
+                servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={3}>
+          <Col className="mb-3 mx-0" xs={12} md={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN Cancún</h5>
               <p className="">
-                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)55 5147-0148
+                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)55
+                5147-0148
               </p>
               <p className="">Ext. 6568</p>
               <p className="">
-                <i className="bi bi-envelope-fill txt-blue me-2"></i>servicio@daikin.com.mx
+                <i className="bi bi-envelope-fill txt-blue me-2"></i>
+                servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={3}>
+          <Col className="mb-3 mx-0" xs={12} md={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN Monterrey</h5>
               <p className="">
-                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)81 8333-1335
+                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)81
+                8333-1335
               </p>
               <p className="">Ext. 6712</p>
               <p className="">
-                <i className="bi bi-envelope-fill txt-blue me-2"></i>servicio@daikin.com.mx
+                <i className="bi bi-envelope-fill txt-blue me-2"></i>
+                servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={3}>
+          <Col className="mb-3 mx-0" xs={12} md={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN Guadalajara</h5>
               <p className="">
-                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)33-1454-1900
+                <i className="bi bi-telephone-fill txt-blue me-2"></i>
+                (+52)33-1454-1900
               </p>
               <p className="">Ext. 6610</p>
               <p className="">
-                <i className="bi bi-envelope-fill txt-blue me-2"></i>servicio@daikin.com.mx
+                <i className="bi bi-envelope-fill txt-blue me-2"></i>
+                servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={3}>
+          <Col className="mb-3 mx-0" xs={12} md={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN Tijuana</h5>
               <p className="">
-                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)33-1454-1900
+                <i className="bi bi-telephone-fill txt-blue me-2"></i>
+                (+52)33-1454-1900
               </p>
               <p className="">Ext. 6610</p>
               <p className="">
-                <i className="bi bi-envelope-fill txt-blue me-2"></i>servicio@daikin.com.mx
+                <i className="bi bi-envelope-fill txt-blue me-2"></i>
+                servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={3}>
+          <Col className="mb-3 mx-0" xs={12} md={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN León</h5>
               <p className="">
-                <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)477-162-5590
+                <i className="bi bi-telephone-fill txt-blue me-2"></i>
+                (+52)477-162-5590
               </p>
               <p className="">Ext. 6809</p>
               <p className="">
-                <i className="bi bi-envelope-fill txt-blue me-2"></i>servicio@daikin.com.mx
+                <i className="bi bi-envelope-fill txt-blue me-2"></i>
+                servicio@daikin.com.mx
               </p>
             </div>
           </Col>
