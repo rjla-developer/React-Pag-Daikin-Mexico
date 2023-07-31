@@ -26,7 +26,7 @@ function ItemResponsabilidad() {
                 </p>
               </div>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} >
               <Image
                 fluid
                 className="my-4 d-block d-md-none rounded"

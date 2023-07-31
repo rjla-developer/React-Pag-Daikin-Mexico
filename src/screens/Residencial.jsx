@@ -1,22 +1,15 @@
 import React, { useState, useEffect, useCallback } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Accordion,
-  ListGroup,
-  ListGroupItem,
-  Image,
-  Button,
-} from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "../css/cssScreens/Productos.css";
 import axios from "axios";
+import MenuProducts from "../components/productosComponents/MenuProducts";
+import ShowDescProduct from "../components/productosComponents/ShowDescProduct";
 
 function Residencial() {
   const [products, setProducts] = useState({});
   const [product, setProduct] = useState({});
 
-  const dataItemsResidencial = [
+  const dataItems = [
     {
       item: "Minisplits",
       data: [
@@ -431,20 +424,6 @@ function Residencial() {
     },
   ];
 
-  function btnAcordion(nameProduct, id) {
-    return (
-      <Button
-        onClick={() => {
-          console.log(products[id])
-          setProduct(products[id])
-        }}
-        variant="link"
-        className="text-decoration-none m-0 p-2 rounded-0 border-0"
-      >
-        <ListGroupItem>{nameProduct}</ListGroupItem>
-      </Button>
-    );
-  }
   const fetchData = useCallback(() => {
     axios
       .get("/api/residencial.json")
@@ -464,7 +443,7 @@ function Residencial() {
 
   return (
     <Container fluid>
-      <Row className="resources-banner-productos py-5 text-white">
+      <Row className="resources-banner-residencial py-5 text-white">
         <div className="overlay-resources d-flex align-items-center justify-content-center">
           <Col xs={12} md={5} className="px-4 px-md-0 text-center">
             <div>
@@ -483,78 +462,13 @@ function Residencial() {
       <Container>
         <Row className="my-5 pt-3 pb-5">
           <Col xs={12} md={3} className="containerProducts">
-            <Accordion >
-              {dataItemsResidencial.map((element, index) => {
-                return (
-                  <Accordion.Item eventKey={index} className="text-white" key={index}>
-                    <Accordion.Header>{element.item}</Accordion.Header>
-                    <Accordion.Body className="p-2">
-                      <ListGroup className="border-top-0 border-bottom-0 rounded-0 border-right-0 border-left-0">
-                        {element["data"].map((element2, index) => {
-                          if (element2["item"]) {
-                            return (
-                              <Accordion>
-                                <Accordion.Item
-                                  eventKey={index}
-                                  className="text-white"
-                                >
-                                  <Accordion.Header>
-                                    {element2.item}
-                                  </Accordion.Header>
-                                  <Accordion.Body className="p-2">
-                                    <ListGroup className="border-top-0 border-bottom-0 rounded-0 border-right-0 border-left-0">
-                                      {element2["data"].map(
-                                        (element3, index) => {
-                                          if (element3["item"]) {
-                                            return (
-                                              <Accordion>
-                                                <Accordion.Item
-                                                  eventKey="0"
-                                                  className="text-white"
-                                                >
-                                                  <Accordion.Header>
-                                                    {element3.item}
-                                                  </Accordion.Header>
-                                                  <Accordion.Body className="p-0">
-                                                    <ListGroup className="border-top-0 border-bottom-0 rounded-0 border-right-0 border-left-0">
-                                                      {element3["data"].map(
-                                                        (element4, index) =>
-                                                          btnAcordion(
-                                                            element4[
-                                                              "nameProduct"
-                                                            ],
-                                                            element4["id"]
-                                                          )
-                                                      )}
-                                                    </ListGroup>
-                                                  </Accordion.Body>
-                                                </Accordion.Item>
-                                              </Accordion>
-                                            );
-                                          } else
-                                            return btnAcordion(
-                                              element3["nameProduct"],
-                                              element3["id"]
-                                            );
-                                        }
-                                      )}
-                                    </ListGroup>
-                                  </Accordion.Body>
-                                </Accordion.Item>
-                              </Accordion>
-                            );
-                          } else
-                            return btnAcordion(
-                              element2["nameProduct"],
-                              element2["id"]
-                            );
-                        })}
-                      </ListGroup>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                );
-              })}
-            </Accordion>
+            <MenuProducts
+              dataItems={dataItems}
+              setProduct={(e) => {
+                setProduct(e);
+              }}
+              products={products}
+            />
           </Col>
 
           {Object.keys(product).length > 0 &&
@@ -572,40 +486,14 @@ function Residencial() {
                     src={require(`../img/Productos/Residencial/Productos/${product["image"]}`)}
                   />
                 ) : (
-                  <Image fluid src={require(`../img/Productos/Residencial/Productos/ASPT (1).jpg`)} />
+                  <Image
+                    fluid
+                    src={require(`../img/Productos/Residencial/Productos/ASPT (1).jpg`)}
+                  />
                 )}
               </Col>
 
-              <Col xs={12} md={4}>
-                <h3 className="txt-blue mb-5">{product["content"]["title"]}</h3>
-                {/* <p className="mb-4">{product["content"]["description"]}</p> */}
-                <p dangerouslySetInnerHTML={{__html: product["content"]["description"]}}></p>
-
-                <div className="mb-4">
-                  {product["content"]["features"].map((element, index) => (
-                    <p key={index}>
-                      <i className="bi bi bi-chevron-right" />{" "}
-                      {element["feature"]}
-                    </p>
-                  ))}
-                </div>
-
-                <div className="mb-5">
-                  <h3 className="txt-blue">
-                    <i className="bi bi-download"></i> Descargas
-                  </h3>
-                </div>
-
-                <Row>
-                  {product["downloads"].map((element, index) => (
-                    <Col key={index}>
-                      <Button onClick={() => {}}>
-                        {element.download_text}
-                      </Button>
-                    </Col>
-                  ))}
-                </Row>
-              </Col>
+              <ShowDescProduct product={product}/>
             </>
           ) : null}
         </Row>
