@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "../css/cssScreens/Home.css";
 import Grow from "@mui/material/Grow";
+import { Link } from "react-router-dom";
 
 //Pestañas
 import Producto from "../components/homeComponents/Producto";
@@ -23,26 +24,32 @@ function Home() {
     {
       urlImg: vrvImg,
       nameService: "VRV",
+      dir: "/vrv"
     },
     {
       urlImg: aplicadoImg,
       nameService: "APLICADO",
+      dir: "/aplicado"
     },
     {
       urlImg: residencialImg,
       nameService: "RESIDENCIAL",
+      dir: "/residencial"
     },
     {
       urlImg: servicioImg,
       nameService: "SERVICIO",
+      dir: "/servicios"
     },
     {
       urlImg: purificadoresImg,
       nameService: "PURIFICADORES",
+      dir: "/vrv"
     },
   ];
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const handleScroll = () => {
       const scrollTop =
         window.pageYOffset || document.documentElement.scrollTop;
@@ -116,12 +123,12 @@ function Home() {
               className="d-flex align-items-center justify-content-center"
             >
               <Grow in={isVisible}>
-                <div>
+                <Link to={`${elemento.dir}`}>
                   <Producto
                     imgUrl={elemento.urlImg}
                     nomProduct={elemento.nameService}
                   />
-                </div>
+                </Link>
               </Grow>
             </Col>
           ))}

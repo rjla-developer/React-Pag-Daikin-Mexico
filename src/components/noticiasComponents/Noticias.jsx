@@ -14,6 +14,7 @@ import { Pagination, Navigation, Keyboard } from "swiper/modules";
 
 //Img noticias
 import imgAnunciaInve from "../../img/NoticiasEIndustria/portadasNoticias/noticia-5-chica.jpg";
+import imgCoverAnunciaInve from "../../img/NoticiasEIndustria/noticia-Inversion/noticia-inversion.jpg";
 import imgComfortTech from "../../img/NoticiasEIndustria/portadasNoticias/planta1.jpg";
 import imgAnunciaAcuedo from "../../img/NoticiasEIndustria/portadasNoticias/Daikin-acuerdo-san-luis.jpg";
 import imgCoverAnunciaAcuerdo from "../../img/NoticiasEIndustria/noticia-AcuerdoSanluis/IMG_8700.jpg";
@@ -34,7 +35,7 @@ function Noticias() {
     },
     {
       imgItem: imgAnunciaInve,
-      imgCover: imgAnunciaInve,
+      imgCover: imgCoverAnunciaInve,
       titleItem: "Daikin anuncia inversión",
       title:
         "Daikin anuncia inversión de $300 millones de dólares en San Luis Potosí para su segunda planta de producción en México",

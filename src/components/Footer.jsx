@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Accordion, ListGroup } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../css/cssComponents/Footer.css";
 
 function Footer() {
@@ -9,62 +10,62 @@ function Footer() {
       <Container className="d-none d-lg-block">
         <Row className="py-5">
           <Col>
-            <a className="text-decoration-none text-white" href="/">
+            <Link className="text-decoration-none text-white" to={"/"}>
               <i className="txt-blue bi bi-chevron-right"></i>
               <span className="fs-5">Inicio</span>
-            </a>
+            </Link>
             <ul className="list-unstyled ms-2 mt-1">
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/"}>
                   Productos
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/servicios"}>
                   Servicios
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/"}>
                   Proyectos
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/cultura"}>
                   Planta
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/"}>
                   Contáctanos
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/"}>
                   Bolsa de Trabajo
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/"}>
                   Centro de Entrenamiento
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a
+                <Link
                   className="text-decoration-none text-secondary"
                   href={require("../pdf/DAMX - TC  Eng-Spa- Final V4.pdf")}
                   target="_blank"
                 >
                   Terminos y condiciones
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>
@@ -73,28 +74,28 @@ function Footer() {
             <>
               {" "}
               {/* ¿Quiénes somos? */}
-              <a href="/" className="text-decoration-none text-white">
+              <Link to={"/"} className="text-decoration-none text-white">
                 <i className="txt-blue bi bi-chevron-right"></i>
                 <span className="fs-5">¿Quiénes somos?</span>
-              </a>
+              </Link>
               <ul className="list-unstyled ms-2 mt-1">
                 <li className="mb-1">
                   <i className="txt-blue bi bi-chevron-right"></i>
-                  <a className="text-decoration-none text-secondary" href="/">
+                  <Link className="text-decoration-none text-secondary" to={"/"}>
                     Nuestra filosofía
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
                   <i className="txt-blue bi bi-chevron-right"></i>
-                  <a className="text-decoration-none text-secondary" href="/">
+                  <Link className="text-decoration-none text-secondary" to={"/"}>
                     Historia de innovaciones
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
                   <i className="txt-blue bi bi-chevron-right"></i>
-                  <a className="text-decoration-none text-secondary" href="/">
+                  <Link className="text-decoration-none text-secondary" to={"/"}>
                     Daikin Global
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </>
@@ -102,167 +103,167 @@ function Footer() {
             <>
               {" "}
               {/* ¿Por qué Daikin? */}
-              <a className="text-decoration-none text-white" href="/">
+              <Link className="text-decoration-none text-white" to={"/"}>
                 <i className="txt-blue bi bi-chevron-right"></i>
                 <span className="fs-5">¿Por qué Daikin?</span>
-              </a>
+              </Link>
               <ul className="list-unstyled ms-2 mt-1">
                 <li className="mb-1">
                   <i className="txt-blue bi bi-chevron-right"></i>
-                  <a className="text-decoration-none text-secondary" href="/">
+                  <Link className="text-decoration-none text-secondary" to={"/"}>
                     Soluciones innovadoras
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
                   <i className="txt-blue bi bi-chevron-right"></i>
-                  <a className="text-decoration-none text-secondary" href="/">
+                  <Link className="text-decoration-none text-secondary" to={"/"}>
                     Soluciones diseñadas para cada necesidad
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
                   <i className="txt-blue bi bi-chevron-right"></i>
-                  <a className="text-decoration-none text-secondary" href="/">
+                  <Link className="text-decoration-none text-secondary" to={"/"}>
                     Compromiso con el medio ambiente
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
                   <i className="txt-blue bi bi-chevron-right"></i>
-                  <a className="text-decoration-none text-secondary" href="/">
+                  <Link className="text-decoration-none text-secondary" to={"/"}>
                     Presencia global, soporte local
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
                   <i className="txt-blue bi bi-chevron-right"></i>
-                  <a className="text-decoration-none text-secondary" href="/">
+                  <Link className="text-decoration-none text-secondary" to={"/"}>
                     Servicio postventa
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </>
           </Col>
 
           <Col>
-            <a href="/" className="text-decoration-none text-white">
+            <Link to={"/aplicado"} className="text-decoration-none text-white">
               <i className="txt-blue bi bi-chevron-right"></i>
               <span className="fs-5">Industrial/Comercial</span>
-            </a>
+            </Link>
             <ul className="list-unstyled ms-2 mt-1">
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/aplicado"}>
                   Chillers
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/aplicado"}>
                   UMAS
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/aplicado"}>
                   WSHP
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/aplicado"}>
                   Paquetes
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/aplicado"}>
                   Evaporadoras hidrónicas
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/aplicado"}>
                   VAV
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/vrv"}>
                   VRV
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/vrv"}>
                   Enfrirados por agua
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/vrv"}>
                   Enfriados por aire
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/vrv"}>
                   Nuevos controles y accesorios
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className="txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/vrv"}>
                   Unidades interiores
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>
 
           <Col>
-            <a href="/" className="text-decoration-none text-white">
+            <Link to={"/"} className="text-decoration-none text-white">
               <i className="txt-blue bi bi-chevron-right"></i>
               <span className="fs-5">Residencial/Comercial Ligero</span>
-            </a>
+            </Link>
             <ul className="list-unstyled ms-2 mt-1">
               <li className="mb-1">
                 <i className=" txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/residencial"}>
                   Minisplits
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className=" txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/residencial"}>
                   Divididos residenciales
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className=" txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/residencial"}>
                   Paquetes residenciales
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className=" txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/residencial"}>
                   Divididos comerciales
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className=" txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/residencial"}>
                   Paquetes comerciales
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className=" txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/residencial"}>
                   PTAC
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
                 <i className=" txt-blue bi bi-chevron-right"></i>
-                <a className="text-decoration-none text-secondary" href="/">
+                <Link className="text-decoration-none text-secondary" to={"/residencial"}>
                   Calefactores a gas
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>
@@ -276,95 +277,95 @@ function Footer() {
           <Accordion.Body>
             <ListGroup>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Productos</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/servicios"}
                 >
                   <p className="mb-0">Servicios</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">DSC</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Proyectos</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/cultura"}
                 >
                   <p className="mb-0">Planta</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Contáctanos</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Bolsa de Trabajo</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Centro de Entrenamiento</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Distribuidores</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
                   href={require("../pdf/DAMX - TC  Eng-Spa- Final V4.pdf")}
                   target="_blank"
                 >
                   <p className="mb-0">Terminos y condiciones</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
             </ListGroup>
           </Accordion.Body>
@@ -374,31 +375,31 @@ function Footer() {
           <Accordion.Body>
             <ListGroup>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Nuestra filosofía</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Historia de innovaciones</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Daikin Global</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
             </ListGroup>
           </Accordion.Body>
@@ -408,51 +409,51 @@ function Footer() {
           <Accordion.Body>
             <ListGroup>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Soluciones innovadoras</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">
                     Soluciones diseñadas para cada necesidad
                   </p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Compromiso con el medio ambiente</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Presencia global, soporte local</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/"}
                 >
                   <p className="mb-0">Servicio postventa</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
             </ListGroup>
           </Accordion.Body>
@@ -462,103 +463,103 @@ function Footer() {
           <Accordion.Body>
             <ListGroup>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/aplicado"}
                 >
                   <p className="mb-0">Chillers</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/aplicado"}
                 >
                   <p className="mb-0">UMAS</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/aplicado"}
                 >
                   <p className="mb-0">WSHP</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/aplicado"}
                 >
                   <p className="mb-0">Paquetes</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/aplicado"}
                 >
                   <p className="mb-0">Evaporadoras hidrónicas</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/aplicado"}
                 >
                   <p className="mb-0">VAV</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/vrv"}
                 >
                   <p className="mb-0">VRV</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/vrv"}
                 >
                   <p className="mb-0">Enfriados por agua</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/vrv"}
                 >
                   <p className="mb-0">Enfriados por aire</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/vrv"}
                 >
                   <p className="mb-0">Nuevos controles y accesorios</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/vrv"}
                 >
                   <p className="mb-0">Unidades interiores</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
             </ListGroup>
           </Accordion.Body>
@@ -568,67 +569,67 @@ function Footer() {
           <Accordion.Body>
             <ListGroup>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/residencial"}
                 >
                   <p className="mb-0">Minisplits</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/residencial"}
                 >
                   <p className="mb-0">Divididos residenciales</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/residencial"}
                 >
                   <p className="mb-0">Paquetes residenciales</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/residencial"}
                 >
                   <p className="mb-0">Divididos Comerciales</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/residencial"}
                 >
                   <p className="mb-0">Paquetes comerciales</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/residencial"}
                 >
                   <p className="mb-0">PTAC</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                <a
+                <Link
                   className="text-decoration-none text-white d-flex justify-content-between"
-                  href="/"
+                  to={"/residencial"}
                 >
                   <p className="mb-0">Calefactores a gas</p>
                   <i className="bi bi-chevron-right text-end"></i>
-                </a>
+                </Link>
               </ListGroup.Item>
             </ListGroup>
           </Accordion.Body>
@@ -651,20 +652,20 @@ function Footer() {
             >
               <Row className="d-flex justify-content-end">
                 <Col xs={"auto"}>
-                  <a
+                  <Link
                     className="text-decoration-none text-white opacity-50"
                     href={require("../pdf/DAMX-Aviso-de-Privacidad-Integral.pdf")}
                   >
                     Aviso de privacidad de Daikin México
-                  </a>
+                  </Link>
                 </Col>
                 <Col xs={"auto"}>
-                  <a
+                  <Link
                     className="text-decoration-none text-white opacity-50"
                     href={require("../pdf/DMMX - Aviso de Privacidad Integral.pdf")}
                   >
                     Aviso de privacidad Daikin Manufacturing México
-                  </a>
+                  </Link>
                 </Col>
               </Row>
             </Col>

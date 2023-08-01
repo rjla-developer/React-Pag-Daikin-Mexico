@@ -1,5 +1,13 @@
 .titleNoticie{
     position: absolute;
-    margin-top: 3rem;
-    width: 500px;
+    margin-top: 5rem;
+    width: 320px;
+}
+
+@media (min-width: 1200px) {
+    .titleNoticie{
+        position: absolute;
+        margin-top: 3rem;
+        width: 500px;
+    }
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import "../css/cssScreens/CulturaDaikin.css";
 
@@ -17,6 +17,10 @@ import ItemPlanta from "../components/culturaComponents/ItemPlanta";
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div
       role="tabpanel"

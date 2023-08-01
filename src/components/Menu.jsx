@@ -7,10 +7,12 @@ import {
   Modal,
   Button,
 } from "react-bootstrap";
+import NavbarToggle from "react-bootstrap/NavbarToggle";
 import { Link } from "react-router-dom";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import axios from "axios";
+import "../css/cssComponents/Menu.css";
 
 function Menu() {
   const [showModal, setShowModal] = useState(false);
@@ -19,7 +21,6 @@ function Menu() {
 
   useEffect(() => {
     fetchData();
-
     return () => {};
   }, []);
 
@@ -65,46 +66,96 @@ function Menu() {
           <Navbar.Collapse id="navbarNav">
             <Nav className="mr-auto">
               <Nav.Link>
-                <Link
-                  className="text-decoration-none text-black"
-                  to={"/cultura"}
+                <NavbarToggle
+                  aria-controls="navbarNav"
+                  className="NavbarToggle"
                 >
-                  Cultura Daikin
-                </Link>
+                  <Link
+                    className="text-decoration-none text-black"
+                    to={"/cultura"}
+                  >
+                    Cultura Daikin
+                  </Link>
+                </NavbarToggle>
               </Nav.Link>
+
               <NavDropdown title="Productos" id="navbarDropdown">
                 <NavDropdown.Item>
-                  <Link className="text-decoration-none text-black" to={"/vrv"}>
-                    <i className="bi bi-chevron-right"></i> VRV
-                  </Link>
+                  <NavbarToggle
+                    aria-controls="navbarNav"
+                    className="NavbarToggle"
+                  >
+                    <Link
+                      className="text-decoration-none text-black"
+                      to={"/vrv"}
+                    >
+                      <i className="bi bi-chevron-right"></i> VRV
+                    </Link>
+                  </NavbarToggle>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="text-decoration-none text-black" to={"/residencial"}>
-                    <i className="bi bi-chevron-right"></i> Residencial
-                  </Link>
+                  <NavbarToggle
+                    aria-controls="navbarNav"
+                    className="NavbarToggle"
+                  >
+                    <Link
+                      className="text-decoration-none text-black"
+                      to={"/residencial"}
+                    >
+                      <i className="bi bi-chevron-right"></i> Residencial
+                    </Link>
+                  </NavbarToggle>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="text-decoration-none text-black" to={"/aplicado"}>
-                    <i className="bi bi-chevron-right"></i> Aplicado
-                  </Link>
+                  <NavbarToggle
+                    aria-controls="navbarNav"
+                    className="NavbarToggle"
+                  >
+                    <Link
+                      className="text-decoration-none text-black"
+                      to={"/aplicado"}
+                    >
+                      <i className="bi bi-chevron-right"></i> Aplicado
+                    </Link>
+                  </NavbarToggle>
                 </NavDropdown.Item>
               </NavDropdown>
+
               <Nav.Link>
-                <Link
-                  className="text-decoration-none text-black"
-                  to={"/servicios"}
+                <NavbarToggle
+                  aria-controls="navbarNav"
+                  className="NavbarToggle"
                 >
-                  Servicios
-                </Link>
+                  <Link
+                    className="text-decoration-none text-black"
+                    to={"/servicios"}
+                  >
+                    Servicios
+                  </Link>
+                </NavbarToggle>
               </Nav.Link>
-              <Nav.Link onClick={handleShowModal}>Distribuidores</Nav.Link>
-              <Nav.Link>
-                <Link
-                  className="text-decoration-none text-black"
-                  to={"/noticias"}
+
+              <Nav.Link onClick={handleShowModal}>
+                <NavbarToggle
+                  aria-controls="navbarNav"
+                  className="NavbarToggle"
                 >
-                  Noticias e Industria
-                </Link>
+                  Distribuidores
+                </NavbarToggle>
+              </Nav.Link>
+
+              <Nav.Link>
+                <NavbarToggle
+                  aria-controls="navbarNav"
+                  className="NavbarToggle"
+                >
+                  <Link
+                    className="text-decoration-none text-black"
+                    to={"/noticias"}
+                  >
+                    Noticias e Industria
+                  </Link>
+                </NavbarToggle>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -222,8 +273,8 @@ function Menu() {
           <Link
             className="btn btn-primary"
             to={"/distribuidores"}
-            onClick={handleCloseModal}
             state={setstateOption}
+            onClick={handleCloseModal}
           >
             Continuar
           </Link>

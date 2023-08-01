@@ -1,7 +1,7 @@
 import React from "react";
 import { Accordion, ListGroup, ListGroupItem, Button } from "react-bootstrap";
 
-function MenuProducts({ dataItems, setProduct, products }) {
+function MenuProducts({ dataItems, setProduct, products, handleScrollToProductImg }) {
   function btnAcordion(nameProduct, id, numKey) {
     return (
       <Button
@@ -9,6 +9,7 @@ function MenuProducts({ dataItems, setProduct, products }) {
         onClick={() => {
           /* console.log(products[id]); */
           setProduct(products[id]);
+          handleScrollToProductImg();
         }}
         variant="link"
         className="text-decoration-none m-0 p-2 rounded-0 border-0"

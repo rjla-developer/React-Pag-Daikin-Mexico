@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { useLocation } from 'react-router-dom';
 import Noticias from "./Noticias";
@@ -7,16 +7,21 @@ import "../../css/cssComponents/Noticia.css"
 function Noticia() {
   const location = useLocation();
   const propsNoticia = location.state;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [propsNoticia]);
+  
   return (
     <>
       <Container>
         <Row className="mb-5">
-          <Col xs={4} className="">
+          <Col xs={12} md={4} className="">
             <div className="titleNoticie bg-blue py-4 px-5 text-white ">
               <p className="mb-0">{propsNoticia.title}</p>
             </div>
           </Col>
-          <Col className="mb-5">
+          <Col xs={12} md={"auto"} className="mb-5">
             <Image
               fluid
               src={propsNoticia.imgCover}

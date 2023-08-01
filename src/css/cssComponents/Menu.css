@@ -1,0 +1,7 @@
+.NavbarToggle{
+    border: 0 !important;
+    text-align: start !important;
+    padding: 0 !important;
+    font-size: var(--bs-nav-link-font-size) !important;
+    color: black !important;
+}

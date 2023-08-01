@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container, Row, Col} from "react-bootstrap";
 import Noticias from "../components/noticiasComponents/Noticias";
 
 function NoticiasEIndustria() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Container className="m-0 p-0" fluid>

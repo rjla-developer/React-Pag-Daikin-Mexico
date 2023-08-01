@@ -441,6 +441,19 @@ function Residencial() {
     fetchData();
   }, [fetchData]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const handleScrollToProductImg = () => {
+    const productImg = document.getElementById("productImg");
+    const yOffset = -140;
+    const y =
+      productImg.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
+  };
+
   return (
     <Container fluid>
       <Row className="resources-banner-residencial py-5 text-white">
@@ -461,12 +474,13 @@ function Residencial() {
       </Row>
       <Container>
         <Row className="my-5 pt-3 pb-5">
-          <Col xs={12} md={3} className="containerProducts">
+          <Col xs={12} md={3} className="containerProducts mb-5 mb-md-0">
             <MenuProducts
               dataItems={dataItems}
               setProduct={(e) => {
                 setProduct(e);
               }}
+              handleScrollToProductImg={() => handleScrollToProductImg()}
               products={products}
             />
           </Col>
@@ -476,9 +490,10 @@ function Residencial() {
           product.hasOwnProperty("content") ? (
             <>
               <Col
+                id="productImg"
                 xs={12}
                 md={5}
-                className="d-flex align-items-center justify-content-center"
+                className="d-flex align-items-center justify-content-center mb-5 mb-md-0"
               >
                 {product.image ? (
                   <Image
@@ -493,7 +508,7 @@ function Residencial() {
                 )}
               </Col>
 
-              <ShowDescProduct product={product}/>
+              <ShowDescProduct product={product} />
             </>
           ) : null}
         </Row>

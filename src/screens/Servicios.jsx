@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "../css/cssScreens/Servicios.css";
 
@@ -10,6 +10,10 @@ import gloves from "../img/Servicios/Icons/006-gloves.svg";
 import sketch from "../img/Servicios/Icons/019-sketch.svg";
 
 function Servicios() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Container fluid className="p-0">
       <Row className="resources-banner-servicios">

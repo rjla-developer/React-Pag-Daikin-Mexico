@@ -1,4 +1,4 @@
-import React, {} from "react";
+import React, {useEffect} from "react";
 import { useLocation } from "react-router-dom";
 import { Container, Row, Col, Image, Table } from "react-bootstrap";
 import "../css/cssScreens/Distribuidores.css";
@@ -7,6 +7,10 @@ function Distribuidores() {
   const location = useLocation();
   const propsDistribuidor = location.state;
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <Container>
       <h1 className="text-center txt-blue mb-2 mt-3 mt-md-5">
@@ -20,7 +24,7 @@ function Distribuidores() {
               /* console.log(element.content); */
               /* ${element.content['image']} */
               return (
-                <Row key={index} className="mb-5 d-flex align-items-center">
+                <Row key={index} className="mb-5 d-flex align-items-center mx-1 px-0 px-md-3 py-3 py-md-5 rounded shadow">
                   <Col xs={12} md={6}>
                     {element.content["image"] !== "" ? (
                       <Image
