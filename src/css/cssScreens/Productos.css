@@ -46,6 +46,22 @@
   );
 }
 
+.resources-banner-purificadores {
+  background-image: url("../../img/Productos/Purificadores/purificadores.jpg");
+  margin-top: 0;
+  height: 20rem;
+}
+
+.resources-banner-purificadores .overlay-resources {
+  height: 20rem;
+  margin-top: -48px;
+  background: linear-gradient(
+    to bottom,
+    rgba(66, 178, 232, 0.8) 0%,
+    rgba(33, 89, 116, 0.8) 100%
+  );
+}
+
 .containerProducts .accordion-item {
   background-color: #0097E0 !important;
 }

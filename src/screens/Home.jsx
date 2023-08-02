@@ -44,7 +44,7 @@ function Home() {
     {
       urlImg: purificadoresImg,
       nameService: "PURIFICADORES",
-      dir: "/vrv"
+      dir: "/purificadores"
     },
   ];
 

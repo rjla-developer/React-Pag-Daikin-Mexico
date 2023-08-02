@@ -8,6 +8,7 @@ import CulturaDaikin from "./screens/CulturaDaikin";
 import VRV from "./screens/VRV";
 import Residencial from "./screens/Residencial";
 import Aplicado from "./screens/Aplicado";
+import Purificadores from "./screens/Purificadores";
 import Servicios from "./screens/Servicios";
 import NoticiasEIndustria from "./screens/NoticiasEIndustria";
 import Noticia from "./components/noticiasComponents/Noticia";
@@ -26,6 +27,7 @@ function App() {
             <Route path="/vrv" element={<VRV />}></Route>
             <Route path="/residencial" element={<Residencial />}></Route>
             <Route path="/aplicado" element={<Aplicado />}></Route>
+            <Route path="/purificadores" element={<Purificadores />}></Route>
             <Route path="/servicios" element={<Servicios />}></Route>
             <Route path="/noticias" element={<NoticiasEIndustria />}></Route>
             <Route path="/noticia" element={<Noticia />}></Route>
