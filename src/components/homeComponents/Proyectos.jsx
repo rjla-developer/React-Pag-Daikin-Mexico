@@ -1,6 +1,8 @@
-import React, {useEffect, useState} from "react";
-import { Button } from "react-bootstrap";
+import React, { useEffect, useState, useContext } from "react";
 import "../../css/cssComponents/Proyectos.css";
+import { Link } from "react-router-dom";
+import { ContextProyectos } from "../../context/ContextProyectos";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -23,44 +25,65 @@ import eduImg from "../../img/Home/seccProyectos/educacion_proyecto_10.jpg";
 import otrosImg from "../../img/Home/seccProyectos/banco_proyecto_12.jpg";
 
 function Proyectos() {
+  const {
+    dataMalls,
+    dataHotels,
+    dataInfraestructure,
+    dataIndustry,
+    dataHospital,
+    dataOffice,
+    dataEducation,
+    dataOthers,
+  } = useContext(ContextProyectos);
+
   const proyectosItems = [
     {
       imgUrl: centroImg,
-      nameProyect: "CENTROS COMERCIALES",
+      nameProject: "CENTROS COMERCIALES",
+      dataProject: dataMalls,
     },
     {
       imgUrl: hotelesImg,
-      nameProyect: "HOTELES",
+      nameProject: "HOTELES",
+      dataProject: dataHotels,
     },
     {
       imgUrl: infrasImg,
-      nameProyect: "INFRAESTRUCTURA",
+      nameProject: "INFRAESTRUCTURA",
+      dataProject: dataInfraestructure,
     },
     {
       imgUrl: indusImg,
-      nameProyect: "INDUSTRIA",
+      nameProject: "INDUSTRIA",
+      dataProject: dataIndustry,
     },
     {
       imgUrl: hospitalesImg,
-      nameProyect: "HOSPITALES",
+      nameProject: "HOSPITALES",
+      dataProject: dataHospital,
     },
     {
       imgUrl: oficinasImg,
-      nameProyect: "OFICINAS",
+      nameProject: "OFICINAS",
+      dataProject: dataOffice,
     },
     {
       imgUrl: eduImg,
-      nameProyect: "EDUCACIÓN",
+      nameProject: "EDUCACIÓN",
+      dataProject: dataEducation,
     },
     {
       imgUrl: otrosImg,
-      nameProyect: "OTROS",
+      nameProject: "OTROS",
+      dataProject: dataOthers,
     },
   ];
+
   const [mediaQueryBool, setmediaQueryBool] = useState(null);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(min-width: 992px)');
+    window.scrollTo(0, 0);
+    const mediaQuery = window.matchMedia("(min-width: 992px)");
     setmediaQueryBool(mediaQuery.matches);
 
     const handleResize = (event) => {
@@ -83,9 +106,9 @@ function Proyectos() {
   return (
     <>
       <Swiper
-        navigation={mediaQueryBool ? true: false}
+        navigation={mediaQueryBool ? true : false}
         keyboard={true}
-        slidesPerView={ mediaQueryBool ? 3 : 1}
+        slidesPerView={mediaQueryBool ? 3 : 1}
         spaceBetween={10}
         pagination={{
           clickable: true,
@@ -94,18 +117,22 @@ function Proyectos() {
         id="CarouselProyectos"
         className=" mySwiper pb-5"
       >
-        {proyectosItems.map((elemento, index) => (
+        {proyectosItems.map((element, index) => (
           <SwiperSlide className="px-0 px-lg-5" key={index}>
-            <Button variant="light pb-3">
+            <Link
+              className="btn btn-light pb-3"
+              to={"/proyecto"}
+              state={element}
+            >
               <img
                 className="img-fluid rounded"
-                src={elemento.imgUrl}
+                src={element.imgUrl}
                 alt="Proyecto"
               />
               <p className="txt-blue mb-0 py-2 fw-bold">
-                {elemento.nameProyect}
+                {element.nameProject}
               </p>
-            </Button>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

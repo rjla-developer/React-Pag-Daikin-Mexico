@@ -1,0 +1,74 @@
+{
+    "projects": [{
+            "id": "mall-1",
+            "image": "forum-buenavista.jpg",
+            "content": {
+                "title": "Forum Buenavista",
+                "place": "Ciudad de México",
+                "year": "2011",
+                "subtitle": "Tecnología",
+                "features": [{
+                        "feature": "Manejo de aire con certificación LEED"
+                    },
+                    {
+                        "feature": "Chillers enfriados por Agua Centrífugos"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "mall-2",
+            "image": "andares-mall.jpg",
+            "content": {
+                "title": "Andares Mall",
+                "place": "Guadalajara, Jalisco",
+                "year": "2015",
+                "subtitle": "Tecnología",
+                "features": [{
+                        "feature": "WHSP"
+                    },
+                    {
+                        "feature": "VRV-W"
+                    },
+
+                    {
+                        "feature": "Divividos y Paquetes"
+                    },
+                    {
+                        "feature": "3000 TR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "mall-3",
+            "image": "esfera-monterrey.jpg",
+            "content": {
+                "title": "Esfera Monterrey",
+                "place": "Guadalajara, Jalisco",
+                "year": "2014",
+                "subtitle": "Tecnología",
+                "features": [{
+                        "feature": "Chiller Magnitude"
+                    },
+                    {
+                        "feature": "1200 TR."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "mall-4",
+            "image": "centro-comercial-horizontes.jpg",
+            "content": {
+                "title": "Centro Comercial Horizontes",
+                "place": "Guadalajara, Jalisco",
+                "year": "2012",
+                "subtitle": "Tecnología",
+                "features": [{
+                    "feature": "Daikin VRV"
+                }]
+            }
+        }
+    ]
+}

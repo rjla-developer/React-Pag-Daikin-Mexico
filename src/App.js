@@ -2,6 +2,9 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+//Context
+import {ContextProyectosProvider} from "./context/ContextProyectos";
+
 import Menu from "./components/Menu";
 import Home from "./screens/Home";
 import CulturaDaikin from "./screens/CulturaDaikin";
@@ -13,11 +16,14 @@ import Servicios from "./screens/Servicios";
 import NoticiasEIndustria from "./screens/NoticiasEIndustria";
 import Noticia from "./components/noticiasComponents/Noticia";
 import Distribuidores from "./screens/Distribuidores";
+import Proyecto from "./screens/Proyecto";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
     <>
+    <ContextProyectosProvider>
       <React.StrictMode>
         <BrowserRouter>
           <Menu />
@@ -32,10 +38,12 @@ function App() {
             <Route path="/noticias" element={<NoticiasEIndustria />}></Route>
             <Route path="/noticia" element={<Noticia />}></Route>
             <Route path="/distribuidores" element={<Distribuidores />}></Route>
+            <Route path="/proyecto" element={<Proyecto />}></Route>
           </Routes>
           <Footer />
         </BrowserRouter>
       </React.StrictMode>
+    </ContextProyectosProvider>
     </>
   );
 }

@@ -33,6 +33,14 @@ body {
     background-color: #30363a;
 }
 
+.bg-blue-gradient{
+    background: linear-gradient(
+        to bottom,
+        rgba(66, 178, 232, 0.8) 0%,
+        rgba(33, 89, 116, 0.8) 100%
+    );
+}
+
 /* ---------- Text color */
 
 .txt-blue{
