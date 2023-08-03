@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Row, Col, Button } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "../../css/cssComponents/Formando.css";
+import { Link } from "react-router-dom";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -40,7 +42,7 @@ function Formando() {
 
   const fetchData = () => {
     axios
-      .get("/api/all.json")
+      .get("/api/training.json")
       .then((response) => {
         setData(response.data);
         /* console.log(response.data); */
@@ -67,11 +69,11 @@ function Formando() {
             <h4 className="mb-4">
               Formando especialistas en aire acondicionado.
             </h4>
-            <Button variant="outline-light">
+            <Link className="btn btn-outline-light" to={"/entrenamiento"} state={data}>
               <p className="mb-0 fw-bold">
                 <i className="bi bi-chevron-right"></i>VER TODOS LOS EVENTOS
               </p>
-            </Button>
+            </Link>
           </div>
 
           <div className="text-white text-center d-block d-lg-none">
@@ -79,11 +81,11 @@ function Formando() {
             <h4 className="mb-4">
               Formando especialistas en aire acondicionado.
             </h4>
-            <Button variant="outline-light mb-4">
+            <Link className="btn btn-outline-light mb-4" to={"/entrenamiento"} state={data}>
               <p className="mb-0 fw-bold">
                 <i className="bi bi-chevron-right"></i>VER TODOS LOS EVENTOS
               </p>
-            </Button>
+            </Link>
           </div>
         </Col>
         <Col xs={12} lg={7} className="py-4">
@@ -100,24 +102,24 @@ function Formando() {
               id="CarouselEntrenamiento"
               className="mySwiper pb-4"
             >
-              {data.map((elemento, index) => (
+              {data.map((element, index) => (
                 <SwiperSlide
                   className="px-0 px-lg-5 d-flex align-items-center justify-content-center"
                   key={index}
                 >
-                  <a href="/" className="text-center text-decoration-none pb-4">
+                  <Link to={"/entrenamiento"} state={data[index]} className="text-center text-decoration-none pb-4">
                     <img
                       className="img-fluid rounded"
-                      src={elemento.banner_url}
+                      src={element.banner_url}
                       alt="Imagen con la información del curso"
                     />
                     <p className="text-white mb-0 py-2 fw-bold mt-2">
-                      {elemento.title}
+                      {element.title}
                     </p>
-                    <Button variant="light" className="mt-2">
+                    <Link className="btn btn-light mt-2" to={"/entrenamiento"} state={data[index]}>
                       <p className="txt-blue mb-0 py-2 fw-bold">DETALLES</p>
-                    </Button>
-                  </a>
+                    </Link>
+                  </Link>
                 </SwiperSlide>
               ))}
             </Swiper>

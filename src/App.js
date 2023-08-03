@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 //Context
 import {ContextProyectosProvider} from "./context/ContextProyectos";
@@ -17,6 +17,7 @@ import NoticiasEIndustria from "./screens/NoticiasEIndustria";
 import Noticia from "./components/noticiasComponents/Noticia";
 import Distribuidores from "./screens/Distribuidores";
 import Proyecto from "./screens/Proyecto";
+import CentroEntrenamiento from "./screens/CentroEntrenamiento";
 import Footer from "./components/Footer";
 
 
@@ -25,7 +26,7 @@ function App() {
     <>
     <ContextProyectosProvider>
       <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
           <Menu />
           <Routes>
             <Route path="/" element={<Home />}></Route>
@@ -38,10 +39,11 @@ function App() {
             <Route path="/noticias" element={<NoticiasEIndustria />}></Route>
             <Route path="/noticia" element={<Noticia />}></Route>
             <Route path="/distribuidores" element={<Distribuidores />}></Route>
+            <Route path="/entrenamiento" element={<CentroEntrenamiento />}></Route>
             <Route path="/proyecto" element={<Proyecto />}></Route>
           </Routes>
           <Footer />
-        </BrowserRouter>
+        </HashRouter>
       </React.StrictMode>
     </ContextProyectosProvider>
     </>

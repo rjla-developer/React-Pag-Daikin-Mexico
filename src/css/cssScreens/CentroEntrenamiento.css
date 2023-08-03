@@ -1,0 +1,15 @@
+.resources-banner-entrenamiento {
+    background-image: url("../../img/CentroEntrenamiento/centro_entrenamiento.png");
+    margin-top: 0;
+    height: 15rem;
+  }
+  
+  .resources-banner-entrenamiento .overlay-resources {
+    height: 15rem;
+    margin-top: 0px;
+    background: linear-gradient(
+      to bottom,
+      rgba(66, 178, 232, 0.8) 0%,
+      rgba(33, 89, 116, 0.8) 100%
+    );
+  }
