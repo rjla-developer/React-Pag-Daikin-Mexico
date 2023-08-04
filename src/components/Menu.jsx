@@ -1,52 +1,21 @@
-import React, { useState, useEffect } from "react";
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Container,
-  Modal,
-  Button,
-} from "react-bootstrap";
+import React, { useContext } from "react";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import { Link } from "react-router-dom";
-import TextField from "@mui/material/TextField";
-import Autocomplete from "@mui/material/Autocomplete";
-import axios from "axios";
 import "../css/cssComponents/Menu.css";
+import { ContextDistribuidores } from "../context/ContextDistribuidores";
+import ModalStates from "./distribuidoresComponents/ModalStates";
 
 function Menu() {
-  const [showModal, setShowModal] = useState(false);
-  const [setstateOption, setSetstateOption] = useState({});
-  const [dataDistributors, setDataDistributors] = useState({});
+  const {
+    options,
+    showModal,
+    stateOption,
+    setStateOption,
+    handleShowModal,
+    handleCloseModal,
+  } = useContext(ContextDistribuidores);
 
-  useEffect(() => {
-    fetchData();
-    return () => {};
-  }, []);
-
-  const fetchData = () => {
-    axios
-      .get("/api/distributorsByState.json")
-      .then((response) => {
-        setDataDistributors(response.data);
-        /* console.log(response.data); */
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-  };
-
-  const handleShowModal = () => {
-    setShowModal(true);
-  };
-
-  const handleCloseModal = () => {
-    setShowModal(false);
-  };
-
-  const options = Object.values(dataDistributors);
-
-  /* console.log(dataDis) */
   return (
     <Container fluid className="fixed-top px-0 bg-white" id="home">
       {/* Menu Phone */}
@@ -246,40 +215,18 @@ function Menu() {
         </Container>
       </Navbar>
 
-      {/* Modal centrado verticalmente */}
-      <Modal show={showModal} onHide={handleCloseModal} centered>
-        <Modal.Header closeButton>
-          <Modal.Title>Elige un estado:</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          {dataDistributors != null ? (
-            <Autocomplete
-              disablePortal
-              id="grouped-state"
-              options={options}
-              getOptionLabel={(option) => option.state}
-              sx={{ width: 300 }}
-              renderInput={(params) => <TextField {...params} label="Estado" />}
-              onChange={(event, value) => {
-                setSetstateOption(value);
-              }}
-            />
-          ) : null}
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleCloseModal}>
-            Cerrar
-          </Button>
-          <Link
-            className="btn btn-primary"
-            to={"/distribuidores"}
-            state={setstateOption}
-            onClick={handleCloseModal}
-          >
-            Continuar
-          </Link>
-        </Modal.Footer>
-      </Modal>
+      {/* Modal distribuidores */}
+      <ModalStates
+        showModal={showModal}
+        handleCloseModal={() => {
+          handleCloseModal();
+        }}
+        options={options}
+        setStateOption={(e) => {
+          setStateOption(e);
+        }}
+        stateOption={stateOption}
+      />
     </Container>
   );
 }

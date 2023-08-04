@@ -1,8 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "../css/cssScreens/Home.css";
 import Grow from "@mui/material/Grow";
 import { Link } from "react-router-dom";
+
+//Context
+import { ContextDistribuidores } from "../context/ContextDistribuidores";
 
 //Pestañas
 import Producto from "../components/homeComponents/Producto";
@@ -18,33 +21,35 @@ import servicioImg from "../img/Home/seccProductos/refacciones_servicio.png";
 import purificadoresImg from "../img/Home/seccProductos/purificadores.png";
 
 function Home() {
+  const { handleShowModal } = useContext(ContextDistribuidores);
+
   const [isVisible, setIsVisible] = useState(false);
 
   const productosItems = [
     {
       urlImg: vrvImg,
       nameService: "VRV",
-      dir: "/vrv"
+      dir: "/vrv",
     },
     {
       urlImg: aplicadoImg,
       nameService: "APLICADO",
-      dir: "/aplicado"
+      dir: "/aplicado",
     },
     {
       urlImg: residencialImg,
       nameService: "RESIDENCIAL",
-      dir: "/residencial"
+      dir: "/residencial",
     },
     {
       urlImg: servicioImg,
       nameService: "SERVICIO",
-      dir: "/servicios"
+      dir: "/servicios",
     },
     {
       urlImg: purificadoresImg,
       nameService: "PURIFICADORES",
-      dir: "/purificadores"
+      dir: "/purificadores",
     },
   ];
 
@@ -111,6 +116,7 @@ function Home() {
           />
         </Col>
       </Row>
+
       <Row className="text-center bg-white px-3 pb-5">
         <p className="fs-2 fw-bold mt-5 mb-3">PRODUCTOS</p>
         <p className="txt-blue m-0 fs-5 mb-5">
@@ -134,6 +140,7 @@ function Home() {
           ))}
         </Row>
       </Row>
+
       <Row className="p-0 p-lg-5">
         <Col className="p-0 p-lg-5 shadow">
           <Image
@@ -143,6 +150,7 @@ function Home() {
           />
         </Col>
       </Row>
+
       <Row className="bg-white text-center d-flex align-items-center justify-content-center">
         <Col className="mx-0 mx-lg-5 p-4 p-lg-5">
           <p className="fs-2 fw-bold mt-3 mb-3">PROYECTOS</p>
@@ -175,7 +183,7 @@ function Home() {
                 <p className="text-secondary opacity-50 mb-3 mb-md-5">
                   <i className="bi bi-circle-fill"></i>
                 </p>
-                <Button variant="outline-primary">
+                <Button variant="outline-primary" onClick={handleShowModal}>
                   <p className="mb-0 fw-bold fs-5">
                     <i className="bi bi-chevron-right"></i>Conoce Más
                   </p>
@@ -183,13 +191,13 @@ function Home() {
               </div>
             </Col>
             <Col xs={12} md={6} className="">
-              <a href="/">
+              <Button className="bg-white border-0" onClick={handleShowModal}>
                 <Image
                   fluid
                   src={require("../img/Home/seccDistribuidores/red_distribuidores_171.jpg")}
                   alt="Mapa de México"
                 />
-              </a>
+              </Button>
             </Col>
           </Row>
         </Container>
