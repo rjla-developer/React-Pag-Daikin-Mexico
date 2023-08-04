@@ -80,6 +80,20 @@
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(45, 91, 161, 0.25);
 }
 
+@media (min-width: 576px) {
+  .resources-banner-productos {
+    height: 30rem;
+  }
+  
+  .resources-banner-productos .overlay-resources {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 768px) {
+  
+}
+
 @media (min-width: 1200px) {
   .resources-banner-productos {
     height: 25rem;

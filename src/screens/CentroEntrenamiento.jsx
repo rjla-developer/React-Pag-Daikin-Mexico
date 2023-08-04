@@ -46,7 +46,7 @@ function CentroEntrenamiento() {
                     className="shadow p-3 p-md-5 bg-white rounded mx-2 my-4 mx-md-4"
                     key={index}
                   >
-                    <Row>
+                    <Row className="mb-3">
                       <h2 className="txt-blue text-center my-3">
                         {element.title}
                       </h2>
@@ -75,7 +75,7 @@ function CentroEntrenamiento() {
             ) : (
               // Cuando dataTraining es un objeto
               <div className="shadow p-3 p-md-5 bg-white rounded mx-2 my-4 mx-md-4">
-                <Row>
+                <Row className="mb-3">
                   <h2 className="txt-blue text-center my-3">
                     {dataTraining.title}
                   </h2>

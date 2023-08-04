@@ -11,7 +11,7 @@ function ItemCultura() {
       />
       <Row className="d-flex align-items-center justify-content-center p-0">
         <div className="overlay2"></div>
-        <Col xs={12} md={10} xl={6} className="textDesc">
+        <Col xs={12} lg={10} xl={6} className="textDesc">
           <div className="py-4 px-4 text-light">
             <h3>Cultura Daikin</h3>
             <p>
@@ -41,7 +41,7 @@ function ItemCultura() {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} md={6} className="bg-primary p-0">
+        <Col xs={12} lg={6} className="bg-primary p-0">
           <Image
             fluid
             className="h-100"
@@ -51,7 +51,7 @@ function ItemCultura() {
         </Col>
         <Col
           xs={12}
-          md={6}
+          lg={6}
           className="p-0 d-flex align-items-center justify-content-center"
         >
           <div className="p-0 p-lg-5 m-5 m-lg-5 text-start">
@@ -68,7 +68,7 @@ function ItemCultura() {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} md={6} className="bg-primary p-0 order-md-last">
+        <Col xs={12} lg={6} className="bg-primary p-0 order-lg-last">
           <Image
             fluid
             className="h-100"
@@ -78,7 +78,7 @@ function ItemCultura() {
         </Col>
         <Col
           xs={12}
-          md={6}
+          lg={6}
           className="p-0 d-flex align-items-center justify-content-center"
         >
           <div className="p-0 p-lg-5 m-5 m-lg-5 text-start">
@@ -99,7 +99,7 @@ function ItemCultura() {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} md={6} className="bg-primary p-0">
+        <Col xs={12} lg={6} className="bg-primary p-0">
           <Image
             fluid
             className="h-100"
@@ -109,7 +109,7 @@ function ItemCultura() {
         </Col>
         <Col
           xs={12}
-          md={6}
+          lg={6}
           className="p-0 d-flex align-items-center justify-content-center"
         >
           <div className="p-0 p-lg-5 m-5 m-lg-5 text-start">
@@ -128,7 +128,7 @@ function ItemCultura() {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} md={6} className="bg-primary p-0 order-md-last">
+        <Col xs={12} lg={6} className="bg-primary p-0 order-lg-last">
           <Image
             fluid
             className="h-100"
@@ -138,7 +138,7 @@ function ItemCultura() {
         </Col>
         <Col
           xs={12}
-          md={6}
+          lg={6}
           className="p-0 d-flex align-items-center justify-content-center"
         >
           <div className="p-0 p-lg-5 m-5 text-start">
@@ -164,7 +164,7 @@ function ItemCultura() {
         </Col>
       </Row>
       <Row className="text-start">
-        <Col className="bg-blue-3 px-5 py-5">
+        <Col xs={12} lg={4} className="bg-blue-3 px-5 py-5">
           <h3 className="mb-4">
             Tecnologías de ahorro de energía, originado por el recurso limitado
             de energía en Japón
@@ -177,7 +177,7 @@ function ItemCultura() {
             electrónica del hogar.
           </p>
         </Col>
-        <Col className="bg-blue-2 px-5 py-5">
+        <Col xs={12} lg={4} className="bg-blue-2 px-5 py-5">
           <h3 className="mb-4">
             Aire acondicionado, sólo habitaciones ocupadas
           </h3>
@@ -191,7 +191,7 @@ function ItemCultura() {
             necesarias.
           </p>
         </Col>
-        <Col className="bg-blue-3 px-5 py-5">
+        <Col xs={12} lg={4} className="bg-blue-3 px-5 py-5">
           <h3 className="mb-4">
             Ahorro de Energía a través de la Tecnología Inverter
           </h3>
@@ -208,7 +208,7 @@ function ItemCultura() {
       </Row>
       <Row className="resources-banner">
         <Col className="overlay-resources">
-          <div className="culture-daikin text-white px-3 px-md-0">
+          <div className="culture-daikin text-white px-3 px-lg-0">
             <h3>De Japón para el mundo</h3>
             <h4>DAIKIN</h4>
             <p>

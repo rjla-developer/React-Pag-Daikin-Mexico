@@ -26,15 +26,15 @@ function ItemPlanta() {
         </p>
       </div>
       <Row className="d-flex justify-content-center p-0 m-0">
-        <Col xs={12} md={7} className="p-0 m-0">
+        <Col xs={12} lg={7} className="p-0 m-0">
           <Image
             className="img-fluid"
             src={require("../../img/CulturaDaikin/Planta/cultura_material_04.jpg")}
             alt="Estatua del Ángel de la independencia, ubicado de Ciudad de México"
           />
         </Col>
-        <Col xs={12} md={5} className="p-4 p-md-5 m-0 text-start">
-          <h2 className="txt-blue mt-2 ms-0 ms-md-5">Planta</h2>
+        <Col xs={12} lg={5} className="p-4 p-md-5 m-0 text-start">
+          <h2 className="txt-blue mt-2 ms-0 ms-lg-5 mb-0 mb-md-3 mb-lg-0">Planta</h2>
           <div className="d-block d-xl-none">
             <p>
               Después de 10 años de operación en la ciudad de México, en enero
@@ -61,21 +61,21 @@ function ItemPlanta() {
       <Container className="p-4 py-md-5">
         <h2 className="txt-blue text-start mb-4 mb-md-5">Nuestros productos:</h2>
         <Row className="d-flex justify-content-center">
-          <Col xs={10} md={2} className="border-blue d-flex align-items-center justify-content-center py-5 mx-3 mb-3 mb-md-0">
+          <Col xs={10} lg={2} className="border-blue d-flex align-items-center justify-content-center py-5 mx-3 mb-3 mb-lg-0">
             <p className="mb-0">
               Manejadoras semi-custom para aplicaciones Confort.
             </p>
           </Col>
-          <Col xs={10} md={2} className="border-blue d-flex align-items-center justify-content-center py-5 mx-3 mb-3 mb-md-0">
+          <Col xs={10} lg={2} className="border-blue d-flex align-items-center justify-content-center py-5 mx-3 mb-3 mb-lg-0">
             <p className="mb-0">
               Manejadoras custom para aplicaciones Confort, IAQ, grado
               farmacéutico y alimenticio.
             </p>
           </Col>
-          <Col xs={10} md={2} className="border-blue d-flex align-items-center justify-content-center py-5 mx-3 mb-3 mb-md-0">
+          <Col xs={10} lg={2} className="border-blue d-flex align-items-center justify-content-center py-5 mx-3 mb-3 mb-lg-0">
             <p className="mb-0">Chillers enfriados por aire.</p>
           </Col>
-          <Col xs={10} md={2} className="border-blue d-flex align-items-center justify-content-center py-5 mx-3 mb-3 mb-md-0">
+          <Col xs={10} lg={2} className="border-blue d-flex align-items-center justify-content-center py-5 mx-3 mb-3 mb-lg-0">
             <p className="mb-0">Gabinetes para Filtración química (AAF).</p>
           </Col>
         </Row>

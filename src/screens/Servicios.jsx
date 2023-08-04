@@ -18,7 +18,7 @@ function Servicios() {
     <Container fluid className="p-0">
       <Row className="resources-banner-servicios">
         <div className="overlay-resources d-flex align-items-center justify-content-center text-center ">
-          <Col xs={10} md={6} className="">
+          <Col xs={10} lg={6}>
             <div className="text-white">
               <h3>Servicios</h3>
               <p>
@@ -31,8 +31,8 @@ function Servicios() {
         </div>
       </Row>
       <Container>
-        <Row>
-          <Col xs={12} md={6} className="p-5">
+        <Row className="mb-4 mb-lg-0">
+          <Col xs={12} lg={6} className="p-5">
             <Image
               fluid
               className="h-100 rounded"
@@ -127,105 +127,105 @@ function Servicios() {
       <Container>
         <Row className="py-5">
           <h3 className="text-center txt-blue mb-5">Informaciones</h3>
-          <Col className="mb-3 mx-0" xs={12} md={3}>
+          <Col className="mb-3 mx-0" xs={12} md={6} lg={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN México</h5>
-              <p className="">
+              <p>
                 <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)81
                 8333-1335
               </p>
-              <p className="">Ext. 6713 y 6704</p>
-              <p className="">
+              <p>Ext. 6713 y 6704</p>
+              <p>
                 <i className="bi bi-envelope-fill txt-blue me-2"></i>
                 servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={12} md={3}>
+          <Col className="mb-3 mx-0" xs={12} md={6} lg={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN CDMX</h5>
-              <p className="">
+              <p>
                 <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)55
                 5147-0148
               </p>
-              <p className="">Ext. 6568</p>
-              <p className="">
+              <p>Ext. 6568</p>
+              <p>
                 <i className="bi bi-envelope-fill txt-blue me-2"></i>
                 servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={12} md={3}>
+          <Col className="mb-3 mx-0" xs={12} md={6} lg={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN Cancún</h5>
-              <p className="">
+              <p>
                 <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)55
                 5147-0148
               </p>
-              <p className="">Ext. 6568</p>
-              <p className="">
+              <p>Ext. 6568</p>
+              <p>
                 <i className="bi bi-envelope-fill txt-blue me-2"></i>
                 servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={12} md={3}>
+          <Col className="mb-3 mx-0" xs={12} md={6} lg={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN Monterrey</h5>
-              <p className="">
+              <p>
                 <i className="bi bi-telephone-fill txt-blue me-2"></i>(+52)81
                 8333-1335
               </p>
-              <p className="">Ext. 6712</p>
-              <p className="">
+              <p>Ext. 6712</p>
+              <p>
                 <i className="bi bi-envelope-fill txt-blue me-2"></i>
                 servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={12} md={3}>
+          <Col className="mb-3 mx-0" xs={12} md={6} lg={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN Guadalajara</h5>
-              <p className="">
+              <p>
                 <i className="bi bi-telephone-fill txt-blue me-2"></i>
                 (+52)33-1454-1900
               </p>
-              <p className="">Ext. 6610</p>
-              <p className="">
+              <p>Ext. 6610</p>
+              <p>
                 <i className="bi bi-envelope-fill txt-blue me-2"></i>
                 servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={12} md={3}>
+          <Col className="mb-3 mx-0" xs={12} md={6} lg={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN Tijuana</h5>
-              <p className="">
+              <p>
                 <i className="bi bi-telephone-fill txt-blue me-2"></i>
                 (+52)33-1454-1900
               </p>
-              <p className="">Ext. 6610</p>
-              <p className="">
+              <p>Ext. 6610</p>
+              <p>
                 <i className="bi bi-envelope-fill txt-blue me-2"></i>
                 servicio@daikin.com.mx
               </p>
             </div>
           </Col>
 
-          <Col className="mb-3 mx-0" xs={12} md={3}>
+          <Col className="mb-3 mx-0" xs={12} md={6} lg={3}>
             <div className="bg-gray p-4">
               <h5 className="txt-blue">DAIKIN León</h5>
-              <p className="">
+              <p>
                 <i className="bi bi-telephone-fill txt-blue me-2"></i>
                 (+52)477-162-5590
               </p>
-              <p className="">Ext. 6809</p>
-              <p className="">
+              <p>Ext. 6809</p>
+              <p>
                 <i className="bi bi-envelope-fill txt-blue me-2"></i>
                 servicio@daikin.com.mx
               </p>

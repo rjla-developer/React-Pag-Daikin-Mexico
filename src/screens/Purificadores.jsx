@@ -58,7 +58,7 @@ function Purificadores() {
     <Container fluid>
       <Row className="resources-banner-purificadores py-5 text-white">
         <div className="overlay-resources d-flex align-items-center justify-content-center">
-          <Col xs={12} md={5} className="px-4 px-md-0 text-center">
+          <Col xs={12} md={10} lg={5} className="px-4 px-md-0 text-center">
             <div>
               <h3>Purificadores</h3>
               {/* <p>
@@ -74,7 +74,7 @@ function Purificadores() {
       </Row>
       <Container>
         <Row className="my-5 pt-3 pb-5">
-          <Col xs={12} md={3} className="containerProducts mb-5 mb-md-0">
+          <Col xs={12} lg={3} className="containerProducts mb-5 mb-md-0">
             <MenuProducts
               dataItems={dataItems}
               setProduct={(e) => {
@@ -92,7 +92,7 @@ function Purificadores() {
               <Col
                 id="productImg"
                 xs={12}
-                md={5}
+                lg={5}
                 className="d-flex align-items-center justify-content-center mb-5 mb-md-0"
               >
                 {product.image ? (

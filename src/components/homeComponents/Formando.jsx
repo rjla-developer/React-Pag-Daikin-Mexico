@@ -88,7 +88,7 @@ function Formando() {
             </Link>
           </div>
         </Col>
-        <Col xs={12} lg={7} className="py-4">
+        <Col xs={12} lg={7} className="py-4 px-0 px-md-5 px-lg-0">
           {data != null ? (
             <Swiper
               navigation={mediaQueryBool ? true : false}

@@ -104,7 +104,7 @@ function Proyectos() {
   }, []);
 
   return (
-    <>
+    <div className="mx-0 mx-md-5 mx-lg-0">
       <Swiper
         navigation={mediaQueryBool ? true : false}
         keyboard={true}
@@ -115,7 +115,7 @@ function Proyectos() {
         }}
         modules={[Pagination, Navigation, Keyboard]}
         id="CarouselProyectos"
-        className=" mySwiper pb-5"
+        className=" mySwiper pb-5 mx-0 mx-md-5 mx-lg-0"
       >
         {proyectosItems.map((element, index) => (
           <SwiperSlide className="px-0 px-lg-5" key={index}>
@@ -136,7 +136,7 @@ function Proyectos() {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </div>
   );
 }
 

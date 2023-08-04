@@ -71,7 +71,7 @@ function Proyecto() {
       </Row>
       <Container>
         <Row>
-          <Col>
+          <Col className="px-0 px-md-5 px-lg-0">
             {propsProyecto.dataProject != null ? (
               <Swiper
                 navigation={mediaQueryBool ? true: false}
@@ -83,22 +83,21 @@ function Proyecto() {
                 }}
                 modules={[Pagination, Navigation, Keyboard]}
                 id="CarouselProyecto"
-                className="mySwiper mb-5 pb-5 pb-md-5"
+                className="mySwiper mb-5 pb-5 pb-md-4 pb-lg-5"
               >
                 {propsProyecto.dataProject.map((element, index) => {
                   return (
                     <SwiperSlide key={index}>
-                      <div className="mx-0 mx-md-5 shadow p-3 p-md-5 bg-white rounded">
+                      <div className="mx-0 mx-lg-5 shadow p-3 p-md-5 bg-white rounded">
                         <Row className="mx-0 mx-md-5">
-                          <Col className="mb-4 mb-md-0 d-flex align-items-center justify-content-center">
+                          <Col className="mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
                             <Image
                               className="imgHotel rounded"
-                              xs={12} md={6}
                               src={require(`../img/Proyectos/${element.image}`)}
                             />
                           </Col>
                           <Col
-                           xs={12} md={6}
+                           xs={12} lg={6}
                             className="d-flex align-items-center justify-content-center"
                           >
                             <div>

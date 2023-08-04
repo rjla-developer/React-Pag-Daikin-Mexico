@@ -3,7 +3,7 @@ import { Row, Col, Button } from "react-bootstrap";
 
 function ShowDescProduct({ product }) {
   return (
-    <Col xs={12} md={4}>
+    <Col xs={12} lg={4}>
       <h3 className="txt-blue mb-5">{product["content"]["title"]}</h3>
       <p
         dangerouslySetInnerHTML={{

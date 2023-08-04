@@ -94,6 +94,22 @@
   .img-responsabilidad {
     margin-left: 500px;
   }
+
+  .overlay2 {
+    height: 45%;
+  }
+  
+  .imgScreen {
+    height: 45%;
+  }
+
+  .textDesc {
+    top: 180px;
+  }
+
+  .containerCultu {
+    padding-top: 420px;
+  }
 }
 
 @media (min-width: 992px) {

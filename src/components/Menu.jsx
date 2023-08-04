@@ -19,7 +19,7 @@ function Menu() {
   return (
     <Container fluid className="fixed-top px-0 bg-white" id="home">
       {/* Menu Phone */}
-      <Navbar className="d-block d-xl-none bg-gray shadow" expand="lg">
+      <Navbar className="d-block d-xl-none bg-gray shadow" expand="xl">
         <Container className="py-3 px-1">
           <Navbar.Brand>
             <Link className="text-decoration-none text-black" to={"/"}>
@@ -132,7 +132,7 @@ function Menu() {
       </Navbar>
 
       {/* Menu computer */}
-      <Navbar className="d-xl-block d-none" expand="lg">
+      <Navbar className="d-xl-block d-none">
         <Container className="py-2">
           <Navbar.Brand>
             <Link className="text-decoration-none text-black" to={"/"}>
@@ -157,7 +157,7 @@ function Menu() {
           </Nav>
         </Container>
       </Navbar>
-      <Navbar className="d-xl-block d-none bg-gray shadow" expand="lg">
+      <Navbar className="d-xl-block d-none bg-gray shadow">
         <Container>
           <Nav className="mr-auto">
             <Nav.Link>
