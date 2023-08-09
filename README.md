@@ -1,10 +1,14 @@
-# TITULO DEL REPOSITORIO
+# Web site Daikin México
 
-(Info del repositorio) I was asked to make the Meg Cloud Services page. </br>
- 
-This site is built with Bootstrap 5, HTML and CSS. Currently all the design is static. </br>
+Url page: https://new.daikin.com.mx/
 
-(Tabla de lenguajes utilizados) ![Used](https://user-images.githubusercontent.com/83847147/235205981-ec7e3be3-ddc9-4ed9-90a1-c6784285f43b.svg)
+We built a new website for the company Daikin Mexico, which we used React technology. </br>
+To style it we used community components, CSS, and the Bootstrap 5 component for React. </br>
+A web page was built with dynamic components brought from internal Api's in the project. </br>
+The Hooks it we used: useContext, useEffect, useCallback, useLocation, y useState. </br>
+
+![Tabla para lenguajes usados](https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/a9a092a5-6922-4ee4-bdf0-58ea0d4c67b2)
+
 
 </br>
 
