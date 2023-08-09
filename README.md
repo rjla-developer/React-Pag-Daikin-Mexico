@@ -21,7 +21,8 @@ https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/5a41c5
 </br>
 
 ## Mobile demonstration: 
-https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/d6aefaf8-11e6-4f0d-bde8-576a6f46d4b9
+https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/939e4fe7-fe34-4fae-b334-841e8d7508a7
+
 
 
 </br>
