@@ -9,7 +9,7 @@ A web page was built with dynamic components brought from internal Api's in the 
 The Hooks it we used: useContext, useEffect, useCallback, useLocation, y useState. </br>
 </br>
 
-![Tabla para lenguajes usados](https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/a9a092a5-6922-4ee4-bdf0-58ea0d4c67b2)
+![Tabla para lenguajes usados](https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/e01fb97e-a5da-4f64-9ce6-bb59c0cd125e)
 
 
 </br>
