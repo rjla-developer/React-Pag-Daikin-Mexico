@@ -1,67 +1,45 @@
-# Getting Started with Create React App
+# TITULO DEL REPOSITORIO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(Info del repositorio) I was asked to make the Meg Cloud Services page. </br>
+ 
+This site is built with Bootstrap 5, HTML and CSS. Currently all the design is static. </br>
 
-## Available Scripts
+(Tabla de lenguajes utilizados) ![Used](https://user-images.githubusercontent.com/83847147/235205981-ec7e3be3-ddc9-4ed9-90a1-c6784285f43b.svg)
 
-In the project directory, you can run:
+</br>
 
-### `npm start`
+## Computer demonstration:
+(GIF Demostración compu) https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/5a41c5c4-8126-4c6e-a553-bd35cdc57e6f
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</br>
 
-### `npm test`
+## Mobile demonstration: 
+(GIF Demostración cel) ![MegCloudPagMovil](https://user-images.githubusercontent.com/83847147/235197076-54365d7d-c335-4a83-98c1-233b44696e89.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</br>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Color palette
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Used in typefaces and backgrounds | ![#0097E0](https://via.placeholder.com/10/0097E0?text=+) #0097E0 |
+| Used in typefaces and backgrounds | ![#6c757d](https://via.placeholder.com/10/6c757d?text=+) #6c757d |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</br>
 
-### `npm run eject`
+## 🔗 Links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rjla-developer/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Authors
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [@rjla-developer](https://www.github.com/rjla-developer)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
