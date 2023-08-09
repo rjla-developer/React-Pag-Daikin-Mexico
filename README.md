@@ -1,11 +1,13 @@
 # Web site Daikin México
 
 Url page: https://new.daikin.com.mx/
+</br>
 
 We built a new website for the company Daikin Mexico, which we used React technology. </br>
 To style it we used community components, CSS, and the Bootstrap 5 component for React. </br>
 A web page was built with dynamic components brought from internal Api's in the project. </br>
 The Hooks it we used: useContext, useEffect, useCallback, useLocation, y useState. </br>
+</br>
 
 ![Tabla para lenguajes usados](https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/a9a092a5-6922-4ee4-bdf0-58ea0d4c67b2)
 
@@ -13,13 +15,14 @@ The Hooks it we used: useContext, useEffect, useCallback, useLocation, y useStat
 </br>
 
 ## Computer demonstration:
-(GIF Demostración compu) https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/5a41c5c4-8126-4c6e-a553-bd35cdc57e6f
+https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/5a41c5c4-8126-4c6e-a553-bd35cdc57e6f
 
 
 </br>
 
 ## Mobile demonstration: 
-(GIF Demostración cel) ![MegCloudPagMovil](https://user-images.githubusercontent.com/83847147/235197076-54365d7d-c335-4a83-98c1-233b44696e89.gif)
+https://github.com/rjla-developer/React-Pag-Daikin-Mexico/assets/83847147/d6aefaf8-11e6-4f0d-bde8-576a6f46d4b9
+
 
 </br>
 
@@ -42,11 +45,3 @@ The Hooks it we used: useContext, useEffect, useCallback, useLocation, y useStat
 ## Authors
 
 - [@rjla-developer](https://www.github.com/rjla-developer)
-
-
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
