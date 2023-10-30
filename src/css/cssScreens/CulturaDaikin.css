@@ -1,14 +1,3 @@
-.overlay2 {
-  position: absolute;
-  top: 157px;
-  left: 0;
-  width: 100%;
-  height: 83%;
-  background: linear-gradient(to bottom,
-      rgba(66, 178, 232, 0.8) 0%,
-      rgba(33, 89, 116, 0.8) 100%);
-}
-
 .imgScreen {
   position: absolute;
   top: 157px;
@@ -18,13 +7,11 @@
   object-fit: cover;
 }
 
-.textDesc {
-  position: absolute;
-  top: 157px;
-}
-
-.containerCultu {
-  padding-top: 550px;
+.resources-banner-welcome-cultura {
+  background-image: url("../../img/CulturaDaikin/CulturaDaikin/cultura_material_06.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .resources-banner {
@@ -37,6 +24,12 @@
   background-image: url("../../img/CulturaDaikin/Nosotros/cultura_material_08.jpg");
   margin-top: 0;
   height: 20rem;
+}
+
+.resources-banner-welcome-cultura .overlay-resources {
+  background: linear-gradient(to bottom,
+      rgba(66, 178, 232, 0.8) 0%,
+      rgba(33, 89, 116, 0.8) 100%);
 }
 
 .resources-banner .overlay-resources {
@@ -84,6 +77,15 @@
   text-align: start;
 }
 
+.load-planta {
+  height: 150px;
+}
+
+.load-respon{
+  margin-top: 15rem;
+  margin-left: 25rem;
+}
+
 @media (min-width: 576px) {
   .img-responsabilidad {
     margin-left: 550px;
@@ -94,41 +96,16 @@
   .img-responsabilidad {
     margin-left: 500px;
   }
-
-  .overlay2 {
-    height: 45%;
-  }
   
   .imgScreen {
     height: 45%;
   }
-
-  .textDesc {
-    top: 180px;
-  }
-
-  .containerCultu {
-    padding-top: 420px;
-  }
 }
 
 @media (min-width: 992px) {
-  .overlay2 {
-    top: 156px;
-    height: 53%;
-  }
-
   .imgScreen {
     top: 156px;
     height: 53%;
-  }
-
-  .textDesc {
-    top: 156px;
-  }
-
-  .containerCultu {
-    padding-top: 385px;
   }
 
   .resources-banner {
@@ -144,27 +121,18 @@
     margin-left: 650px;
     margin-top: 80px;
   }
+
+  .load-planta {
+    height: 550px;
+  }
 }
 
 
 
 @media (min-width: 1200px) {
-  .overlay2 {
-    top: 203px;
-    height: 51%;
-  }
-
   .imgScreen {
     top: 203px;
     height: 51%;
-  }
-
-  .textDesc {
-    top: 203px;
-  }
-
-  .containerCultu {
-    padding-top: 370px;
   }
 
   .img-responsabilidad {

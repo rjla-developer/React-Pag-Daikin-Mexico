@@ -1,10 +1,11 @@
 import "./App.css";
 import React from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 //Context
 import { ContextProyectosProvider } from "./context/ContextProyectos";
 import { ContextDistribuidoresProvider } from "./context/ContextDistribuidores";
+import { ContextEntrenamientosProvider } from "./context/ContextEntrenamientos";
 
 import Menu from "./components/Menu";
 import Home from "./screens/Home";
@@ -24,42 +25,48 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <ContextDistribuidoresProvider>
-        <ContextProyectosProvider>
-          <React.StrictMode>
-            <HashRouter>
-              <Menu />
-              <Routes>
-                <Route path="/" element={<Home />}></Route>
-                <Route path="/cultura" element={<CulturaDaikin />}></Route>
-                <Route path="/vrv" element={<VRV />}></Route>
-                <Route path="/residencial" element={<Residencial />}></Route>
-                <Route path="/aplicado" element={<Aplicado />}></Route>
-                <Route
-                  path="/purificadores"
-                  element={<Purificadores />}
-                ></Route>
-                <Route path="/servicios" element={<Servicios />}></Route>
-                <Route
-                  path="/noticias"
-                  element={<NoticiasEIndustria />}
-                ></Route>
-                <Route path="/noticia" element={<Noticia />}></Route>
-                <Route
-                  path="/distribuidores"
-                  element={<Distribuidores />}
-                ></Route>
-                <Route
-                  path="/entrenamiento"
-                  element={<CentroEntrenamiento />}
-                ></Route>
-                <Route path="/proyecto" element={<Proyecto />}></Route>
-              </Routes>
-              <Footer />
-            </HashRouter>
-          </React.StrictMode>
-        </ContextProyectosProvider>
-      </ContextDistribuidoresProvider>
+      <ContextEntrenamientosProvider>
+        <ContextDistribuidoresProvider>
+          <ContextProyectosProvider>
+            <React.StrictMode>
+              <BrowserRouter>
+                <Menu />
+                <Routes>
+                  <Route path="/" element={<Home />}></Route>
+                  <Route path="/cultura" element={<CulturaDaikin />}></Route>
+                  <Route path="/vrv" element={<VRV />}></Route>
+                  <Route path="/residencial" element={<Residencial />}></Route>
+                  <Route path="/aplicado" element={<Aplicado />}></Route>
+                  <Route
+                    path="/purificadores"
+                    element={<Purificadores />}
+                  ></Route>
+                  <Route path="/servicios" element={<Servicios />}></Route>
+                  <Route
+                    path="/noticias"
+                    element={<NoticiasEIndustria />}
+                  ></Route>
+                  <Route path="/noticia" element={<Noticia />}></Route>
+                  <Route
+                    path="/distribuidores"
+                    element={<Distribuidores />}
+                  ></Route>
+                  <Route
+                    path="/entrenamientos"
+                    element={<CentroEntrenamiento />}
+                  ></Route>
+                  <Route
+                    path="/entrenamiento/:id"
+                    element={<CentroEntrenamiento />}
+                  ></Route>
+                  <Route path="/proyecto" element={<Proyecto />}></Route>
+                </Routes>
+                <Footer />
+              </BrowserRouter>
+            </React.StrictMode>
+          </ContextProyectosProvider>
+        </ContextDistribuidoresProvider>
+      </ContextEntrenamientosProvider>
     </>
   );
 }

@@ -100,14 +100,14 @@ function Home() {
           </div>
         </Col>
         <Col className="p-0">
-          <img
+          <Image
             className="d-none d-xl-block"
             src={require("../img/Home/edificios_arboles_011.jpg")}
             alt="Grandes edificios con árboles"
             width={1100}
             height={650}
           />
-          <img
+          <Image
             className="d-block d-xl-none"
             src={require("../img/Home/edificios_arboles_011.jpg")}
             alt="Grandes edificios con árboles"
@@ -190,7 +190,7 @@ function Home() {
                 </Button>
               </div>
             </Col>
-            <Col xs={12} md={6} className="">
+            <Col xs={12} md={6} >
               <Button className="bg-white border-0" onClick={handleShowModal}>
                 <Image
                   fluid
@@ -204,7 +204,7 @@ function Home() {
       </Container>
 
       <Container className="bg-gray m-0 p-0" fluid>
-        <Container className="">
+        <Container >
           <Row className="text-center py-5 d-flex align-items-center justify-content-center">
             <Col>
               <h2>NOTICIAS</h2>

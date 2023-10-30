@@ -2,6 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import "../../css/cssComponents/Proyectos.css";
 import { Link } from "react-router-dom";
 import { ContextProyectos } from "../../context/ContextProyectos";
+import { Image } from "react-bootstrap";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -124,11 +125,7 @@ function Proyectos() {
               to={"/proyecto"}
               state={element}
             >
-              <img
-                className="img-fluid rounded"
-                src={element.imgUrl}
-                alt="Proyecto"
-              />
+              <Image rounded fluid src={element.imgUrl} alt="Proyecto" />
               <p className="txt-blue mb-0 py-2 fw-bold">
                 {element.nameProject}
               </p>

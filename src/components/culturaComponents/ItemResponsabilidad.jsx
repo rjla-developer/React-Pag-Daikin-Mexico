@@ -1,12 +1,21 @@
-import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Row, Col, Image, Spinner } from "react-bootstrap";
 
 function ItemResponsabilidad() {
+  const [imageLoaded, setImageLoaded] = useState(true);
   return (
     <>
+      {imageLoaded && (
+        <div className="charge-respon spinner-container w-100 position-absolute d-flex align-items-center justify-content-center d-none d-md-block">
+          <Spinner animation="grow" className="text-white me-2" />
+          <Spinner animation="grow" className="text-white" />
+          <Spinner animation="grow" className="text-white ms-2" />
+        </div>
+      )}
       <Image
-        className="img-responsabilidad w-25 d-none d-md-block"
+        className={`img-responsabilidad w-25 d-none d-md-block ${imageLoaded ? "d-none" : ""}`}
         src={require("../../img/CulturaDaikin/Responsabilidad/cultura_material_02.jpg")}
+        onLoad={() => setImageLoaded(false)}
       />
 
       <Container fluid className="bg-blue py-3 py-md-5">
@@ -26,15 +35,22 @@ function ItemResponsabilidad() {
                 </p>
               </div>
             </Col>
-            <Col xs={12} md={6} >
+            <Col xs={12} md={6}>
+              {imageLoaded && (
+                <div className="spinner-container w-100 d-flex align-items-center justify-content-center d-block d-md-none mt-5">
+                  <Spinner animation="grow" className="text-white me-2" />
+                  <Spinner animation="grow" className="text-white" />
+                  <Spinner animation="grow" className="text-white ms-2" />
+                </div>
+              )}
               <Image
-                fluid
-                className="my-4 d-block d-md-none rounded"
-                src={require("../../img/CulturaDaikin/Responsabilidad/cultura_material_02.jpg")}
-              />
+              fluid
+              className={`my-4 d-block d-md-none rounded ${imageLoaded ? "d-none" : ""}`}
+              src={require("../../img/CulturaDaikin/Responsabilidad/cultura_material_02.jpg")}
+              onLoad={() => setImageLoaded(false)}
+            />
             </Col>
           </Row>
-          <Row></Row>
         </Container>
       </Container>
 

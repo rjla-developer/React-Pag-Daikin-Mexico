@@ -1,52 +1,66 @@
-import React from "react";
-import { Row, Col, Image } from "react-bootstrap";
+import React, { useState } from "react";
+import {Container, Row, Col, Image, Spinner } from "react-bootstrap";
 
 function ItemCultura() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
-    <div>
-      <img
-        className="imgScreen"
-        src={require("../../img/CulturaDaikin/CulturaDaikin/cultura_material_06.jpg")}
-        alt="Cultura Daikin fondo"
-      />
-      <Row className="d-flex align-items-center justify-content-center p-0">
-        <div className="overlay2"></div>
-        <Col xs={12} lg={10} xl={6} className="textDesc">
-          <div className="py-4 px-4 text-light">
-            <h3>Cultura Daikin</h3>
-            <p>
-              Situado al este del continente asiático, Japón tiene cuatro
-              estaciones distintivas: primavera, verano, otoño e invierno.
-            </p>
-            <p>
-              Japón es un país insular que se propaga ampliamente, de norte a
-              sur, rodeada de mar. Hokkaido, en el norte se encuentra en una
-              zona subártica con temperaturas muy por debajo de cero grados en
-              los inviernos, mientras Okinawa, en el sur se encuentra en una
-              zona subtropical con temperaturas altas durante todo el año. Por
-              otra parte, el clima es muy diferente dependiendo de si usted se
-              encuentra del lado del Océano Pacífico o el Mar de Japón y en
-              diferentes regiones.
-            </p>
-            <p>
-              Los equipos de aire acondicionado Daikin han evolucionado en
-              respuesta a tal diversidad climática.
-            </p>
-          </div>
-        </Col>
+    <Container fluid>
+      <Row className="resources-banner-welcome-cultura">
+        <div className="overlay-resources d-flex align-items-center justify-content-center">
+          <Col xs={12} lg={10} xl={6} className="px-4 px-md-0">
+            <div className="py-4 text-light">
+              <h3>Cultura Daikin</h3>
+              <p>
+                Situado al este del continente asiático, Japón tiene cuatro
+                estaciones distintivas: primavera, verano, otoño e invierno.
+              </p>
+              <p>
+                Japón es un país insular que se propaga ampliamente, de norte a
+                sur, rodeada de mar. Hokkaido, en el norte se encuentra en una
+                zona subártica con temperaturas muy por debajo de cero grados en
+                los inviernos, mientras Okinawa, en el sur se encuentra en una
+                zona subtropical con temperaturas altas durante todo el año. Por
+                otra parte, el clima es muy diferente dependiendo de si usted se
+                encuentra del lado del Océano Pacífico o el Mar de Japón y en
+                diferentes regiones.
+              </p>
+              <p>
+                Los equipos de aire acondicionado Daikin han evolucionado en
+                respuesta a tal diversidad climática.
+              </p>
+            </div>
+          </Col>
+        </div>
       </Row>
-      <Row className="containerCultu bg-black">
+      <Row className=" bg-black">
         <Col className="px-0">
           <h3 className="text-white mb-0 py-3">Clima</h3>
         </Col>
       </Row>
-      <Row>
-        <Col xs={12} lg={6} className="bg-primary p-0">
+       <Row className="">
+        <Col
+          xs={12}
+          lg={6}
+          className="p-0 d-flex align-items-center justify-content-center"
+        >
+          {!imageLoaded && (
+            <div className="spinner-container ">
+              <Spinner animation="grow" className="txt-blue me-2" />
+              <Spinner animation="grow" className="txt-blue" />
+              <Spinner animation="grow" className="txt-blue ms-2" />
+            </div>
+          )}
           <Image
             fluid
-            className="h-100"
+            className={` ${imageLoaded ? "visible" : "hidden"}`}
             src={require("../../img/CulturaDaikin/CulturaDaikin/cultura_material_11.jpg")}
             alt={"Árbol de cerezos"}
+            onLoad={handleImageLoad}
           />
         </Col>
         <Col
@@ -68,10 +82,10 @@ function ItemCultura() {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} lg={6} className="bg-primary p-0 order-lg-last">
+        <Col xs={12} lg={6} className="p-0 order-lg-last">
           <Image
             fluid
-            className="h-100"
+            className=""
             src={require("../../img/CulturaDaikin/CulturaDaikin/cultura_material_10.jpg")}
             alt={"Puente rojo en lago de Japón"}
           />
@@ -99,10 +113,10 @@ function ItemCultura() {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} lg={6} className="bg-primary p-0">
+        <Col xs={12} lg={6} className="p-0">
           <Image
             fluid
-            className="h-100"
+            className=""
             src={require("../../img/CulturaDaikin/CulturaDaikin/cultura_material_05.jpg")}
             alt={"Hojas de otoño"}
           />
@@ -128,10 +142,10 @@ function ItemCultura() {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} lg={6} className="bg-primary p-0 order-lg-last">
+        <Col xs={12} lg={6} className="p-0 order-lg-last">
           <Image
             fluid
-            className="h-100"
+            className=""
             src={require("../../img/CulturaDaikin/CulturaDaikin/cultura_material_03.jpg")}
             alt={"Época de invierno"}
           />
@@ -141,7 +155,7 @@ function ItemCultura() {
           lg={6}
           className="p-0 d-flex align-items-center justify-content-center"
         >
-          <div className="p-0 p-lg-5 m-5 text-start">
+          <div className="p-0 p-lg-5 m-5 m-lg-0 text-start">
             <h3 className="txt-blue mb-4">Invierno severo con nieve intensa</h3>
             <p className="text-uppercase">DICIEMBRE-FEBRERO</p>
             <p className="pe-0 pe-lg-5 me-0 me-lg-5">
@@ -223,7 +237,7 @@ function ItemCultura() {
           </div>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 }
 

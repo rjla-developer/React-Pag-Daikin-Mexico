@@ -27,7 +27,7 @@
                             "phone": "(33)36157995 y (33)36169192",
                             "email": "mkt-digital@airemercado.mx",
                             "site": "airemercado.mx",
-                            "map": ""
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7466.2932272519965!2d-103.36429175770702!3d20.66361337358339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b200338c9ec1%3A0x5ee196018af9a632!2sAiremercado!5e0!3m2!1ses!2smx!4v1693845193303!5m2!1ses!2smx"
                         }
                     },
                     {
@@ -39,7 +39,7 @@
                             "phone": "(33) 3162 0255 y 1874 4850",
                             "email": "contacto@airetec.com.mx",
                             "site": "airetec.com.mx",
-                            "map": ""
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d613.9286458489086!2d-103.3888733703107!3d20.672320959717887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b3e53ba6bf2f%3A0x608cb38a88bda075!2sAiretec!5e0!3m2!1ses!2smx!4v1693845358398!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -298,7 +298,8 @@
                             "calle": "Av. Bernardo reyes #3742 norte, Colonia popular C.p. 64290, Monterrey Nuevo león",
                             "phone": "(81) 1016-2442",
                             "email": "eortiz@equipsamty.com",
-                            "site": "www.equipsa.com.mx"
+                            "site": "www.equipsa.com.mx",
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.82282756097!2d-100.33092022460129!3d25.71028947738419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866295c819e69323%3A0xf0b1999392e03fd0!2sEquipsa%20Refrigeraci%C3%B3n%20Monterrey!5e0!3m2!1ses!2smx!4v1693846406677!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -319,7 +320,7 @@
                             "titular": "Noelia Ayala",
                             "calle": "Blvd Benito Juárez 2500, Col. Maestros Estatales 21280",
                             "phone": "(686) 566 2470",
-                            "email": "cesar@becerril.com",
+                            "email": "lizeth@becerril.com",
                             "site": "becerril.com",
                             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3360.01028016186!2d-115.44921478494152!3d32.632549698645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d770f4873aedef%3A0xd78120ba3f342517!2sBoulevar%20Benito%20Ju%C3%A1rez%202500%2C%20Parcela%2044%2C%20Mexicali%2C%20B.C.!5e0!3m2!1ses-419!2smx!4v1632541058347!5m2!1ses-419!2smx"
                         }
@@ -396,7 +397,8 @@
                             "calle": "Cuernavaca #55, Col. San Benito C.P. 83190, Casi esquina con Veracruz, Hermosillo, Sonora",
                             "phone": "(662) 437-7840 - (662) 437-7841",
                             "email": "jgaxiola@equipsason.com",
-                            "site": "www.equipsa.com.mx"
+                            "site": "www.equipsa.com.mx",
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d892528.3801647315!2d-111.52247073437495!3d29.092718699999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce843083e6b157%3A0x265b0b1f458126d1!2sEquipsa%20Refrigeraci%C3%B3n%20Hermosillo!5e0!3m2!1ses!2smx!4v1693846614431!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -412,7 +414,8 @@
                             "calle": "Blvd. Rodolfo Elías Calles, #1005-A Pte, Col. Sochiloa, CP85150",
                             "phone": "(644) 204-0561",
                             "email": "ealvarez@equipsabc.com.mx",
-                            "site": "www.equipsa.com.mx"
+                            "site": "www.equipsa.com.mx",
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d906132.569505601!2d-110.50934623437499!3d27.482321200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86c815f8a60041af%3A0xc270bd88cc640252!2sEquipsa%20Refrigeraci%C3%B3n%20CD.%20Obreg%C3%B3n!5e0!3m2!1ses!2smx!4v1693846663118!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -445,7 +448,8 @@
                             "calle": "Melchor Ocampo 907, Col. Centro C.P. 23000, Entre Josefa Ortiz y Héroes de Independencia, La Paz, BCS",
                             "phone": "(612) 122-3553 y (612) 122-3513",
                             "email": "eosuna@equipsabc.com.mx",
-                            "site": "www.equipsa.com.mx"
+                            "site": "www.equipsa.com.mx",
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.5106183382622!2d-110.31025989999999!3d24.153818800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86afd3425a793b81%3A0x7881e2b745e68752!2sEquipsa%20Refrigeraci%C3%B3n!5e0!3m2!1ses!2smx!4v1693844454253!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -461,7 +465,8 @@
                             "calle": "Blvd. Agustín Olachea S/N, entre Madero y Carranza, Col. Centro C.P. 23600, Ciudad Constitución",
                             "phone": "(613) 132-5970",
                             "email": "luis.lizarraga@equipsabc.com.mx",
-                            "site": "www.equipsa.com.mx"
+                            "site": "www.equipsa.com.mx",
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.1219171076514!2d-111.67179879999999!3d25.0299363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86b3a4ca1ef7225d%3A0xaf3d3346aa00e655!2sEquipsa%20Refrigeraci%C3%B3n%20S.A.%20de%20C.V.!5e0!3m2!1ses!2smx!4v1693844687821!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -477,7 +482,8 @@
                             "calle": "Calle Adolfo López Mateos, esq. Ignacio Zaragoza, Local  #4, Col. Mariano Matamoros, Cabo San Lucas CP 23468",
                             "phone": "(624) 105-1229",
                             "email": "karlo.diaz@equipsabc.com.mx",
-                            "site": "www.equipsa.com.mx"
+                            "site": "www.equipsa.com.mx",
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.4367732953133!2d-109.91971199999999!3d22.8972554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86af4a5931ef5433%3A0xf60bcbaef833c5f!2sEquipsa%20Refrigeraci%C3%B3n%20Cabo%20San%20Lucas!5e0!3m2!1ses!2smx!4v1693844777620!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -534,7 +540,8 @@
                             "calle": "Av Jose López Portillo SM63, M46, Lt 9 Local 1, C.P 77513, Cancún Quintana Roo",
                             "phone": "(998) 361-0301,  (998) 361-0302",
                             "email": "cvaldez@equipsasureste.com",
-                            "site": "www.equipsa.com.mx"
+                            "site": "www.equipsa.com.mx",
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.573898528016!2d-86.83870372473953!3d21.169349080515435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2d1653b01b2b%3A0x4743581d7ef4d39!2sEquipsa%20Refrigeraci%C3%B3n%20Canc%C3%BAn!5e0!3m2!1ses!2smx!4v1693846511463!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -579,7 +586,8 @@
                             "calle": "Diagonal 15 #98, Col. Yucatán C.P.  97050, Circuito Colonias, Mérida, Yucatán",
                             "phone": "(999) 374-4138 - (999) 374-2403",
                             "email": "jcespedes@equipsasureste.com.mx",
-                            "site": "www.equipsa.com.mx"
+                            "site": "www.equipsa.com.mx",
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8890135331517!2d-89.6276798!3d20.997085599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5673ff77e8908b%3A0x6153b680856e30c7!2sEquipsa%20Refrigeraci%C3%B3n%20Merida!5e0!3m2!1ses!2smx!4v1693849999691!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -614,7 +622,7 @@
                             "phone": "(477) 850 2222 y 276 0025",
                             "email": "contacto@airetec.com.mx",
                             "site": "airetec.com.mx",
-                            "map": ""
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.1611384445096!2d-101.65629432474125!3d21.106140980562653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf7f038a2921%3A0x9379cbedcfa5463b!2sAireTec%20HVAC!5e0!3m2!1ses!2smx!4v1693845036653!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -723,11 +731,12 @@
                     {
                         "content": {
                             "image": "LOGO.jpeg",
-                            "partner": "CLIMAPROYECTOS SA DE CV",
+                            "partner": "Air Pacific",
                             "calle": "Av. José María Morelos #92-A, Col. Ejidal, Cd Lázaro Cárdenas, Michoacán CP 60950",
                             "phone": "753 537 25 09",
                             "email": "omarlopez.r@airpacific.com",
-                            "site": "facebook.com/AirPacificLzc/?locale=es_LA"
+                            "site": "facebook.com/AirPacificLzc/?locale=es_LA",
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.4010796965763!2d-102.2044297434342!3d17.96006751112466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84315c639ebca753%3A0x3982aa4051b9ddcf!2sAir%20Pacific!5e0!3m2!1ses!2smx!4v1693845914365!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -743,12 +752,13 @@
                 "distributors": [
                     {
                         "content": {
-                            "image": "Grupo-Mereti.png",
+                            "image": "grupo-mereti.png",
                             "partner": "Grupo Mereti",
                             "calle": "Av. 20 de noviembre #621, Col. Badillo, Xalapa, Veracruz",
                             "phone": "228 777 7527",
                             "email": "xalapa@grupomereti.com",
-                            "site": "grupomereti.com"
+                            "site": "grupomereti.com",
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d618.4420759012382!2d-96.90041013978825!3d19.525461785516764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db33aab37ebad9%3A0xcceff2a5ec6e3d0c!2sMereti%20Xalapa!5e0!3m2!1ses!2smx!4v1693849851076!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -769,7 +779,8 @@
                             "calle": "Av. Gabriel Leyva #174 Norte esquina con Aquiles Serdán, Col. Centro C.P. 81200, Los Mochis Sinaloa",
                             "phone": "(668) 815-1947, (668) 817-4020",
                             "email": "javier.alvarez@equipsa.com.mx",
-                            "site": "www.equipsa.com.mx"
+                            "site": "www.equipsa.com.mx",
+                            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.2773551820756!2d-108.99385852459852!3d25.794422377331255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ba2f43cf970eb1%3A0x4c1d997466b480dc!2sEquipsa%20Refrigeraci%C3%B3n%20Los%20Mochis!5e0!3m2!1ses!2smx!4v1693846728902!5m2!1ses!2smx"
                         }
                     }
                 ]
@@ -791,7 +802,7 @@
                             "phone": "(481) 381 7993 y 103 4780",
                             "email": "adminvalles@climasdelpuerto.com",
                             "site": "climasdelpuerto.com",
-                            "map": ""
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.6526225406765!2d-99.0157767247165!3d21.986291479913575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d672aa7638e32f%3A0x42cdc1d69a132db0!2sClimas%20del%20Puerto%20Ciudad%20Valles!5e0!3m2!1ses!2smx!4v1693846820267!5m2!1ses!2smx"
                         }
                     },
                     {
@@ -802,8 +813,30 @@
                             "phone": "(444) 841 7028 y 639 9638",
                             "email": "contacto@climasdelpuerto.com",
                             "site": "tecnogreenmexico.com",
-                            "map": ""
+                            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3696.3464188806965!2d-100.98206792471285!3d22.112763879821895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842aa3994b50286b%3A0x26143252d8eb2cbf!2sTecnoGreen%20Aire%20Acondicionadl!5e0!3m2!1ses!2smx!4v1693846877111!5m2!1ses!2smx"
                         }
+                    }
+                ]
+            }
+        ]
+    },
+    "guerrero": {
+        "state": "Guerrero",
+        "cities": [
+            {
+                "id": "guerrero",
+                "city": "Zihuatanejo de Azueta",
+                "distributors": [
+                    {
+                        "content": {
+                            "image": "logo_disa.png",
+                            "partner": "DISTRIBUIDORA DE AIRES IXTAPA S.A. DE  C.V.",
+                            "calle": "PASEO DE LA BOQUITA No. 43 Int. 1-3, Col. Centro Zihuatanejo de Azueta, Guerrero, C.P. 40890",
+                            "phone": "755 544 8151",
+                            "email": "distribuidoradeairesixtapa-disa@hotmail.com",
+                            "site": "",
+                            "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15208.60570513327!2d-101.5505438!3d17.6429857!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x843477dcbf0b40d9%3A0x39377256bf8ef1f8!2sDistribuidora%20de%20Aires%20Ixtapa!5e0!3m2!1ses!2smx!4v1697061970677!5m2!1ses!2smx"
+                            }
                     }
                 ]
             }

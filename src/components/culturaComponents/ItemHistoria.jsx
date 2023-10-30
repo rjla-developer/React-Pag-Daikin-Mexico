@@ -7,7 +7,7 @@ function ItemHistoria() {
     <Container fluid className="bg-gray py-5 ">
       <Row className="d-flex justify-content-center">
         <h3 className="txt-blue mb-5">Una historia de innovaciones desde 1924</h3>
-        <Col xs={12} className="">
+        <Col xs={12} >
           <div>
             <ul className="timeline">
               <li className="event" data-date="1924">

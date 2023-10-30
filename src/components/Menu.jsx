@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Container, Image } from "react-bootstrap";
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import { Link } from "react-router-dom";
 import "../css/cssComponents/Menu.css";
@@ -23,7 +23,7 @@ function Menu() {
         <Container className="py-3 px-1">
           <Navbar.Brand>
             <Link className="text-decoration-none text-black" to={"/"}>
-              <img
+              <Image
                 className="logo-img"
                 src={require("../img/logo_171x37.png")}
                 alt="Logo Daikin México"
@@ -136,7 +136,7 @@ function Menu() {
         <Container className="py-2">
           <Navbar.Brand>
             <Link className="text-decoration-none text-black" to={"/"}>
-              <img
+              <Image
                 className="logo-img"
                 src={require("../img/logo_171x37.png")}
                 alt="Logo Daikin México"

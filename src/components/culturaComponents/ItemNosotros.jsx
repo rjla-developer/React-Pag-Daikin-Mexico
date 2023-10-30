@@ -3,7 +3,7 @@ import { Container, Row, Col, Image, Button } from "react-bootstrap";
 
 function ItemNosotros() {
   return (
-    <div>
+    <Container fluid>
       <Row className="resources-banner-nosotros py-5 text-white">
         <div className="overlay-resources d-flex align-items-center justify-content-center">
           <Col xs={12} md={6} className="px-4 px-md-0">
@@ -31,21 +31,41 @@ function ItemNosotros() {
           en cuanto a:
         </p>
         <Row className="txt-blue d-flex justify-content-center mb-2 mb-md-5">
-          <Col xs={8} md={4} xl={2} className="border-blue d-flex align-items-center justify-content-center py-4 mx-3 mb-3">
+          <Col
+            xs={8}
+            md={4}
+            xl={2}
+            className="border-blue d-flex align-items-center justify-content-center py-4 mx-3 mb-3"
+          >
             <p className="mb-0">Eficiencia energética</p>
           </Col>
-          <Col xs={8} md={4} xl={2} className="border-blue d-flex align-items-center justify-content-center py-4 mx-3 mb-3">
+          <Col
+            xs={8}
+            md={4}
+            xl={2}
+            className="border-blue d-flex align-items-center justify-content-center py-4 mx-3 mb-3"
+          >
             <p className="mb-0">
               Calidad superior del aire interior. (Calidad en el aire
               acondicionado)Eficiencia energética
             </p>
           </Col>
-          <Col xs={8} md={4} xl={2} className="border-blue d-flex align-items-center justify-content-center py-4 mx-3 mb-3">
+          <Col
+            xs={8}
+            md={4}
+            xl={2}
+            className="border-blue d-flex align-items-center justify-content-center py-4 mx-3 mb-3"
+          >
             <p className="mb-0">
               Menor costo para la propiedad. (Reducción de costos)
             </p>
           </Col>
-          <Col xs={8} md={4} xl={2} className="border-blue d-flex align-items-center justify-content-center py-4 mx-3 mb-3">
+          <Col
+            xs={8}
+            md={4}
+            xl={2}
+            className="border-blue d-flex align-items-center justify-content-center py-4 mx-3 mb-3"
+          >
             <p className="mb-0">Funcionamiento silencioso</p>
           </Col>
         </Row>
@@ -55,31 +75,30 @@ function ItemNosotros() {
           destacados por su confort y sustentabilidad.
         </p>
       </Container>
-      <Container fluid className="bg-blue">
-        <Container>
-          <Row className="text-white d-flex align-items-center justify-content-center py-5">
-            <Col xs={12} md={7}>
-              <div>
-                <h3>Filosofía Daikin</h3>
-                <p className="mb-0">
-                  Escuchamos y satisfacemos los deseos y necesidades de nuestros
-                  clientes. Contribuimos a la comunidad con las más avanzadas
-                  tecnologías e innovaciones, anticipando las necesidades
-                  futuras del mercado y preservando el medio ambiente. Nuestra
-                  gente es nuestro más preciado recurso. Somos un grupo experto,
-                  flexible y comprometido que ofrece soluciones, no simplemente
-                  productos. Construimos relaciones amigables y constructivas
-                  con nuestros aliados de negocio para lograr el beneficio
-                  mutuo.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </Container>
+      <Row className="bg-blue text-white d-flex align-items-center justify-content-center py-5">
+        <Col xs={12} md={7}>
+          <div>
+            <h3>Filosofía Daikin</h3>
+            <p className="mb-0">
+              Escuchamos y satisfacemos los deseos y necesidades de nuestros
+              clientes. Contribuimos a la comunidad con las más avanzadas
+              tecnologías e innovaciones, anticipando las necesidades futuras
+              del mercado y preservando el medio ambiente. Nuestra gente es
+              nuestro más preciado recurso. Somos un grupo experto, flexible y
+              comprometido que ofrece soluciones, no simplemente productos.
+              Construimos relaciones amigables y constructivas con nuestros
+              aliados de negocio para lograr el beneficio mutuo.
+            </p>
+          </div>
+        </Col>
+      </Row>
       <Container>
-        <Row className="d-flex align-items-center justify-content-center my-5">         
-          <Col xs={12} lg={5} className="text-start order-lg-last mb-2 mb-md-3 mb-lg-0">
+        <Row className="d-flex align-items-center justify-content-center my-5">
+          <Col
+            xs={12}
+            lg={5}
+            className="text-start order-lg-last mb-2 mb-md-3 mb-lg-0"
+          >
             <div>
               <h3 className="txt-blue mb-2 mb-md-4">Soluciones innovadoras</h3>
               <p>
@@ -97,16 +116,23 @@ function ItemNosotros() {
 
           <Col xs={12} lg={5} className="me-0 me-lg-5">
             <Image
-              className="img-fluid rounded"
+              rounded
+              fluid
               src={require("../../img/CulturaDaikin/Nosotros/cultura_material_09.jpg")}
             />
           </Col>
         </Row>
 
         <Row className="d-flex align-items-center justify-content-center py-1 py-md-5 mt-0 mt-md-5 mb-5">
-          <Col xs={12} lg={5} className="text-start me-0 me-lg-5 mb-2 mb-md-3 mb-lg-0">
+          <Col
+            xs={12}
+            lg={5}
+            className="text-start me-0 me-lg-5 mb-2 mb-md-3 mb-lg-0"
+          >
             <div>
-              <h3 className="txt-blue mb-3 mb-md-4">Presencia Global, Soporte Local</h3>
+              <h3 className="txt-blue mb-3 mb-md-4">
+                Presencia Global, Soporte Local
+              </h3>
               <p className="mb-4 mb-md-5">
                 En Daikin tendrán la seguridad de contar siempre con un
                 representante cerca de su localidad, quienes combinan un amplio
@@ -117,14 +143,10 @@ function ItemNosotros() {
               </p>
               <Row className="mb-3">
                 <Col>
-                  <Button className="w-100 shadow">
-                    México
-                  </Button>
+                  <Button className="w-100 shadow">México</Button>
                 </Col>
                 <Col>
-                  <Button className="w-100 shadow">
-                    Global
-                  </Button>
+                  <Button className="w-100 shadow">Global</Button>
                 </Col>
               </Row>
               <Row className="mb-4">
@@ -134,9 +156,7 @@ function ItemNosotros() {
                   </Button>
                 </Col>
                 <Col>
-                  <Button className="w-100 shadow">
-                    Localidades Daikin
-                  </Button>
+                  <Button className="w-100 shadow">Localidades Daikin</Button>
                 </Col>
               </Row>
             </div>
@@ -144,14 +164,14 @@ function ItemNosotros() {
 
           <Col xs={12} lg={5}>
             <Image
-              className="img-fluid rounded"
+              rounded
+              fluid
               src={require("../../img/CulturaDaikin/Nosotros/cultura_material_07.jpg")}
             />
           </Col>
         </Row>
-        <Row></Row>
       </Container>
-    </div>
+    </Container>
   );
 }
 

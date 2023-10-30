@@ -16,7 +16,7 @@ function Noticia() {
     <>
       <Container>
         <Row className="mb-5">
-          <Col xs={12} md={4} className="">
+          <Col xs={12} md={4} >
             <div className="titleNoticie bg-blue py-4 px-5 text-white ">
               <p className="mb-0">{propsNoticia.title}</p>
             </div>

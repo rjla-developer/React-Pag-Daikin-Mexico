@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { Row, Col } from "react-bootstrap";
+import React, { useEffect, useState, useContext } from "react";
+import { Row, Col, Image, Spinner } from "react-bootstrap";
 import "../../css/cssComponents/Formando.css";
 import { Link } from "react-router-dom";
+import { ContextEntrenamientos } from "../../context/ContextEntrenamientos";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -16,49 +16,31 @@ import "swiper/css/pagination";
 import { Pagination, Navigation, Keyboard } from "swiper/modules";
 
 function Formando() {
+  const {dataTrainings} = useContext(ContextEntrenamientos);
   const [mediaQueryBool, setmediaQueryBool] = useState(null);
-  const [data, setData] = useState(null);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 992px)");
     setmediaQueryBool(mediaQuery.matches);
     const handleResize = (event) => {
       if (event.matches) {
-        /* console.log(event.matches); */
         setmediaQueryBool(event.matches);
       } else {
-        /* console.log(event.matches); */
         setmediaQueryBool(event.matches);
       }
     };
     mediaQuery.addListener(handleResize);
-
-    fetchData();
-
     return () => {
       mediaQuery.removeListener(handleResize);
     };
   }, []);
 
-  const fetchData = () => {
-    axios
-      .get("/api/training.json")
-      .then((response) => {
-        setData(response.data);
-        /* console.log(response.data); */
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-  };
-
   return (
     <>
       <Row className="background-container pt-5 p-xl-5 bg-blue">
-        <Col xs={12} lg={5} className="">
+        <Col xs={12} lg={5}>
           <div className="image-container d-none d-lg-block">
-            <img
-              className=""
+            <Image
               src={require("../../img/Home/seccEntrenamiento/centro_de_entrenamiento_16-OK.jpg")}
               alt="Imagen de fondo del centro de entrenamiento Daikin"
             />
@@ -69,7 +51,10 @@ function Formando() {
             <h4 className="mb-4">
               Formando especialistas en aire acondicionado.
             </h4>
-            <Link className="btn btn-outline-light" to={"/entrenamiento"} state={data}>
+            <Link
+              className="btn btn-outline-light"
+              to={`/entrenamientos`}
+            >
               <p className="mb-0 fw-bold">
                 <i className="bi bi-chevron-right"></i>VER TODOS LOS EVENTOS
               </p>
@@ -81,7 +66,10 @@ function Formando() {
             <h4 className="mb-4">
               Formando especialistas en aire acondicionado.
             </h4>
-            <Link className="btn btn-outline-light mb-4" to={"/entrenamiento"} state={data}>
+            <Link
+              className="btn btn-outline-light mb-4"
+              to={"/entrenamientos"}
+            >
               <p className="mb-0 fw-bold">
                 <i className="bi bi-chevron-right"></i>VER TODOS LOS EVENTOS
               </p>
@@ -89,7 +77,7 @@ function Formando() {
           </div>
         </Col>
         <Col xs={12} lg={7} className="py-4 px-0 px-md-5 px-lg-0">
-          {data != null ? (
+          {dataTrainings != null ? (
             <Swiper
               navigation={mediaQueryBool ? true : false}
               keyboard={true}
@@ -102,28 +90,41 @@ function Formando() {
               id="CarouselEntrenamiento"
               className="mySwiper pb-4"
             >
-              {data.map((element, index) => (
+              {dataTrainings.map((element, index) => (
                 <SwiperSlide
                   className="px-0 px-lg-5 d-flex align-items-center justify-content-center"
                   key={index}
                 >
-                  <Link to={"/entrenamiento"} state={data[index]} className="text-center text-decoration-none pb-4">
-                    <img
-                      className="img-fluid rounded"
+                  <Link
+                    to={`/entrenamiento/${element.id}`}
+                    className="text-center text-decoration-none pb-4"
+                  >
+                    <Image
+                      rounded
+                      fluid
                       src={element.banner_url}
                       alt="Imagen con la información del curso"
                     />
                     <p className="text-white mb-0 py-2 fw-bold mt-2">
                       {element.title}
                     </p>
-                    <Link className="btn btn-light mt-2" to={"/entrenamiento"} state={data[index]}>
+                    <Link
+                      className="btn btn-light mt-2"
+                      to={`/entrenamiento/${element.id}`}
+                    >
                       <p className="txt-blue mb-0 py-2 fw-bold">DETALLES</p>
                     </Link>
                   </Link>
                 </SwiperSlide>
               ))}
             </Swiper>
-          ) : null}
+          ) : (
+            <div className="position-relative spinner-container w-100 m-0  d-flex align-items-center justify-content-center">
+              <Spinner animation="grow" className="text-white me-2" />
+              <Spinner animation="grow" className="text-white" />
+              <Spinner animation="grow" className="text-white ms-2" />
+            </div>
+          )}
         </Col>
       </Row>
     </>
